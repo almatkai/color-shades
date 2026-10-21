@@ -3,7 +3,7 @@
   "name": "color-shades",
   "title": "Color Shades",
   "description": "Generate color shades from a base color and manage your generated color shades palettes.",
-  "icon": "command-icon.png",
+  "icon": "assets/command-icon.png",
   "author": "almatkai",
   "categories": [
     "Design Tools",
