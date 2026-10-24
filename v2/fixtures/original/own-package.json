@@ -1,0 +1,85 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "color-shades",
+  "title": "Color Shades",
+  "description": "Generate color shades from a base color and manage your generated color shades palettes.",
+  "icon": "assets/command-icon.png",
+  "author": "almatkai",
+  "categories": [
+    "Design Tools",
+    "Developer Tools"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "generate-color-shades",
+      "title": "Generate Color Shades",
+      "description": "Generate color shades palette for the given base color.",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "color",
+          "placeholder": "#82123d",
+          "type": "text",
+          "required": true
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ]
+    },
+    {
+      "name": "view-color-shades",
+      "title": "View Color Shades",
+      "description": "View your generated color shades palettes.",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ]
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.104.1",
+    "@raycast/utils": "^2.2.2",
+    "change-case-all": "^1.0.15",
+    "color-convert": "^2.0.1",
+    "color-namer": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "bundleDependencies": [
+    "color-convert"
+  ],
+  "id": "com.tezbar.color-shades",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "version": "0.1.0",
+  "tezbar": {
+    "schemaVersion": 1,
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "linuxStatus": "coming-soon",
+    "repository": "https://github.com/almatkai/color-shades",
+    "upstream": {
+      "repository": "https://github.com/raycast/extensions",
+      "path": "extensions/color-shades",
+      "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a"
+    }
+  }
+}

@@ -1,0 +1,773 @@
+{
+  "form": {
+    "actions": [
+      {
+        "id": "color-shades:19:submit",
+        "kind": "submit-form",
+        "title": "Generate Color Shades"
+      }
+    ],
+    "mode": "view",
+    "ok": true,
+    "root": {
+      "children": [
+        {
+          "props": {
+            "id": "color",
+            "placeholder": "#82123d",
+            "title": "Color",
+            "value": ""
+          },
+          "type": "Form.TextField"
+        }
+      ],
+      "type": "Form"
+    },
+    "title": "Generate Color Shades"
+  },
+  "grid": {
+    "actions": [
+      {
+        "id": "color-shades:9:copy:50",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:50",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:50",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:50",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:copy:100",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:100",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:100",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:100",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:copy:200",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:200",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:200",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:200",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:copy:300",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:300",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:300",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:300",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:copy:400",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:400",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:400",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:400",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:copy:500",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:500",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:500",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:500",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:copy:600",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:600",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:600",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:600",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:copy:700",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:700",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:700",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:700",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:copy:800",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:800",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:800",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:800",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:copy:900",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:900",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:900",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:900",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:copy:950",
+        "kind": "copy",
+        "title": "Copy Shade"
+      },
+      {
+        "id": "color-shades:9:base:950",
+        "kind": "action",
+        "title": "Use as Base Color"
+      },
+      {
+        "id": "color-shades:9:variables:950",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "title": "Copy All Colors as Variables"
+      },
+      {
+        "id": "color-shades:9:json:950",
+        "kind": "copy",
+        "shortcut": {
+          "key": "c",
+          "modifiers": [
+            "ctrl",
+            "opt"
+          ]
+        },
+        "title": "Copy All Colors as JSON"
+      },
+      {
+        "id": "color-shades:9:back",
+        "kind": "action",
+        "title": "Go Back"
+      }
+    ],
+    "mode": "view",
+    "ok": true,
+    "root": {
+      "children": [
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:50",
+              "color-shades:9:base:50",
+              "color-shades:9:variables:50",
+              "color-shades:9:json:50",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#FFF8F2",
+                "light": "#FFF8F2"
+              }
+            },
+            "id": "50",
+            "subtitle": "#FFF8F2",
+            "title": "50"
+          },
+          "type": "Grid.Item"
+        },
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:100",
+              "color-shades:9:base:100",
+              "color-shades:9:variables:100",
+              "color-shades:9:json:100",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#FFF1E6",
+                "light": "#FFF1E6"
+              }
+            },
+            "id": "100",
+            "subtitle": "#FFF1E6",
+            "title": "100"
+          },
+          "type": "Grid.Item"
+        },
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:200",
+              "color-shades:9:base:200",
+              "color-shades:9:variables:200",
+              "color-shades:9:json:200",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#FFD8BF",
+                "light": "#FFD8BF"
+              }
+            },
+            "id": "200",
+            "subtitle": "#FFD8BF",
+            "title": "200"
+          },
+          "type": "Grid.Item"
+        },
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:300",
+              "color-shades:9:base:300",
+              "color-shades:9:variables:300",
+              "color-shades:9:json:300",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#FFB899",
+                "light": "#FFB899"
+              }
+            },
+            "id": "300",
+            "subtitle": "#FFB899",
+            "title": "300"
+          },
+          "type": "Grid.Item"
+        },
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:400",
+              "color-shades:9:base:400",
+              "color-shades:9:variables:400",
+              "color-shades:9:json:400",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#FF674D",
+                "light": "#FF674D"
+              }
+            },
+            "id": "400",
+            "subtitle": "#FF674D",
+            "title": "400"
+          },
+          "type": "Grid.Item"
+        },
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:500",
+              "color-shades:9:base:500",
+              "color-shades:9:variables:500",
+              "color-shades:9:json:500",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#ff0000",
+                "light": "#ff0000"
+              }
+            },
+            "id": "500",
+            "subtitle": "#ff0000",
+            "title": "500"
+          },
+          "type": "Grid.Item"
+        },
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:600",
+              "color-shades:9:base:600",
+              "color-shades:9:variables:600",
+              "color-shades:9:json:600",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#E60000",
+                "light": "#E60000"
+              }
+            },
+            "id": "600",
+            "subtitle": "#E60000",
+            "title": "600"
+          },
+          "type": "Grid.Item"
+        },
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:700",
+              "color-shades:9:base:700",
+              "color-shades:9:variables:700",
+              "color-shades:9:json:700",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#BF0000",
+                "light": "#BF0000"
+              }
+            },
+            "id": "700",
+            "subtitle": "#BF0000",
+            "title": "700"
+          },
+          "type": "Grid.Item"
+        },
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:800",
+              "color-shades:9:base:800",
+              "color-shades:9:variables:800",
+              "color-shades:9:json:800",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#990000",
+                "light": "#990000"
+              }
+            },
+            "id": "800",
+            "subtitle": "#990000",
+            "title": "800"
+          },
+          "type": "Grid.Item"
+        },
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:900",
+              "color-shades:9:base:900",
+              "color-shades:9:variables:900",
+              "color-shades:9:json:900",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#730000",
+                "light": "#730000"
+              }
+            },
+            "id": "900",
+            "subtitle": "#730000",
+            "title": "900"
+          },
+          "type": "Grid.Item"
+        },
+        {
+          "props": {
+            "actionIds": [
+              "color-shades:9:copy:950",
+              "color-shades:9:base:950",
+              "color-shades:9:variables:950",
+              "color-shades:9:json:950",
+              "color-shades:9:back"
+            ],
+            "content": {
+              "color": {
+                "adjustContrast": false,
+                "dark": "#4A0000",
+                "light": "#4A0000"
+              }
+            },
+            "id": "950",
+            "subtitle": "#4A0000",
+            "title": "950"
+          },
+          "type": "Grid.Item"
+        }
+      ],
+      "props": {
+        "backActionId": "color-shades:9:back",
+        "columns": 11,
+        "navigationTitle": "Red"
+      },
+      "type": "Grid"
+    },
+    "title": "Red"
+  },
+  "list": {
+    "actions": [
+      {
+        "id": "color-shades:10:view:0",
+        "kind": "action",
+        "title": "View Palette"
+      },
+      {
+        "id": "color-shades:10:delete:0",
+        "kind": "action",
+        "shortcut": {
+          "key": "x",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "style": "destructive",
+        "title": "Delete Entry"
+      },
+      {
+        "id": "color-shades:10:clear:0",
+        "kind": "action",
+        "shortcut": {
+          "key": "x",
+          "modifiers": [
+            "ctrl",
+            "shift"
+          ]
+        },
+        "style": "destructive",
+        "title": "Delete All Entries"
+      },
+      {
+        "id": "color-shades:10:view:1",
+        "kind": "action",
+        "title": "View Palette"
+      },
+      {
+        "id": "color-shades:10:delete:1",
+        "kind": "action",
+        "shortcut": {
+          "key": "x",
+          "modifiers": [
+            "ctrl"
+          ]
+        },
+        "style": "destructive",
+        "title": "Delete Entry"
+      },
+      {
+        "id": "color-shades:10:clear:1",
+        "kind": "action",
+        "shortcut": {
+          "key": "x",
+          "modifiers": [
+            "ctrl",
+            "shift"
+          ]
+        },
+        "style": "destructive",
+        "title": "Delete All Entries"
+      }
+    ],
+    "mode": "view",
+    "ok": true,
+    "root": {
+      "children": [
+        {
+          "props": {
+            "accessories": [
+              {
+                "date": "2026-10-24T12:35:17.782Z",
+                "tooltip": "Created at"
+              }
+            ],
+            "actionIds": [
+              "color-shades:10:view:1",
+              "color-shades:10:delete:1",
+              "color-shades:10:clear:1"
+            ],
+            "icon": {
+              "source": "CircleFilled",
+              "tintColor": "#ff0000",
+              "tooltip": "#ff0000"
+            },
+            "id": "Red",
+            "title": "Red"
+          },
+          "type": "List.Item"
+        },
+        {
+          "props": {
+            "accessories": [
+              {
+                "date": "2026-10-24T12:35:17.771Z",
+                "tooltip": "Created at"
+              }
+            ],
+            "actionIds": [
+              "color-shades:10:view:0",
+              "color-shades:10:delete:0",
+              "color-shades:10:clear:0"
+            ],
+            "icon": {
+              "source": "CircleFilled",
+              "tintColor": "#aaBBcc",
+              "tooltip": "#aaBBcc"
+            },
+            "id": "Casper",
+            "title": "Casper"
+          },
+          "type": "List.Item"
+        }
+      ],
+      "type": "List"
+    },
+    "title": "View Color Shades"
+  }
+}
