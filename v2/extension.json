@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.color-shades",
+  "slug": "color-shades",
+  "name": "Color Shades",
+  "version": "0.1.0",
+  "description": "Generate color shades from a base color and manage your generated color shades palettes. Original extension by qeude (MIT); native Rust port for Tezbar.",
+  "icon": "/extensions/icons/color-shades.png",
+  "runtime": "rust",
+  "replaces": ["raycast.color-shades"],
+  "platforms": ["macOS", "Windows"],
+  "commands": [
+    {
+      "name": "generate-color-shades",
+      "title": "Generate Color Shades",
+      "description": "Generate color shades palette for the given base color.",
+      "mode": "view",
+      "arguments": [{"name": "color", "placeholder": "#82123d", "type": "text", "required": true}],
+      "platforms": ["macOS", "Windows"],
+      "runtime": "rust"
+    },
+    {
+      "name": "view-color-shades",
+      "title": "View Color Shades",
+      "description": "View your generated color shades palettes.",
+      "mode": "view",
+      "platforms": ["macOS", "Windows"],
+      "runtime": "rust"
+    }
+  ],
+  "verification": [
+    {"platform": "macOS", "state": "not-run", "note": "Headless adapter and parser tests only; real OS/UI verification not run."},
+    {"platform": "Windows", "state": "not-run", "note": "GNU cross-check and headless tests only; real OS/UI verification not run."}
+  ]
+}

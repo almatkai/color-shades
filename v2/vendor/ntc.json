@@ -1,0 +1,7832 @@
+[
+  {
+    "name": "Black",
+    "hex": "000000",
+    "slug": "black"
+  },
+  {
+    "name": "Navy Blue",
+    "hex": "000080",
+    "slug": "navyBlue"
+  },
+  {
+    "name": "Dark Blue",
+    "hex": "0000C8",
+    "slug": "darkBlue"
+  },
+  {
+    "name": "Blue",
+    "hex": "0000FF",
+    "slug": "blue"
+  },
+  {
+    "name": "Stratos",
+    "hex": "000741",
+    "slug": "stratos"
+  },
+  {
+    "name": "Swamp",
+    "hex": "001B1C",
+    "slug": "swamp"
+  },
+  {
+    "name": "Resolution Blue",
+    "hex": "002387",
+    "slug": "resolutionBlue"
+  },
+  {
+    "name": "Deep Fir",
+    "hex": "002900",
+    "slug": "deepFir"
+  },
+  {
+    "name": "Burnham",
+    "hex": "002E20",
+    "slug": "burnham"
+  },
+  {
+    "name": "International Klein Blue",
+    "hex": "002FA7",
+    "slug": "internationalKleinBlue"
+  },
+  {
+    "name": "Prussian Blue",
+    "hex": "003153",
+    "slug": "prussianBlue"
+  },
+  {
+    "name": "Midnight Blue",
+    "hex": "003366",
+    "slug": "midnightBlue"
+  },
+  {
+    "name": "Smalt",
+    "hex": "003399",
+    "slug": "smalt"
+  },
+  {
+    "name": "Deep Teal",
+    "hex": "003532",
+    "slug": "deepTeal"
+  },
+  {
+    "name": "Cyprus",
+    "hex": "003E40",
+    "slug": "cyprus"
+  },
+  {
+    "name": "Kaitoke Green",
+    "hex": "004620",
+    "slug": "kaitokeGreen"
+  },
+  {
+    "name": "Cobalt",
+    "hex": "0047AB",
+    "slug": "cobalt"
+  },
+  {
+    "name": "Crusoe",
+    "hex": "004816",
+    "slug": "crusoe"
+  },
+  {
+    "name": "Sherpa Blue",
+    "hex": "004950",
+    "slug": "sherpaBlue"
+  },
+  {
+    "name": "Endeavour",
+    "hex": "0056A7",
+    "slug": "endeavour"
+  },
+  {
+    "name": "Camarone",
+    "hex": "00581A",
+    "slug": "camarone"
+  },
+  {
+    "name": "Science Blue",
+    "hex": "0066CC",
+    "slug": "scienceBlue"
+  },
+  {
+    "name": "Blue Ribbon",
+    "hex": "0066FF",
+    "slug": "blueRibbon"
+  },
+  {
+    "name": "Tropical Rain Forest",
+    "hex": "00755E",
+    "slug": "tropicalRainForest"
+  },
+  {
+    "name": "Allports",
+    "hex": "0076A3",
+    "slug": "allports"
+  },
+  {
+    "name": "Deep Cerulean",
+    "hex": "007BA7",
+    "slug": "deepCerulean"
+  },
+  {
+    "name": "Lochmara",
+    "hex": "007EC7",
+    "slug": "lochmara"
+  },
+  {
+    "name": "Azure Radiance",
+    "hex": "007FFF",
+    "slug": "azureRadiance"
+  },
+  {
+    "name": "Teal",
+    "hex": "008080",
+    "slug": "teal"
+  },
+  {
+    "name": "Bondi Blue",
+    "hex": "0095B6",
+    "slug": "bondiBlue"
+  },
+  {
+    "name": "Pacific Blue",
+    "hex": "009DC4",
+    "slug": "pacificBlue"
+  },
+  {
+    "name": "Persian Green",
+    "hex": "00A693",
+    "slug": "persianGreen"
+  },
+  {
+    "name": "Jade",
+    "hex": "00A86B",
+    "slug": "jade"
+  },
+  {
+    "name": "Caribbean Green",
+    "hex": "00CC99",
+    "slug": "caribbeanGreen"
+  },
+  {
+    "name": "Robin's Egg Blue",
+    "hex": "00CCCC",
+    "slug": "robinSEggBlue"
+  },
+  {
+    "name": "Green",
+    "hex": "00FF00",
+    "slug": "green"
+  },
+  {
+    "name": "Spring Green",
+    "hex": "00FF7F",
+    "slug": "springGreen"
+  },
+  {
+    "name": "Cyan / Aqua",
+    "hex": "00FFFF",
+    "slug": "cyanAqua"
+  },
+  {
+    "name": "Blue Charcoal",
+    "hex": "010D1A",
+    "slug": "blueCharcoal"
+  },
+  {
+    "name": "Midnight",
+    "hex": "011635",
+    "slug": "midnight"
+  },
+  {
+    "name": "Holly",
+    "hex": "011D13",
+    "slug": "holly"
+  },
+  {
+    "name": "Daintree",
+    "hex": "012731",
+    "slug": "daintree"
+  },
+  {
+    "name": "Cardin Green",
+    "hex": "01361C",
+    "slug": "cardinGreen"
+  },
+  {
+    "name": "County Green",
+    "hex": "01371A",
+    "slug": "countyGreen"
+  },
+  {
+    "name": "Astronaut Blue",
+    "hex": "013E62",
+    "slug": "astronautBlue"
+  },
+  {
+    "name": "Regal Blue",
+    "hex": "013F6A",
+    "slug": "regalBlue"
+  },
+  {
+    "name": "Aqua Deep",
+    "hex": "014B43",
+    "slug": "aquaDeep"
+  },
+  {
+    "name": "Orient",
+    "hex": "015E85",
+    "slug": "orient"
+  },
+  {
+    "name": "Blue Stone",
+    "hex": "016162",
+    "slug": "blueStone"
+  },
+  {
+    "name": "Fun Green",
+    "hex": "016D39",
+    "slug": "funGreen"
+  },
+  {
+    "name": "Pine Green",
+    "hex": "01796F",
+    "slug": "pineGreen"
+  },
+  {
+    "name": "Blue Lagoon",
+    "hex": "017987",
+    "slug": "blueLagoon"
+  },
+  {
+    "name": "Deep Sea",
+    "hex": "01826B",
+    "slug": "deepSea"
+  },
+  {
+    "name": "Green Haze",
+    "hex": "01A368",
+    "slug": "greenHaze"
+  },
+  {
+    "name": "English Holly",
+    "hex": "022D15",
+    "slug": "englishHolly"
+  },
+  {
+    "name": "Sherwood Green",
+    "hex": "02402C",
+    "slug": "sherwoodGreen"
+  },
+  {
+    "name": "Congress Blue",
+    "hex": "02478E",
+    "slug": "congressBlue"
+  },
+  {
+    "name": "Evening Sea",
+    "hex": "024E46",
+    "slug": "eveningSea"
+  },
+  {
+    "name": "Bahama Blue",
+    "hex": "026395",
+    "slug": "bahamaBlue"
+  },
+  {
+    "name": "Observatory",
+    "hex": "02866F",
+    "slug": "observatory"
+  },
+  {
+    "name": "Cerulean",
+    "hex": "02A4D3",
+    "slug": "cerulean"
+  },
+  {
+    "name": "Tangaroa",
+    "hex": "03163C",
+    "slug": "tangaroa"
+  },
+  {
+    "name": "Green Vogue",
+    "hex": "032B52",
+    "slug": "greenVogue"
+  },
+  {
+    "name": "Mosque",
+    "hex": "036A6E",
+    "slug": "mosque"
+  },
+  {
+    "name": "Midnight Moss",
+    "hex": "041004",
+    "slug": "midnightMoss"
+  },
+  {
+    "name": "Black Pearl",
+    "hex": "041322",
+    "slug": "blackPearl"
+  },
+  {
+    "name": "Blue Whale",
+    "hex": "042E4C",
+    "slug": "blueWhale"
+  },
+  {
+    "name": "Zuccini",
+    "hex": "044022",
+    "slug": "zuccini"
+  },
+  {
+    "name": "Teal Blue",
+    "hex": "044259",
+    "slug": "tealBlue"
+  },
+  {
+    "name": "Deep Cove",
+    "hex": "051040",
+    "slug": "deepCove"
+  },
+  {
+    "name": "Gulf Blue",
+    "hex": "051657",
+    "slug": "gulfBlue"
+  },
+  {
+    "name": "Venice Blue",
+    "hex": "055989",
+    "slug": "veniceBlue"
+  },
+  {
+    "name": "Watercourse",
+    "hex": "056F57",
+    "slug": "watercourse"
+  },
+  {
+    "name": "Catalina Blue",
+    "hex": "062A78",
+    "slug": "catalinaBlue"
+  },
+  {
+    "name": "Tiber",
+    "hex": "063537",
+    "slug": "tiber"
+  },
+  {
+    "name": "Gossamer",
+    "hex": "069B81",
+    "slug": "gossamer"
+  },
+  {
+    "name": "Niagara",
+    "hex": "06A189",
+    "slug": "niagara"
+  },
+  {
+    "name": "Tarawera",
+    "hex": "073A50",
+    "slug": "tarawera"
+  },
+  {
+    "name": "Jaguar",
+    "hex": "080110",
+    "slug": "jaguar"
+  },
+  {
+    "name": "Black Bean",
+    "hex": "081910",
+    "slug": "blackBean"
+  },
+  {
+    "name": "Deep Sapphire",
+    "hex": "082567",
+    "slug": "deepSapphire"
+  },
+  {
+    "name": "Elf Green",
+    "hex": "088370",
+    "slug": "elfGreen"
+  },
+  {
+    "name": "Bright Turquoise",
+    "hex": "08E8DE",
+    "slug": "brightTurquoise"
+  },
+  {
+    "name": "Downriver",
+    "hex": "092256",
+    "slug": "downriver"
+  },
+  {
+    "name": "Palm Green",
+    "hex": "09230F",
+    "slug": "palmGreen"
+  },
+  {
+    "name": "Madison",
+    "hex": "09255D",
+    "slug": "madison"
+  },
+  {
+    "name": "Bottle Green",
+    "hex": "093624",
+    "slug": "bottleGreen"
+  },
+  {
+    "name": "Deep Sea Green",
+    "hex": "095859",
+    "slug": "deepSeaGreen"
+  },
+  {
+    "name": "Salem",
+    "hex": "097F4B",
+    "slug": "salem"
+  },
+  {
+    "name": "Black Russian",
+    "hex": "0A001C",
+    "slug": "blackRussian"
+  },
+  {
+    "name": "Dark Fern",
+    "hex": "0A480D",
+    "slug": "darkFern"
+  },
+  {
+    "name": "Japanese Laurel",
+    "hex": "0A6906",
+    "slug": "japaneseLaurel"
+  },
+  {
+    "name": "Atoll",
+    "hex": "0A6F75",
+    "slug": "atoll"
+  },
+  {
+    "name": "Cod Gray",
+    "hex": "0B0B0B",
+    "slug": "codGray"
+  },
+  {
+    "name": "Marshland",
+    "hex": "0B0F08",
+    "slug": "marshland"
+  },
+  {
+    "name": "Gordons Green",
+    "hex": "0B1107",
+    "slug": "gordonsGreen"
+  },
+  {
+    "name": "Black Forest",
+    "hex": "0B1304",
+    "slug": "blackForest"
+  },
+  {
+    "name": "San Felix",
+    "hex": "0B6207",
+    "slug": "sanFelix"
+  },
+  {
+    "name": "Malachite",
+    "hex": "0BDA51",
+    "slug": "malachite"
+  },
+  {
+    "name": "Ebony",
+    "hex": "0C0B1D",
+    "slug": "ebony"
+  },
+  {
+    "name": "Woodsmoke",
+    "hex": "0C0D0F",
+    "slug": "woodsmoke"
+  },
+  {
+    "name": "Racing Green",
+    "hex": "0C1911",
+    "slug": "racingGreen"
+  },
+  {
+    "name": "Surfie Green",
+    "hex": "0C7A79",
+    "slug": "surfieGreen"
+  },
+  {
+    "name": "Blue Chill",
+    "hex": "0C8990",
+    "slug": "blueChill"
+  },
+  {
+    "name": "Black Rock",
+    "hex": "0D0332",
+    "slug": "blackRock"
+  },
+  {
+    "name": "Bunker",
+    "hex": "0D1117",
+    "slug": "bunker"
+  },
+  {
+    "name": "Aztec",
+    "hex": "0D1C19",
+    "slug": "aztec"
+  },
+  {
+    "name": "Bush",
+    "hex": "0D2E1C",
+    "slug": "bush"
+  },
+  {
+    "name": "Cinder",
+    "hex": "0E0E18",
+    "slug": "cinder"
+  },
+  {
+    "name": "Firefly",
+    "hex": "0E2A30",
+    "slug": "firefly"
+  },
+  {
+    "name": "Torea Bay",
+    "hex": "0F2D9E",
+    "slug": "toreaBay"
+  },
+  {
+    "name": "Vulcan",
+    "hex": "10121D",
+    "slug": "vulcan"
+  },
+  {
+    "name": "Green Waterloo",
+    "hex": "101405",
+    "slug": "greenWaterloo"
+  },
+  {
+    "name": "Eden",
+    "hex": "105852",
+    "slug": "eden"
+  },
+  {
+    "name": "Arapawa",
+    "hex": "110C6C",
+    "slug": "arapawa"
+  },
+  {
+    "name": "Ultramarine",
+    "hex": "120A8F",
+    "slug": "ultramarine"
+  },
+  {
+    "name": "Elephant",
+    "hex": "123447",
+    "slug": "elephant"
+  },
+  {
+    "name": "Jewel",
+    "hex": "126B40",
+    "slug": "jewel"
+  },
+  {
+    "name": "Diesel",
+    "hex": "130000",
+    "slug": "diesel"
+  },
+  {
+    "name": "Asphalt",
+    "hex": "130A06",
+    "slug": "asphalt"
+  },
+  {
+    "name": "Blue Zodiac",
+    "hex": "13264D",
+    "slug": "blueZodiac"
+  },
+  {
+    "name": "Parsley",
+    "hex": "134F19",
+    "slug": "parsley"
+  },
+  {
+    "name": "Nero",
+    "hex": "140600",
+    "slug": "nero"
+  },
+  {
+    "name": "Tory Blue",
+    "hex": "1450AA",
+    "slug": "toryBlue"
+  },
+  {
+    "name": "Bunting",
+    "hex": "151F4C",
+    "slug": "bunting"
+  },
+  {
+    "name": "Denim",
+    "hex": "1560BD",
+    "slug": "denim"
+  },
+  {
+    "name": "Genoa",
+    "hex": "15736B",
+    "slug": "genoa"
+  },
+  {
+    "name": "Mirage",
+    "hex": "161928",
+    "slug": "mirage"
+  },
+  {
+    "name": "Hunter Green",
+    "hex": "161D10",
+    "slug": "hunterGreen"
+  },
+  {
+    "name": "Big Stone",
+    "hex": "162A40",
+    "slug": "bigStone"
+  },
+  {
+    "name": "Celtic",
+    "hex": "163222",
+    "slug": "celtic"
+  },
+  {
+    "name": "Timber Green",
+    "hex": "16322C",
+    "slug": "timberGreen"
+  },
+  {
+    "name": "Gable Green",
+    "hex": "163531",
+    "slug": "gableGreen"
+  },
+  {
+    "name": "Pine Tree",
+    "hex": "171F04",
+    "slug": "pineTree"
+  },
+  {
+    "name": "Chathams Blue",
+    "hex": "175579",
+    "slug": "chathamsBlue"
+  },
+  {
+    "name": "Deep Forest Green",
+    "hex": "182D09",
+    "slug": "deepForestGreen"
+  },
+  {
+    "name": "Blumine",
+    "hex": "18587A",
+    "slug": "blumine"
+  },
+  {
+    "name": "Palm Leaf",
+    "hex": "19330E",
+    "slug": "palmLeaf"
+  },
+  {
+    "name": "Nile Blue",
+    "hex": "193751",
+    "slug": "nileBlue"
+  },
+  {
+    "name": "Fun Blue",
+    "hex": "1959A8",
+    "slug": "funBlue"
+  },
+  {
+    "name": "Lucky Point",
+    "hex": "1A1A68",
+    "slug": "luckyPoint"
+  },
+  {
+    "name": "Mountain Meadow",
+    "hex": "1AB385",
+    "slug": "mountainMeadow"
+  },
+  {
+    "name": "Tolopea",
+    "hex": "1B0245",
+    "slug": "tolopea"
+  },
+  {
+    "name": "Haiti",
+    "hex": "1B1035",
+    "slug": "haiti"
+  },
+  {
+    "name": "Deep Koamaru",
+    "hex": "1B127B",
+    "slug": "deepKoamaru"
+  },
+  {
+    "name": "Acadia",
+    "hex": "1B1404",
+    "slug": "acadia"
+  },
+  {
+    "name": "Seaweed",
+    "hex": "1B2F11",
+    "slug": "seaweed"
+  },
+  {
+    "name": "Biscay",
+    "hex": "1B3162",
+    "slug": "biscay"
+  },
+  {
+    "name": "Matisse",
+    "hex": "1B659D",
+    "slug": "matisse"
+  },
+  {
+    "name": "Crowshead",
+    "hex": "1C1208",
+    "slug": "crowshead"
+  },
+  {
+    "name": "Rangoon Green",
+    "hex": "1C1E13",
+    "slug": "rangoonGreen"
+  },
+  {
+    "name": "Persian Blue",
+    "hex": "1C39BB",
+    "slug": "persianBlue"
+  },
+  {
+    "name": "Everglade",
+    "hex": "1C402E",
+    "slug": "everglade"
+  },
+  {
+    "name": "Elm",
+    "hex": "1C7C7D",
+    "slug": "elm"
+  },
+  {
+    "name": "Green Pea",
+    "hex": "1D6142",
+    "slug": "greenPea"
+  },
+  {
+    "name": "Creole",
+    "hex": "1E0F04",
+    "slug": "creole"
+  },
+  {
+    "name": "Karaka",
+    "hex": "1E1609",
+    "slug": "karaka"
+  },
+  {
+    "name": "El Paso",
+    "hex": "1E1708",
+    "slug": "elPaso"
+  },
+  {
+    "name": "Cello",
+    "hex": "1E385B",
+    "slug": "cello"
+  },
+  {
+    "name": "Te Papa Green",
+    "hex": "1E433C",
+    "slug": "tePapaGreen"
+  },
+  {
+    "name": "Dodger Blue",
+    "hex": "1E90FF",
+    "slug": "dodgerBlue"
+  },
+  {
+    "name": "Eastern Blue",
+    "hex": "1E9AB0",
+    "slug": "easternBlue"
+  },
+  {
+    "name": "Night Rider",
+    "hex": "1F120F",
+    "slug": "nightRider"
+  },
+  {
+    "name": "Java",
+    "hex": "1FC2C2",
+    "slug": "java"
+  },
+  {
+    "name": "Jacksons Purple",
+    "hex": "20208D",
+    "slug": "jacksonsPurple"
+  },
+  {
+    "name": "Cloud Burst",
+    "hex": "202E54",
+    "slug": "cloudBurst"
+  },
+  {
+    "name": "Blue Dianne",
+    "hex": "204852",
+    "slug": "blueDianne"
+  },
+  {
+    "name": "Eternity",
+    "hex": "211A0E",
+    "slug": "eternity"
+  },
+  {
+    "name": "Deep Blue",
+    "hex": "220878",
+    "slug": "deepBlue"
+  },
+  {
+    "name": "Forest Green",
+    "hex": "228B22",
+    "slug": "forestGreen"
+  },
+  {
+    "name": "Mallard",
+    "hex": "233418",
+    "slug": "mallard"
+  },
+  {
+    "name": "Violet",
+    "hex": "240A40",
+    "slug": "violet"
+  },
+  {
+    "name": "Kilamanjaro",
+    "hex": "240C02",
+    "slug": "kilamanjaro"
+  },
+  {
+    "name": "Log Cabin",
+    "hex": "242A1D",
+    "slug": "logCabin"
+  },
+  {
+    "name": "Black Olive",
+    "hex": "242E16",
+    "slug": "blackOlive"
+  },
+  {
+    "name": "Green House",
+    "hex": "24500F",
+    "slug": "greenHouse"
+  },
+  {
+    "name": "Graphite",
+    "hex": "251607",
+    "slug": "graphite"
+  },
+  {
+    "name": "Cannon Black",
+    "hex": "251706",
+    "slug": "cannonBlack"
+  },
+  {
+    "name": "Port Gore",
+    "hex": "251F4F",
+    "slug": "portGore"
+  },
+  {
+    "name": "Shark",
+    "hex": "25272C",
+    "slug": "shark"
+  },
+  {
+    "name": "Green Kelp",
+    "hex": "25311C",
+    "slug": "greenKelp"
+  },
+  {
+    "name": "Curious Blue",
+    "hex": "2596D1",
+    "slug": "curiousBlue"
+  },
+  {
+    "name": "Paua",
+    "hex": "260368",
+    "slug": "paua"
+  },
+  {
+    "name": "Paris M",
+    "hex": "26056A",
+    "slug": "parisM"
+  },
+  {
+    "name": "Wood Bark",
+    "hex": "261105",
+    "slug": "woodBark"
+  },
+  {
+    "name": "Gondola",
+    "hex": "261414",
+    "slug": "gondola"
+  },
+  {
+    "name": "Steel Gray",
+    "hex": "262335",
+    "slug": "steelGray"
+  },
+  {
+    "name": "Ebony Clay",
+    "hex": "26283B",
+    "slug": "ebonyClay"
+  },
+  {
+    "name": "Bay of Many",
+    "hex": "273A81",
+    "slug": "bayOfMany"
+  },
+  {
+    "name": "Plantation",
+    "hex": "27504B",
+    "slug": "plantation"
+  },
+  {
+    "name": "Eucalyptus",
+    "hex": "278A5B",
+    "slug": "eucalyptus"
+  },
+  {
+    "name": "Oil",
+    "hex": "281E15",
+    "slug": "oil"
+  },
+  {
+    "name": "Astronaut",
+    "hex": "283A77",
+    "slug": "astronaut"
+  },
+  {
+    "name": "Mariner",
+    "hex": "286ACD",
+    "slug": "mariner"
+  },
+  {
+    "name": "Violent Violet",
+    "hex": "290C5E",
+    "slug": "violentViolet"
+  },
+  {
+    "name": "Bastille",
+    "hex": "292130",
+    "slug": "bastille"
+  },
+  {
+    "name": "Zeus",
+    "hex": "292319",
+    "slug": "zeus"
+  },
+  {
+    "name": "Charade",
+    "hex": "292937",
+    "slug": "charade"
+  },
+  {
+    "name": "Jelly Bean",
+    "hex": "297B9A",
+    "slug": "jellyBean"
+  },
+  {
+    "name": "Jungle Green",
+    "hex": "29AB87",
+    "slug": "jungleGreen"
+  },
+  {
+    "name": "Cherry Pie",
+    "hex": "2A0359",
+    "slug": "cherryPie"
+  },
+  {
+    "name": "Coffee Bean",
+    "hex": "2A140E",
+    "slug": "coffeeBean"
+  },
+  {
+    "name": "Baltic Sea",
+    "hex": "2A2630",
+    "slug": "balticSea"
+  },
+  {
+    "name": "Turtle Green",
+    "hex": "2A380B",
+    "slug": "turtleGreen"
+  },
+  {
+    "name": "Cerulean Blue",
+    "hex": "2A52BE",
+    "slug": "ceruleanBlue"
+  },
+  {
+    "name": "Sepia Black",
+    "hex": "2B0202",
+    "slug": "sepiaBlack"
+  },
+  {
+    "name": "Valhalla",
+    "hex": "2B194F",
+    "slug": "valhalla"
+  },
+  {
+    "name": "Heavy Metal",
+    "hex": "2B3228",
+    "slug": "heavyMetal"
+  },
+  {
+    "name": "Blue Gem",
+    "hex": "2C0E8C",
+    "slug": "blueGem"
+  },
+  {
+    "name": "Revolver",
+    "hex": "2C1632",
+    "slug": "revolver"
+  },
+  {
+    "name": "Bleached Cedar",
+    "hex": "2C2133",
+    "slug": "bleachedCedar"
+  },
+  {
+    "name": "Lochinvar",
+    "hex": "2C8C84",
+    "slug": "lochinvar"
+  },
+  {
+    "name": "Mikado",
+    "hex": "2D2510",
+    "slug": "mikado"
+  },
+  {
+    "name": "Outer Space",
+    "hex": "2D383A",
+    "slug": "outerSpace"
+  },
+  {
+    "name": "St Tropaz",
+    "hex": "2D569B",
+    "slug": "stTropaz"
+  },
+  {
+    "name": "Jacaranda",
+    "hex": "2E0329",
+    "slug": "jacaranda"
+  },
+  {
+    "name": "Jacko Bean",
+    "hex": "2E1905",
+    "slug": "jackoBean"
+  },
+  {
+    "name": "Rangitoto",
+    "hex": "2E3222",
+    "slug": "rangitoto"
+  },
+  {
+    "name": "Rhino",
+    "hex": "2E3F62",
+    "slug": "rhino"
+  },
+  {
+    "name": "Sea Green",
+    "hex": "2E8B57",
+    "slug": "seaGreen"
+  },
+  {
+    "name": "Scooter",
+    "hex": "2EBFD4",
+    "slug": "scooter"
+  },
+  {
+    "name": "Onion",
+    "hex": "2F270E",
+    "slug": "onion"
+  },
+  {
+    "name": "Governor Bay",
+    "hex": "2F3CB3",
+    "slug": "governorBay"
+  },
+  {
+    "name": "Sapphire",
+    "hex": "2F519E",
+    "slug": "sapphire"
+  },
+  {
+    "name": "Spectra",
+    "hex": "2F5A57",
+    "slug": "spectra"
+  },
+  {
+    "name": "Casal",
+    "hex": "2F6168",
+    "slug": "casal"
+  },
+  {
+    "name": "Melanzane",
+    "hex": "300529",
+    "slug": "melanzane"
+  },
+  {
+    "name": "Cocoa Brown",
+    "hex": "301F1E",
+    "slug": "cocoaBrown"
+  },
+  {
+    "name": "Woodrush",
+    "hex": "302A0F",
+    "slug": "woodrush"
+  },
+  {
+    "name": "San Juan",
+    "hex": "304B6A",
+    "slug": "sanJuan"
+  },
+  {
+    "name": "Turquoise",
+    "hex": "30D5C8",
+    "slug": "turquoise"
+  },
+  {
+    "name": "Eclipse",
+    "hex": "311C17",
+    "slug": "eclipse"
+  },
+  {
+    "name": "Pickled Bluewood",
+    "hex": "314459",
+    "slug": "pickledBluewood"
+  },
+  {
+    "name": "Azure",
+    "hex": "315BA1",
+    "slug": "azure"
+  },
+  {
+    "name": "Calypso",
+    "hex": "31728D",
+    "slug": "calypso"
+  },
+  {
+    "name": "Paradiso",
+    "hex": "317D82",
+    "slug": "paradiso"
+  },
+  {
+    "name": "Persian Indigo",
+    "hex": "32127A",
+    "slug": "persianIndigo"
+  },
+  {
+    "name": "Blackcurrant",
+    "hex": "32293A",
+    "slug": "blackcurrant"
+  },
+  {
+    "name": "Mine Shaft",
+    "hex": "323232",
+    "slug": "mineShaft"
+  },
+  {
+    "name": "Stromboli",
+    "hex": "325D52",
+    "slug": "stromboli"
+  },
+  {
+    "name": "Bilbao",
+    "hex": "327C14",
+    "slug": "bilbao"
+  },
+  {
+    "name": "Astral",
+    "hex": "327DA0",
+    "slug": "astral"
+  },
+  {
+    "name": "Christalle",
+    "hex": "33036B",
+    "slug": "christalle"
+  },
+  {
+    "name": "Thunder",
+    "hex": "33292F",
+    "slug": "thunder"
+  },
+  {
+    "name": "Shamrock",
+    "hex": "33CC99",
+    "slug": "shamrock"
+  },
+  {
+    "name": "Tamarind",
+    "hex": "341515",
+    "slug": "tamarind"
+  },
+  {
+    "name": "Mardi Gras",
+    "hex": "350036",
+    "slug": "mardiGras"
+  },
+  {
+    "name": "Valentino",
+    "hex": "350E42",
+    "slug": "valentino"
+  },
+  {
+    "name": "Jagger",
+    "hex": "350E57",
+    "slug": "jagger"
+  },
+  {
+    "name": "Tuna",
+    "hex": "353542",
+    "slug": "tuna"
+  },
+  {
+    "name": "Chambray",
+    "hex": "354E8C",
+    "slug": "chambray"
+  },
+  {
+    "name": "Martinique",
+    "hex": "363050",
+    "slug": "martinique"
+  },
+  {
+    "name": "Tuatara",
+    "hex": "363534",
+    "slug": "tuatara"
+  },
+  {
+    "name": "Waiouru",
+    "hex": "363C0D",
+    "slug": "waiouru"
+  },
+  {
+    "name": "Ming",
+    "hex": "36747D",
+    "slug": "ming"
+  },
+  {
+    "name": "La Palma",
+    "hex": "368716",
+    "slug": "laPalma"
+  },
+  {
+    "name": "Chocolate",
+    "hex": "370202",
+    "slug": "chocolate"
+  },
+  {
+    "name": "Clinker",
+    "hex": "371D09",
+    "slug": "clinker"
+  },
+  {
+    "name": "Brown Tumbleweed",
+    "hex": "37290E",
+    "slug": "brownTumbleweed"
+  },
+  {
+    "name": "Birch",
+    "hex": "373021",
+    "slug": "birch"
+  },
+  {
+    "name": "Oracle",
+    "hex": "377475",
+    "slug": "oracle"
+  },
+  {
+    "name": "Blue Diamond",
+    "hex": "380474",
+    "slug": "blueDiamond"
+  },
+  {
+    "name": "Grape",
+    "hex": "381A51",
+    "slug": "grape"
+  },
+  {
+    "name": "Dune",
+    "hex": "383533",
+    "slug": "dune"
+  },
+  {
+    "name": "Oxford Blue",
+    "hex": "384555",
+    "slug": "oxfordBlue"
+  },
+  {
+    "name": "Clover",
+    "hex": "384910",
+    "slug": "clover"
+  },
+  {
+    "name": "Limed Spruce",
+    "hex": "394851",
+    "slug": "limedSpruce"
+  },
+  {
+    "name": "Dell",
+    "hex": "396413",
+    "slug": "dell"
+  },
+  {
+    "name": "Toledo",
+    "hex": "3A0020",
+    "slug": "toledo"
+  },
+  {
+    "name": "Sambuca",
+    "hex": "3A2010",
+    "slug": "sambuca"
+  },
+  {
+    "name": "Jacarta",
+    "hex": "3A2A6A",
+    "slug": "jacarta"
+  },
+  {
+    "name": "William",
+    "hex": "3A686C",
+    "slug": "william"
+  },
+  {
+    "name": "Killarney",
+    "hex": "3A6A47",
+    "slug": "killarney"
+  },
+  {
+    "name": "Keppel",
+    "hex": "3AB09E",
+    "slug": "keppel"
+  },
+  {
+    "name": "Temptress",
+    "hex": "3B000B",
+    "slug": "temptress"
+  },
+  {
+    "name": "Aubergine",
+    "hex": "3B0910",
+    "slug": "aubergine"
+  },
+  {
+    "name": "Jon",
+    "hex": "3B1F1F",
+    "slug": "jon"
+  },
+  {
+    "name": "Treehouse",
+    "hex": "3B2820",
+    "slug": "treehouse"
+  },
+  {
+    "name": "Amazon",
+    "hex": "3B7A57",
+    "slug": "amazon"
+  },
+  {
+    "name": "Boston Blue",
+    "hex": "3B91B4",
+    "slug": "bostonBlue"
+  },
+  {
+    "name": "Windsor",
+    "hex": "3C0878",
+    "slug": "windsor"
+  },
+  {
+    "name": "Rebel",
+    "hex": "3C1206",
+    "slug": "rebel"
+  },
+  {
+    "name": "Meteorite",
+    "hex": "3C1F76",
+    "slug": "meteorite"
+  },
+  {
+    "name": "Dark Ebony",
+    "hex": "3C2005",
+    "slug": "darkEbony"
+  },
+  {
+    "name": "Camouflage",
+    "hex": "3C3910",
+    "slug": "camouflage"
+  },
+  {
+    "name": "Bright Gray",
+    "hex": "3C4151",
+    "slug": "brightGray"
+  },
+  {
+    "name": "Cape Cod",
+    "hex": "3C4443",
+    "slug": "capeCod"
+  },
+  {
+    "name": "Lunar Green",
+    "hex": "3C493A",
+    "slug": "lunarGreen"
+  },
+  {
+    "name": "Bean  ",
+    "hex": "3D0C02",
+    "slug": "bean"
+  },
+  {
+    "name": "Bistre",
+    "hex": "3D2B1F",
+    "slug": "bistre"
+  },
+  {
+    "name": "Goblin",
+    "hex": "3D7D52",
+    "slug": "goblin"
+  },
+  {
+    "name": "Kingfisher Daisy",
+    "hex": "3E0480",
+    "slug": "kingfisherDaisy"
+  },
+  {
+    "name": "Cedar",
+    "hex": "3E1C14",
+    "slug": "cedar"
+  },
+  {
+    "name": "English Walnut",
+    "hex": "3E2B23",
+    "slug": "englishWalnut"
+  },
+  {
+    "name": "Black Marlin",
+    "hex": "3E2C1C",
+    "slug": "blackMarlin"
+  },
+  {
+    "name": "Ship Gray",
+    "hex": "3E3A44",
+    "slug": "shipGray"
+  },
+  {
+    "name": "Pelorous",
+    "hex": "3EABBF",
+    "slug": "pelorous"
+  },
+  {
+    "name": "Bronze",
+    "hex": "3F2109",
+    "slug": "bronze"
+  },
+  {
+    "name": "Cola",
+    "hex": "3F2500",
+    "slug": "cola"
+  },
+  {
+    "name": "Madras",
+    "hex": "3F3002",
+    "slug": "madras"
+  },
+  {
+    "name": "Minsk",
+    "hex": "3F307F",
+    "slug": "minsk"
+  },
+  {
+    "name": "Cabbage Pont",
+    "hex": "3F4C3A",
+    "slug": "cabbagePont"
+  },
+  {
+    "name": "Tom Thumb",
+    "hex": "3F583B",
+    "slug": "tomThumb"
+  },
+  {
+    "name": "Mineral Green",
+    "hex": "3F5D53",
+    "slug": "mineralGreen"
+  },
+  {
+    "name": "Puerto Rico",
+    "hex": "3FC1AA",
+    "slug": "puertoRico"
+  },
+  {
+    "name": "Harlequin",
+    "hex": "3FFF00",
+    "slug": "harlequin"
+  },
+  {
+    "name": "Brown Pod",
+    "hex": "401801",
+    "slug": "brownPod"
+  },
+  {
+    "name": "Cork",
+    "hex": "40291D",
+    "slug": "cork"
+  },
+  {
+    "name": "Masala",
+    "hex": "403B38",
+    "slug": "masala"
+  },
+  {
+    "name": "Thatch Green",
+    "hex": "403D19",
+    "slug": "thatchGreen"
+  },
+  {
+    "name": "Fiord",
+    "hex": "405169",
+    "slug": "fiord"
+  },
+  {
+    "name": "Viridian",
+    "hex": "40826D",
+    "slug": "viridian"
+  },
+  {
+    "name": "Chateau Green",
+    "hex": "40A860",
+    "slug": "chateauGreen"
+  },
+  {
+    "name": "Ripe Plum",
+    "hex": "410056",
+    "slug": "ripePlum"
+  },
+  {
+    "name": "Paco",
+    "hex": "411F10",
+    "slug": "paco"
+  },
+  {
+    "name": "Deep Oak",
+    "hex": "412010",
+    "slug": "deepOak"
+  },
+  {
+    "name": "Merlin",
+    "hex": "413C37",
+    "slug": "merlin"
+  },
+  {
+    "name": "Gun Powder",
+    "hex": "414257",
+    "slug": "gunPowder"
+  },
+  {
+    "name": "East Bay",
+    "hex": "414C7D",
+    "slug": "eastBay"
+  },
+  {
+    "name": "Royal Blue",
+    "hex": "4169E1",
+    "slug": "royalBlue"
+  },
+  {
+    "name": "Ocean Green",
+    "hex": "41AA78",
+    "slug": "oceanGreen"
+  },
+  {
+    "name": "Burnt Maroon",
+    "hex": "420303",
+    "slug": "burntMaroon"
+  },
+  {
+    "name": "Lisbon Brown",
+    "hex": "423921",
+    "slug": "lisbonBrown"
+  },
+  {
+    "name": "Faded Jade",
+    "hex": "427977",
+    "slug": "fadedJade"
+  },
+  {
+    "name": "Scarlet Gum",
+    "hex": "431560",
+    "slug": "scarletGum"
+  },
+  {
+    "name": "Iroko",
+    "hex": "433120",
+    "slug": "iroko"
+  },
+  {
+    "name": "Armadillo",
+    "hex": "433E37",
+    "slug": "armadillo"
+  },
+  {
+    "name": "River Bed",
+    "hex": "434C59",
+    "slug": "riverBed"
+  },
+  {
+    "name": "Green Leaf",
+    "hex": "436A0D",
+    "slug": "greenLeaf"
+  },
+  {
+    "name": "Barossa",
+    "hex": "44012D",
+    "slug": "barossa"
+  },
+  {
+    "name": "Morocco Brown",
+    "hex": "441D00",
+    "slug": "moroccoBrown"
+  },
+  {
+    "name": "Mako",
+    "hex": "444954",
+    "slug": "mako"
+  },
+  {
+    "name": "Kelp",
+    "hex": "454936",
+    "slug": "kelp"
+  },
+  {
+    "name": "San Marino",
+    "hex": "456CAC",
+    "slug": "sanMarino"
+  },
+  {
+    "name": "Picton Blue",
+    "hex": "45B1E8",
+    "slug": "pictonBlue"
+  },
+  {
+    "name": "Loulou",
+    "hex": "460B41",
+    "slug": "loulou"
+  },
+  {
+    "name": "Crater Brown",
+    "hex": "462425",
+    "slug": "craterBrown"
+  },
+  {
+    "name": "Gray Asparagus",
+    "hex": "465945",
+    "slug": "grayAsparagus"
+  },
+  {
+    "name": "Steel Blue",
+    "hex": "4682B4",
+    "slug": "steelBlue"
+  },
+  {
+    "name": "Rustic Red",
+    "hex": "480404",
+    "slug": "rusticRed"
+  },
+  {
+    "name": "Bulgarian Rose",
+    "hex": "480607",
+    "slug": "bulgarianRose"
+  },
+  {
+    "name": "Clairvoyant",
+    "hex": "480656",
+    "slug": "clairvoyant"
+  },
+  {
+    "name": "Cocoa Bean",
+    "hex": "481C1C",
+    "slug": "cocoaBean"
+  },
+  {
+    "name": "Woody Brown",
+    "hex": "483131",
+    "slug": "woodyBrown"
+  },
+  {
+    "name": "Taupe",
+    "hex": "483C32",
+    "slug": "taupe"
+  },
+  {
+    "name": "Van Cleef",
+    "hex": "49170C",
+    "slug": "vanCleef"
+  },
+  {
+    "name": "Brown Derby",
+    "hex": "492615",
+    "slug": "brownDerby"
+  },
+  {
+    "name": "Metallic Bronze",
+    "hex": "49371B",
+    "slug": "metallicBronze"
+  },
+  {
+    "name": "Verdun Green",
+    "hex": "495400",
+    "slug": "verdunGreen"
+  },
+  {
+    "name": "Blue Bayoux",
+    "hex": "496679",
+    "slug": "blueBayoux"
+  },
+  {
+    "name": "Bismark",
+    "hex": "497183",
+    "slug": "bismark"
+  },
+  {
+    "name": "Bracken",
+    "hex": "4A2A04",
+    "slug": "bracken"
+  },
+  {
+    "name": "Deep Bronze",
+    "hex": "4A3004",
+    "slug": "deepBronze"
+  },
+  {
+    "name": "Mondo",
+    "hex": "4A3C30",
+    "slug": "mondo"
+  },
+  {
+    "name": "Tundora",
+    "hex": "4A4244",
+    "slug": "tundora"
+  },
+  {
+    "name": "Gravel",
+    "hex": "4A444B",
+    "slug": "gravel"
+  },
+  {
+    "name": "Trout",
+    "hex": "4A4E5A",
+    "slug": "trout"
+  },
+  {
+    "name": "Pigment Indigo",
+    "hex": "4B0082",
+    "slug": "pigmentIndigo"
+  },
+  {
+    "name": "Nandor",
+    "hex": "4B5D52",
+    "slug": "nandor"
+  },
+  {
+    "name": "Saddle",
+    "hex": "4C3024",
+    "slug": "saddle"
+  },
+  {
+    "name": "Abbey",
+    "hex": "4C4F56",
+    "slug": "abbey"
+  },
+  {
+    "name": "Blackberry",
+    "hex": "4D0135",
+    "slug": "blackberry"
+  },
+  {
+    "name": "Cab Sav",
+    "hex": "4D0A18",
+    "slug": "cabSav"
+  },
+  {
+    "name": "Indian Tan",
+    "hex": "4D1E01",
+    "slug": "indianTan"
+  },
+  {
+    "name": "Cowboy",
+    "hex": "4D282D",
+    "slug": "cowboy"
+  },
+  {
+    "name": "Livid Brown",
+    "hex": "4D282E",
+    "slug": "lividBrown"
+  },
+  {
+    "name": "Rock",
+    "hex": "4D3833",
+    "slug": "rock"
+  },
+  {
+    "name": "Punga",
+    "hex": "4D3D14",
+    "slug": "punga"
+  },
+  {
+    "name": "Bronzetone",
+    "hex": "4D400F",
+    "slug": "bronzetone"
+  },
+  {
+    "name": "Woodland",
+    "hex": "4D5328",
+    "slug": "woodland"
+  },
+  {
+    "name": "Mahogany",
+    "hex": "4E0606",
+    "slug": "mahogany"
+  },
+  {
+    "name": "Bossanova",
+    "hex": "4E2A5A",
+    "slug": "bossanova"
+  },
+  {
+    "name": "Matterhorn",
+    "hex": "4E3B41",
+    "slug": "matterhorn"
+  },
+  {
+    "name": "Bronze Olive",
+    "hex": "4E420C",
+    "slug": "bronzeOlive"
+  },
+  {
+    "name": "Mulled Wine",
+    "hex": "4E4562",
+    "slug": "mulledWine"
+  },
+  {
+    "name": "Axolotl",
+    "hex": "4E6649",
+    "slug": "axolotl"
+  },
+  {
+    "name": "Wedgewood",
+    "hex": "4E7F9E",
+    "slug": "wedgewood"
+  },
+  {
+    "name": "Shakespeare",
+    "hex": "4EABD1",
+    "slug": "shakespeare"
+  },
+  {
+    "name": "Honey Flower",
+    "hex": "4F1C70",
+    "slug": "honeyFlower"
+  },
+  {
+    "name": "Daisy Bush",
+    "hex": "4F2398",
+    "slug": "daisyBush"
+  },
+  {
+    "name": "Indigo",
+    "hex": "4F69C6",
+    "slug": "indigo"
+  },
+  {
+    "name": "Fern Green",
+    "hex": "4F7942",
+    "slug": "fernGreen"
+  },
+  {
+    "name": "Fruit Salad",
+    "hex": "4F9D5D",
+    "slug": "fruitSalad"
+  },
+  {
+    "name": "Apple",
+    "hex": "4FA83D",
+    "slug": "apple"
+  },
+  {
+    "name": "Mortar",
+    "hex": "504351",
+    "slug": "mortar"
+  },
+  {
+    "name": "Kashmir Blue",
+    "hex": "507096",
+    "slug": "kashmirBlue"
+  },
+  {
+    "name": "Cutty Sark",
+    "hex": "507672",
+    "slug": "cuttySark"
+  },
+  {
+    "name": "Emerald",
+    "hex": "50C878",
+    "slug": "emerald"
+  },
+  {
+    "name": "Emperor",
+    "hex": "514649",
+    "slug": "emperor"
+  },
+  {
+    "name": "Chalet Green",
+    "hex": "516E3D",
+    "slug": "chaletGreen"
+  },
+  {
+    "name": "Como",
+    "hex": "517C66",
+    "slug": "como"
+  },
+  {
+    "name": "Smalt Blue",
+    "hex": "51808F",
+    "slug": "smaltBlue"
+  },
+  {
+    "name": "Castro",
+    "hex": "52001F",
+    "slug": "castro"
+  },
+  {
+    "name": "Maroon Oak",
+    "hex": "520C17",
+    "slug": "maroonOak"
+  },
+  {
+    "name": "Gigas",
+    "hex": "523C94",
+    "slug": "gigas"
+  },
+  {
+    "name": "Voodoo",
+    "hex": "533455",
+    "slug": "voodoo"
+  },
+  {
+    "name": "Victoria",
+    "hex": "534491",
+    "slug": "victoria"
+  },
+  {
+    "name": "Hippie Green",
+    "hex": "53824B",
+    "slug": "hippieGreen"
+  },
+  {
+    "name": "Heath",
+    "hex": "541012",
+    "slug": "heath"
+  },
+  {
+    "name": "Judge Gray",
+    "hex": "544333",
+    "slug": "judgeGray"
+  },
+  {
+    "name": "Fuscous Gray",
+    "hex": "54534D",
+    "slug": "fuscousGray"
+  },
+  {
+    "name": "Vida Loca",
+    "hex": "549019",
+    "slug": "vidaLoca"
+  },
+  {
+    "name": "Cioccolato",
+    "hex": "55280C",
+    "slug": "cioccolato"
+  },
+  {
+    "name": "Saratoga",
+    "hex": "555B10",
+    "slug": "saratoga"
+  },
+  {
+    "name": "Finlandia",
+    "hex": "556D56",
+    "slug": "finlandia"
+  },
+  {
+    "name": "Havelock Blue",
+    "hex": "5590D9",
+    "slug": "havelockBlue"
+  },
+  {
+    "name": "Fountain Blue",
+    "hex": "56B4BE",
+    "slug": "fountainBlue"
+  },
+  {
+    "name": "Spring Leaves",
+    "hex": "578363",
+    "slug": "springLeaves"
+  },
+  {
+    "name": "Saddle Brown",
+    "hex": "583401",
+    "slug": "saddleBrown"
+  },
+  {
+    "name": "Scarpa Flow",
+    "hex": "585562",
+    "slug": "scarpaFlow"
+  },
+  {
+    "name": "Cactus",
+    "hex": "587156",
+    "slug": "cactus"
+  },
+  {
+    "name": "Hippie Blue",
+    "hex": "589AAF",
+    "slug": "hippieBlue"
+  },
+  {
+    "name": "Wine Berry",
+    "hex": "591D35",
+    "slug": "wineBerry"
+  },
+  {
+    "name": "Brown Bramble",
+    "hex": "592804",
+    "slug": "brownBramble"
+  },
+  {
+    "name": "Congo Brown",
+    "hex": "593737",
+    "slug": "congoBrown"
+  },
+  {
+    "name": "Millbrook",
+    "hex": "594433",
+    "slug": "millbrook"
+  },
+  {
+    "name": "Waikawa Gray",
+    "hex": "5A6E9C",
+    "slug": "waikawaGray"
+  },
+  {
+    "name": "Horizon",
+    "hex": "5A87A0",
+    "slug": "horizon"
+  },
+  {
+    "name": "Jambalaya",
+    "hex": "5B3013",
+    "slug": "jambalaya"
+  },
+  {
+    "name": "Bordeaux",
+    "hex": "5C0120",
+    "slug": "bordeaux"
+  },
+  {
+    "name": "Mulberry Wood",
+    "hex": "5C0536",
+    "slug": "mulberryWood"
+  },
+  {
+    "name": "Carnaby Tan",
+    "hex": "5C2E01",
+    "slug": "carnabyTan"
+  },
+  {
+    "name": "Comet",
+    "hex": "5C5D75",
+    "slug": "comet"
+  },
+  {
+    "name": "Redwood",
+    "hex": "5D1E0F",
+    "slug": "redwood"
+  },
+  {
+    "name": "Don Juan",
+    "hex": "5D4C51",
+    "slug": "donJuan"
+  },
+  {
+    "name": "Chicago",
+    "hex": "5D5C58",
+    "slug": "chicago"
+  },
+  {
+    "name": "Verdigris",
+    "hex": "5D5E37",
+    "slug": "verdigris"
+  },
+  {
+    "name": "Dingley",
+    "hex": "5D7747",
+    "slug": "dingley"
+  },
+  {
+    "name": "Breaker Bay",
+    "hex": "5DA19F",
+    "slug": "breakerBay"
+  },
+  {
+    "name": "Kabul",
+    "hex": "5E483E",
+    "slug": "kabul"
+  },
+  {
+    "name": "Hemlock",
+    "hex": "5E5D3B",
+    "slug": "hemlock"
+  },
+  {
+    "name": "Irish Coffee",
+    "hex": "5F3D26",
+    "slug": "irishCoffee"
+  },
+  {
+    "name": "Mid Gray",
+    "hex": "5F5F6E",
+    "slug": "midGray"
+  },
+  {
+    "name": "Shuttle Gray",
+    "hex": "5F6672",
+    "slug": "shuttleGray"
+  },
+  {
+    "name": "Aqua Forest",
+    "hex": "5FA777",
+    "slug": "aquaForest"
+  },
+  {
+    "name": "Tradewind",
+    "hex": "5FB3AC",
+    "slug": "tradewind"
+  },
+  {
+    "name": "Horses Neck",
+    "hex": "604913",
+    "slug": "horsesNeck"
+  },
+  {
+    "name": "Smoky",
+    "hex": "605B73",
+    "slug": "smoky"
+  },
+  {
+    "name": "Corduroy",
+    "hex": "606E68",
+    "slug": "corduroy"
+  },
+  {
+    "name": "Danube",
+    "hex": "6093D1",
+    "slug": "danube"
+  },
+  {
+    "name": "Espresso",
+    "hex": "612718",
+    "slug": "espresso"
+  },
+  {
+    "name": "Eggplant",
+    "hex": "614051",
+    "slug": "eggplant"
+  },
+  {
+    "name": "Costa Del Sol",
+    "hex": "615D30",
+    "slug": "costaDelSol"
+  },
+  {
+    "name": "Glade Green",
+    "hex": "61845F",
+    "slug": "gladeGreen"
+  },
+  {
+    "name": "Buccaneer",
+    "hex": "622F30",
+    "slug": "buccaneer"
+  },
+  {
+    "name": "Quincy",
+    "hex": "623F2D",
+    "slug": "quincy"
+  },
+  {
+    "name": "Butterfly Bush",
+    "hex": "624E9A",
+    "slug": "butterflyBush"
+  },
+  {
+    "name": "West Coast",
+    "hex": "625119",
+    "slug": "westCoast"
+  },
+  {
+    "name": "Finch",
+    "hex": "626649",
+    "slug": "finch"
+  },
+  {
+    "name": "Patina",
+    "hex": "639A8F",
+    "slug": "patina"
+  },
+  {
+    "name": "Fern",
+    "hex": "63B76C",
+    "slug": "fern"
+  },
+  {
+    "name": "Blue Violet",
+    "hex": "6456B7",
+    "slug": "blueViolet"
+  },
+  {
+    "name": "Dolphin",
+    "hex": "646077",
+    "slug": "dolphin"
+  },
+  {
+    "name": "Storm Dust",
+    "hex": "646463",
+    "slug": "stormDust"
+  },
+  {
+    "name": "Siam",
+    "hex": "646A54",
+    "slug": "siam"
+  },
+  {
+    "name": "Nevada",
+    "hex": "646E75",
+    "slug": "nevada"
+  },
+  {
+    "name": "Cornflower Blue",
+    "hex": "6495ED",
+    "slug": "cornflowerBlue"
+  },
+  {
+    "name": "Viking",
+    "hex": "64CCDB",
+    "slug": "viking"
+  },
+  {
+    "name": "Rosewood",
+    "hex": "65000B",
+    "slug": "rosewood"
+  },
+  {
+    "name": "Cherrywood",
+    "hex": "651A14",
+    "slug": "cherrywood"
+  },
+  {
+    "name": "Purple Heart",
+    "hex": "652DC1",
+    "slug": "purpleHeart"
+  },
+  {
+    "name": "Fern Frond",
+    "hex": "657220",
+    "slug": "fernFrond"
+  },
+  {
+    "name": "Willow Grove",
+    "hex": "65745D",
+    "slug": "willowGrove"
+  },
+  {
+    "name": "Hoki",
+    "hex": "65869F",
+    "slug": "hoki"
+  },
+  {
+    "name": "Pompadour",
+    "hex": "660045",
+    "slug": "pompadour"
+  },
+  {
+    "name": "Purple",
+    "hex": "660099",
+    "slug": "purple"
+  },
+  {
+    "name": "Tyrian Purple",
+    "hex": "66023C",
+    "slug": "tyrianPurple"
+  },
+  {
+    "name": "Dark Tan",
+    "hex": "661010",
+    "slug": "darkTan"
+  },
+  {
+    "name": "Silver Tree",
+    "hex": "66B58F",
+    "slug": "silverTree"
+  },
+  {
+    "name": "Bright Green",
+    "hex": "66FF00",
+    "slug": "brightGreen"
+  },
+  {
+    "name": "Screamin' Green",
+    "hex": "66FF66",
+    "slug": "screaminGreen"
+  },
+  {
+    "name": "Black Rose",
+    "hex": "67032D",
+    "slug": "blackRose"
+  },
+  {
+    "name": "Scampi",
+    "hex": "675FA6",
+    "slug": "scampi"
+  },
+  {
+    "name": "Ironside Gray",
+    "hex": "676662",
+    "slug": "ironsideGray"
+  },
+  {
+    "name": "Viridian Green",
+    "hex": "678975",
+    "slug": "viridianGreen"
+  },
+  {
+    "name": "Christi",
+    "hex": "67A712",
+    "slug": "christi"
+  },
+  {
+    "name": "Nutmeg Wood Finish",
+    "hex": "683600",
+    "slug": "nutmegWoodFinish"
+  },
+  {
+    "name": "Zambezi",
+    "hex": "685558",
+    "slug": "zambezi"
+  },
+  {
+    "name": "Salt Box",
+    "hex": "685E6E",
+    "slug": "saltBox"
+  },
+  {
+    "name": "Tawny Port",
+    "hex": "692545",
+    "slug": "tawnyPort"
+  },
+  {
+    "name": "Finn",
+    "hex": "692D54",
+    "slug": "finn"
+  },
+  {
+    "name": "Scorpion",
+    "hex": "695F62",
+    "slug": "scorpion"
+  },
+  {
+    "name": "Lynch",
+    "hex": "697E9A",
+    "slug": "lynch"
+  },
+  {
+    "name": "Spice",
+    "hex": "6A442E",
+    "slug": "spice"
+  },
+  {
+    "name": "Himalaya",
+    "hex": "6A5D1B",
+    "slug": "himalaya"
+  },
+  {
+    "name": "Soya Bean",
+    "hex": "6A6051",
+    "slug": "soyaBean"
+  },
+  {
+    "name": "Hairy Heath",
+    "hex": "6B2A14",
+    "slug": "hairyHeath"
+  },
+  {
+    "name": "Royal Purple",
+    "hex": "6B3FA0",
+    "slug": "royalPurple"
+  },
+  {
+    "name": "Shingle Fawn",
+    "hex": "6B4E31",
+    "slug": "shingleFawn"
+  },
+  {
+    "name": "Dorado",
+    "hex": "6B5755",
+    "slug": "dorado"
+  },
+  {
+    "name": "Bermuda Gray",
+    "hex": "6B8BA2",
+    "slug": "bermudaGray"
+  },
+  {
+    "name": "Olive Drab",
+    "hex": "6B8E23",
+    "slug": "oliveDrab"
+  },
+  {
+    "name": "Eminence",
+    "hex": "6C3082",
+    "slug": "eminence"
+  },
+  {
+    "name": "Turquoise Blue",
+    "hex": "6CDAE7",
+    "slug": "turquoiseBlue"
+  },
+  {
+    "name": "Lonestar",
+    "hex": "6D0101",
+    "slug": "lonestar"
+  },
+  {
+    "name": "Pine Cone",
+    "hex": "6D5E54",
+    "slug": "pineCone"
+  },
+  {
+    "name": "Dove Gray",
+    "hex": "6D6C6C",
+    "slug": "doveGray"
+  },
+  {
+    "name": "Juniper",
+    "hex": "6D9292",
+    "slug": "juniper"
+  },
+  {
+    "name": "Gothic",
+    "hex": "6D92A1",
+    "slug": "gothic"
+  },
+  {
+    "name": "Red Oxide",
+    "hex": "6E0902",
+    "slug": "redOxide"
+  },
+  {
+    "name": "Moccaccino",
+    "hex": "6E1D14",
+    "slug": "moccaccino"
+  },
+  {
+    "name": "Pickled Bean",
+    "hex": "6E4826",
+    "slug": "pickledBean"
+  },
+  {
+    "name": "Dallas",
+    "hex": "6E4B26",
+    "slug": "dallas"
+  },
+  {
+    "name": "Kokoda",
+    "hex": "6E6D57",
+    "slug": "kokoda"
+  },
+  {
+    "name": "Pale Sky",
+    "hex": "6E7783",
+    "slug": "paleSky"
+  },
+  {
+    "name": "Cafe Royale",
+    "hex": "6F440C",
+    "slug": "cafeRoyale"
+  },
+  {
+    "name": "Flint",
+    "hex": "6F6A61",
+    "slug": "flint"
+  },
+  {
+    "name": "Highland",
+    "hex": "6F8E63",
+    "slug": "highland"
+  },
+  {
+    "name": "Limeade",
+    "hex": "6F9D02",
+    "slug": "limeade"
+  },
+  {
+    "name": "Downy",
+    "hex": "6FD0C5",
+    "slug": "downy"
+  },
+  {
+    "name": "Persian Plum",
+    "hex": "701C1C",
+    "slug": "persianPlum"
+  },
+  {
+    "name": "Sepia",
+    "hex": "704214",
+    "slug": "sepia"
+  },
+  {
+    "name": "Antique Bronze",
+    "hex": "704A07",
+    "slug": "antiqueBronze"
+  },
+  {
+    "name": "Ferra",
+    "hex": "704F50",
+    "slug": "ferra"
+  },
+  {
+    "name": "Coffee",
+    "hex": "706555",
+    "slug": "coffee"
+  },
+  {
+    "name": "Slate Gray",
+    "hex": "708090",
+    "slug": "slateGray"
+  },
+  {
+    "name": "Cedar Wood Finish",
+    "hex": "711A00",
+    "slug": "cedarWoodFinish"
+  },
+  {
+    "name": "Metallic Copper",
+    "hex": "71291D",
+    "slug": "metallicCopper"
+  },
+  {
+    "name": "Affair",
+    "hex": "714693",
+    "slug": "affair"
+  },
+  {
+    "name": "Studio",
+    "hex": "714AB2",
+    "slug": "studio"
+  },
+  {
+    "name": "Tobacco Brown",
+    "hex": "715D47",
+    "slug": "tobaccoBrown"
+  },
+  {
+    "name": "Yellow Metal",
+    "hex": "716338",
+    "slug": "yellowMetal"
+  },
+  {
+    "name": "Peat",
+    "hex": "716B56",
+    "slug": "peat"
+  },
+  {
+    "name": "Olivetone",
+    "hex": "716E10",
+    "slug": "olivetone"
+  },
+  {
+    "name": "Storm Gray",
+    "hex": "717486",
+    "slug": "stormGray"
+  },
+  {
+    "name": "Sirocco",
+    "hex": "718080",
+    "slug": "sirocco"
+  },
+  {
+    "name": "Aquamarine Blue",
+    "hex": "71D9E2",
+    "slug": "aquamarineBlue"
+  },
+  {
+    "name": "Venetian Red",
+    "hex": "72010F",
+    "slug": "venetianRed"
+  },
+  {
+    "name": "Old Copper",
+    "hex": "724A2F",
+    "slug": "oldCopper"
+  },
+  {
+    "name": "Go Ben",
+    "hex": "726D4E",
+    "slug": "goBen"
+  },
+  {
+    "name": "Raven",
+    "hex": "727B89",
+    "slug": "raven"
+  },
+  {
+    "name": "Seance",
+    "hex": "731E8F",
+    "slug": "seance"
+  },
+  {
+    "name": "Raw Umber",
+    "hex": "734A12",
+    "slug": "rawUmber"
+  },
+  {
+    "name": "Kimberly",
+    "hex": "736C9F",
+    "slug": "kimberly"
+  },
+  {
+    "name": "Crocodile",
+    "hex": "736D58",
+    "slug": "crocodile"
+  },
+  {
+    "name": "Crete",
+    "hex": "737829",
+    "slug": "crete"
+  },
+  {
+    "name": "Xanadu",
+    "hex": "738678",
+    "slug": "xanadu"
+  },
+  {
+    "name": "Spicy Mustard",
+    "hex": "74640D",
+    "slug": "spicyMustard"
+  },
+  {
+    "name": "Limed Ash",
+    "hex": "747D63",
+    "slug": "limedAsh"
+  },
+  {
+    "name": "Rolling Stone",
+    "hex": "747D83",
+    "slug": "rollingStone"
+  },
+  {
+    "name": "Blue Smoke",
+    "hex": "748881",
+    "slug": "blueSmoke"
+  },
+  {
+    "name": "Laurel",
+    "hex": "749378",
+    "slug": "laurel"
+  },
+  {
+    "name": "Mantis",
+    "hex": "74C365",
+    "slug": "mantis"
+  },
+  {
+    "name": "Russett",
+    "hex": "755A57",
+    "slug": "russett"
+  },
+  {
+    "name": "Deluge",
+    "hex": "7563A8",
+    "slug": "deluge"
+  },
+  {
+    "name": "Cosmic",
+    "hex": "76395D",
+    "slug": "cosmic"
+  },
+  {
+    "name": "Blue Marguerite",
+    "hex": "7666C6",
+    "slug": "blueMarguerite"
+  },
+  {
+    "name": "Lima",
+    "hex": "76BD17",
+    "slug": "lima"
+  },
+  {
+    "name": "Sky Blue",
+    "hex": "76D7EA",
+    "slug": "skyBlue"
+  },
+  {
+    "name": "Dark Burgundy",
+    "hex": "770F05",
+    "slug": "darkBurgundy"
+  },
+  {
+    "name": "Crown of Thorns",
+    "hex": "771F1F",
+    "slug": "crownOfThorns"
+  },
+  {
+    "name": "Walnut",
+    "hex": "773F1A",
+    "slug": "walnut"
+  },
+  {
+    "name": "Pablo",
+    "hex": "776F61",
+    "slug": "pablo"
+  },
+  {
+    "name": "Pacifika",
+    "hex": "778120",
+    "slug": "pacifika"
+  },
+  {
+    "name": "Oxley",
+    "hex": "779E86",
+    "slug": "oxley"
+  },
+  {
+    "name": "Pastel Green",
+    "hex": "77DD77",
+    "slug": "pastelGreen"
+  },
+  {
+    "name": "Japanese Maple",
+    "hex": "780109",
+    "slug": "japaneseMaple"
+  },
+  {
+    "name": "Mocha",
+    "hex": "782D19",
+    "slug": "mocha"
+  },
+  {
+    "name": "Peanut",
+    "hex": "782F16",
+    "slug": "peanut"
+  },
+  {
+    "name": "Camouflage Green",
+    "hex": "78866B",
+    "slug": "camouflageGreen"
+  },
+  {
+    "name": "Wasabi",
+    "hex": "788A25",
+    "slug": "wasabi"
+  },
+  {
+    "name": "Ship Cove",
+    "hex": "788BBA",
+    "slug": "shipCove"
+  },
+  {
+    "name": "Sea Nymph",
+    "hex": "78A39C",
+    "slug": "seaNymph"
+  },
+  {
+    "name": "Roman Coffee",
+    "hex": "795D4C",
+    "slug": "romanCoffee"
+  },
+  {
+    "name": "Old Lavender",
+    "hex": "796878",
+    "slug": "oldLavender"
+  },
+  {
+    "name": "Rum",
+    "hex": "796989",
+    "slug": "rum"
+  },
+  {
+    "name": "Fedora",
+    "hex": "796A78",
+    "slug": "fedora"
+  },
+  {
+    "name": "Sandstone",
+    "hex": "796D62",
+    "slug": "sandstone"
+  },
+  {
+    "name": "Spray",
+    "hex": "79DEEC",
+    "slug": "spray"
+  },
+  {
+    "name": "Siren",
+    "hex": "7A013A",
+    "slug": "siren"
+  },
+  {
+    "name": "Fuchsia Blue",
+    "hex": "7A58C1",
+    "slug": "fuchsiaBlue"
+  },
+  {
+    "name": "Boulder",
+    "hex": "7A7A7A",
+    "slug": "boulder"
+  },
+  {
+    "name": "Wild Blue Yonder",
+    "hex": "7A89B8",
+    "slug": "wildBlueYonder"
+  },
+  {
+    "name": "De York",
+    "hex": "7AC488",
+    "slug": "deYork"
+  },
+  {
+    "name": "Red Beech",
+    "hex": "7B3801",
+    "slug": "redBeech"
+  },
+  {
+    "name": "Cinnamon",
+    "hex": "7B3F00",
+    "slug": "cinnamon"
+  },
+  {
+    "name": "Yukon Gold",
+    "hex": "7B6608",
+    "slug": "yukonGold"
+  },
+  {
+    "name": "Tapa",
+    "hex": "7B7874",
+    "slug": "tapa"
+  },
+  {
+    "name": "Waterloo ",
+    "hex": "7B7C94",
+    "slug": "waterloo"
+  },
+  {
+    "name": "Flax Smoke",
+    "hex": "7B8265",
+    "slug": "flaxSmoke"
+  },
+  {
+    "name": "Amulet",
+    "hex": "7B9F80",
+    "slug": "amulet"
+  },
+  {
+    "name": "Asparagus",
+    "hex": "7BA05B",
+    "slug": "asparagus"
+  },
+  {
+    "name": "Kenyan Copper",
+    "hex": "7C1C05",
+    "slug": "kenyanCopper"
+  },
+  {
+    "name": "Pesto",
+    "hex": "7C7631",
+    "slug": "pesto"
+  },
+  {
+    "name": "Topaz",
+    "hex": "7C778A",
+    "slug": "topaz"
+  },
+  {
+    "name": "Concord",
+    "hex": "7C7B7A",
+    "slug": "concord"
+  },
+  {
+    "name": "Jumbo",
+    "hex": "7C7B82",
+    "slug": "jumbo"
+  },
+  {
+    "name": "Trendy Green",
+    "hex": "7C881A",
+    "slug": "trendyGreen"
+  },
+  {
+    "name": "Gumbo",
+    "hex": "7CA1A6",
+    "slug": "gumbo"
+  },
+  {
+    "name": "Acapulco",
+    "hex": "7CB0A1",
+    "slug": "acapulco"
+  },
+  {
+    "name": "Neptune",
+    "hex": "7CB7BB",
+    "slug": "neptune"
+  },
+  {
+    "name": "Pueblo",
+    "hex": "7D2C14",
+    "slug": "pueblo"
+  },
+  {
+    "name": "Bay Leaf",
+    "hex": "7DA98D",
+    "slug": "bayLeaf"
+  },
+  {
+    "name": "Malibu",
+    "hex": "7DC8F7",
+    "slug": "malibu"
+  },
+  {
+    "name": "Bermuda",
+    "hex": "7DD8C6",
+    "slug": "bermuda"
+  },
+  {
+    "name": "Copper Canyon",
+    "hex": "7E3A15",
+    "slug": "copperCanyon"
+  },
+  {
+    "name": "Claret",
+    "hex": "7F1734",
+    "slug": "claret"
+  },
+  {
+    "name": "Peru Tan",
+    "hex": "7F3A02",
+    "slug": "peruTan"
+  },
+  {
+    "name": "Falcon",
+    "hex": "7F626D",
+    "slug": "falcon"
+  },
+  {
+    "name": "Mobster",
+    "hex": "7F7589",
+    "slug": "mobster"
+  },
+  {
+    "name": "Moody Blue",
+    "hex": "7F76D3",
+    "slug": "moodyBlue"
+  },
+  {
+    "name": "Chartreuse",
+    "hex": "7FFF00",
+    "slug": "chartreuse"
+  },
+  {
+    "name": "Aquamarine",
+    "hex": "7FFFD4",
+    "slug": "aquamarine"
+  },
+  {
+    "name": "Maroon",
+    "hex": "800000",
+    "slug": "maroon"
+  },
+  {
+    "name": "Rose Bud Cherry",
+    "hex": "800B47",
+    "slug": "roseBudCherry"
+  },
+  {
+    "name": "Falu Red",
+    "hex": "801818",
+    "slug": "faluRed"
+  },
+  {
+    "name": "Red Robin",
+    "hex": "80341F",
+    "slug": "redRobin"
+  },
+  {
+    "name": "Vivid Violet",
+    "hex": "803790",
+    "slug": "vividViolet"
+  },
+  {
+    "name": "Russet",
+    "hex": "80461B",
+    "slug": "russet"
+  },
+  {
+    "name": "Friar Gray",
+    "hex": "807E79",
+    "slug": "friarGray"
+  },
+  {
+    "name": "Olive",
+    "hex": "808000",
+    "slug": "olive"
+  },
+  {
+    "name": "Gray",
+    "hex": "808080",
+    "slug": "gray"
+  },
+  {
+    "name": "Gulf Stream",
+    "hex": "80B3AE",
+    "slug": "gulfStream"
+  },
+  {
+    "name": "Glacier",
+    "hex": "80B3C4",
+    "slug": "glacier"
+  },
+  {
+    "name": "Seagull",
+    "hex": "80CCEA",
+    "slug": "seagull"
+  },
+  {
+    "name": "Nutmeg",
+    "hex": "81422C",
+    "slug": "nutmeg"
+  },
+  {
+    "name": "Spicy Pink",
+    "hex": "816E71",
+    "slug": "spicyPink"
+  },
+  {
+    "name": "Empress",
+    "hex": "817377",
+    "slug": "empress"
+  },
+  {
+    "name": "Spanish Green",
+    "hex": "819885",
+    "slug": "spanishGreen"
+  },
+  {
+    "name": "Sand Dune",
+    "hex": "826F65",
+    "slug": "sandDune"
+  },
+  {
+    "name": "Gunsmoke",
+    "hex": "828685",
+    "slug": "gunsmoke"
+  },
+  {
+    "name": "Battleship Gray",
+    "hex": "828F72",
+    "slug": "battleshipGray"
+  },
+  {
+    "name": "Merlot",
+    "hex": "831923",
+    "slug": "merlot"
+  },
+  {
+    "name": "Shadow",
+    "hex": "837050",
+    "slug": "shadow"
+  },
+  {
+    "name": "Chelsea Cucumber",
+    "hex": "83AA5D",
+    "slug": "chelseaCucumber"
+  },
+  {
+    "name": "Monte Carlo",
+    "hex": "83D0C6",
+    "slug": "monteCarlo"
+  },
+  {
+    "name": "Plum",
+    "hex": "843179",
+    "slug": "plum"
+  },
+  {
+    "name": "Granny Smith",
+    "hex": "84A0A0",
+    "slug": "grannySmith"
+  },
+  {
+    "name": "Chetwode Blue",
+    "hex": "8581D9",
+    "slug": "chetwodeBlue"
+  },
+  {
+    "name": "Bandicoot",
+    "hex": "858470",
+    "slug": "bandicoot"
+  },
+  {
+    "name": "Bali Hai",
+    "hex": "859FAF",
+    "slug": "baliHai"
+  },
+  {
+    "name": "Half Baked",
+    "hex": "85C4CC",
+    "slug": "halfBaked"
+  },
+  {
+    "name": "Red Devil",
+    "hex": "860111",
+    "slug": "redDevil"
+  },
+  {
+    "name": "Lotus",
+    "hex": "863C3C",
+    "slug": "lotus"
+  },
+  {
+    "name": "Ironstone",
+    "hex": "86483C",
+    "slug": "ironstone"
+  },
+  {
+    "name": "Bull Shot",
+    "hex": "864D1E",
+    "slug": "bullShot"
+  },
+  {
+    "name": "Rusty Nail",
+    "hex": "86560A",
+    "slug": "rustyNail"
+  },
+  {
+    "name": "Bitter",
+    "hex": "868974",
+    "slug": "bitter"
+  },
+  {
+    "name": "Regent Gray",
+    "hex": "86949F",
+    "slug": "regentGray"
+  },
+  {
+    "name": "Disco",
+    "hex": "871550",
+    "slug": "disco"
+  },
+  {
+    "name": "Americano",
+    "hex": "87756E",
+    "slug": "americano"
+  },
+  {
+    "name": "Hurricane",
+    "hex": "877C7B",
+    "slug": "hurricane"
+  },
+  {
+    "name": "Oslo Gray",
+    "hex": "878D91",
+    "slug": "osloGray"
+  },
+  {
+    "name": "Sushi",
+    "hex": "87AB39",
+    "slug": "sushi"
+  },
+  {
+    "name": "Spicy Mix",
+    "hex": "885342",
+    "slug": "spicyMix"
+  },
+  {
+    "name": "Kumera",
+    "hex": "886221",
+    "slug": "kumera"
+  },
+  {
+    "name": "Suva Gray",
+    "hex": "888387",
+    "slug": "suvaGray"
+  },
+  {
+    "name": "Avocado",
+    "hex": "888D65",
+    "slug": "avocado"
+  },
+  {
+    "name": "Camelot",
+    "hex": "893456",
+    "slug": "camelot"
+  },
+  {
+    "name": "Solid Pink",
+    "hex": "893843",
+    "slug": "solidPink"
+  },
+  {
+    "name": "Cannon Pink",
+    "hex": "894367",
+    "slug": "cannonPink"
+  },
+  {
+    "name": "Makara",
+    "hex": "897D6D",
+    "slug": "makara"
+  },
+  {
+    "name": "Burnt Umber",
+    "hex": "8A3324",
+    "slug": "burntUmber"
+  },
+  {
+    "name": "True V",
+    "hex": "8A73D6",
+    "slug": "trueV"
+  },
+  {
+    "name": "Clay Creek",
+    "hex": "8A8360",
+    "slug": "clayCreek"
+  },
+  {
+    "name": "Monsoon",
+    "hex": "8A8389",
+    "slug": "monsoon"
+  },
+  {
+    "name": "Stack",
+    "hex": "8A8F8A",
+    "slug": "stack"
+  },
+  {
+    "name": "Jordy Blue",
+    "hex": "8AB9F1",
+    "slug": "jordyBlue"
+  },
+  {
+    "name": "Electric Violet",
+    "hex": "8B00FF",
+    "slug": "electricViolet"
+  },
+  {
+    "name": "Monarch",
+    "hex": "8B0723",
+    "slug": "monarch"
+  },
+  {
+    "name": "Corn Harvest",
+    "hex": "8B6B0B",
+    "slug": "cornHarvest"
+  },
+  {
+    "name": "Olive Haze",
+    "hex": "8B8470",
+    "slug": "oliveHaze"
+  },
+  {
+    "name": "Schooner",
+    "hex": "8B847E",
+    "slug": "schooner"
+  },
+  {
+    "name": "Natural Gray",
+    "hex": "8B8680",
+    "slug": "naturalGray"
+  },
+  {
+    "name": "Mantle",
+    "hex": "8B9C90",
+    "slug": "mantle"
+  },
+  {
+    "name": "Portage",
+    "hex": "8B9FEE",
+    "slug": "portage"
+  },
+  {
+    "name": "Envy",
+    "hex": "8BA690",
+    "slug": "envy"
+  },
+  {
+    "name": "Cascade",
+    "hex": "8BA9A5",
+    "slug": "cascade"
+  },
+  {
+    "name": "Riptide",
+    "hex": "8BE6D8",
+    "slug": "riptide"
+  },
+  {
+    "name": "Cardinal Pink",
+    "hex": "8C055E",
+    "slug": "cardinalPink"
+  },
+  {
+    "name": "Mule Fawn",
+    "hex": "8C472F",
+    "slug": "muleFawn"
+  },
+  {
+    "name": "Potters Clay",
+    "hex": "8C5738",
+    "slug": "pottersClay"
+  },
+  {
+    "name": "Trendy Pink",
+    "hex": "8C6495",
+    "slug": "trendyPink"
+  },
+  {
+    "name": "Paprika",
+    "hex": "8D0226",
+    "slug": "paprika"
+  },
+  {
+    "name": "Sanguine Brown",
+    "hex": "8D3D38",
+    "slug": "sanguineBrown"
+  },
+  {
+    "name": "Tosca",
+    "hex": "8D3F3F",
+    "slug": "tosca"
+  },
+  {
+    "name": "Cement",
+    "hex": "8D7662",
+    "slug": "cement"
+  },
+  {
+    "name": "Granite Green",
+    "hex": "8D8974",
+    "slug": "graniteGreen"
+  },
+  {
+    "name": "Manatee",
+    "hex": "8D90A1",
+    "slug": "manatee"
+  },
+  {
+    "name": "Polo Blue",
+    "hex": "8DA8CC",
+    "slug": "poloBlue"
+  },
+  {
+    "name": "Red Berry",
+    "hex": "8E0000",
+    "slug": "redBerry"
+  },
+  {
+    "name": "Rope",
+    "hex": "8E4D1E",
+    "slug": "rope"
+  },
+  {
+    "name": "Opium",
+    "hex": "8E6F70",
+    "slug": "opium"
+  },
+  {
+    "name": "Domino",
+    "hex": "8E775E",
+    "slug": "domino"
+  },
+  {
+    "name": "Mamba",
+    "hex": "8E8190",
+    "slug": "mamba"
+  },
+  {
+    "name": "Nepal",
+    "hex": "8EABC1",
+    "slug": "nepal"
+  },
+  {
+    "name": "Pohutukawa",
+    "hex": "8F021C",
+    "slug": "pohutukawa"
+  },
+  {
+    "name": "El Salva",
+    "hex": "8F3E33",
+    "slug": "elSalva"
+  },
+  {
+    "name": "Korma",
+    "hex": "8F4B0E",
+    "slug": "korma"
+  },
+  {
+    "name": "Squirrel",
+    "hex": "8F8176",
+    "slug": "squirrel"
+  },
+  {
+    "name": "Vista Blue",
+    "hex": "8FD6B4",
+    "slug": "vistaBlue"
+  },
+  {
+    "name": "Burgundy",
+    "hex": "900020",
+    "slug": "burgundy"
+  },
+  {
+    "name": "Old Brick",
+    "hex": "901E1E",
+    "slug": "oldBrick"
+  },
+  {
+    "name": "Hemp",
+    "hex": "907874",
+    "slug": "hemp"
+  },
+  {
+    "name": "Almond Frost",
+    "hex": "907B71",
+    "slug": "almondFrost"
+  },
+  {
+    "name": "Sycamore",
+    "hex": "908D39",
+    "slug": "sycamore"
+  },
+  {
+    "name": "Sangria",
+    "hex": "92000A",
+    "slug": "sangria"
+  },
+  {
+    "name": "Cumin",
+    "hex": "924321",
+    "slug": "cumin"
+  },
+  {
+    "name": "Beaver",
+    "hex": "926F5B",
+    "slug": "beaver"
+  },
+  {
+    "name": "Stonewall",
+    "hex": "928573",
+    "slug": "stonewall"
+  },
+  {
+    "name": "Venus",
+    "hex": "928590",
+    "slug": "venus"
+  },
+  {
+    "name": "Medium Purple",
+    "hex": "9370DB",
+    "slug": "mediumPurple"
+  },
+  {
+    "name": "Cornflower",
+    "hex": "93CCEA",
+    "slug": "cornflower"
+  },
+  {
+    "name": "Algae Green",
+    "hex": "93DFB8",
+    "slug": "algaeGreen"
+  },
+  {
+    "name": "Copper Rust",
+    "hex": "944747",
+    "slug": "copperRust"
+  },
+  {
+    "name": "Arrowtown",
+    "hex": "948771",
+    "slug": "arrowtown"
+  },
+  {
+    "name": "Scarlett",
+    "hex": "950015",
+    "slug": "scarlett"
+  },
+  {
+    "name": "Strikemaster",
+    "hex": "956387",
+    "slug": "strikemaster"
+  },
+  {
+    "name": "Mountain Mist",
+    "hex": "959396",
+    "slug": "mountainMist"
+  },
+  {
+    "name": "Carmine",
+    "hex": "960018",
+    "slug": "carmine"
+  },
+  {
+    "name": "Brown",
+    "hex": "964B00",
+    "slug": "brown"
+  },
+  {
+    "name": "Leather",
+    "hex": "967059",
+    "slug": "leather"
+  },
+  {
+    "name": "Purple Mountain's Majesty",
+    "hex": "9678B6",
+    "slug": "purpleMountainSMajesty"
+  },
+  {
+    "name": "Lavender Purple",
+    "hex": "967BB6",
+    "slug": "lavenderPurple"
+  },
+  {
+    "name": "Pewter",
+    "hex": "96A8A1",
+    "slug": "pewter"
+  },
+  {
+    "name": "Summer Green",
+    "hex": "96BBAB",
+    "slug": "summerGreen"
+  },
+  {
+    "name": "Au Chico",
+    "hex": "97605D",
+    "slug": "auChico"
+  },
+  {
+    "name": "Wisteria",
+    "hex": "9771B5",
+    "slug": "wisteria"
+  },
+  {
+    "name": "Atlantis",
+    "hex": "97CD2D",
+    "slug": "atlantis"
+  },
+  {
+    "name": "Vin Rouge",
+    "hex": "983D61",
+    "slug": "vinRouge"
+  },
+  {
+    "name": "Lilac Bush",
+    "hex": "9874D3",
+    "slug": "lilacBush"
+  },
+  {
+    "name": "Bazaar",
+    "hex": "98777B",
+    "slug": "bazaar"
+  },
+  {
+    "name": "Hacienda",
+    "hex": "98811B",
+    "slug": "hacienda"
+  },
+  {
+    "name": "Pale Oyster",
+    "hex": "988D77",
+    "slug": "paleOyster"
+  },
+  {
+    "name": "Mint Green",
+    "hex": "98FF98",
+    "slug": "mintGreen"
+  },
+  {
+    "name": "Fresh Eggplant",
+    "hex": "990066",
+    "slug": "freshEggplant"
+  },
+  {
+    "name": "Violet Eggplant",
+    "hex": "991199",
+    "slug": "violetEggplant"
+  },
+  {
+    "name": "Tamarillo",
+    "hex": "991613",
+    "slug": "tamarillo"
+  },
+  {
+    "name": "Totem Pole",
+    "hex": "991B07",
+    "slug": "totemPole"
+  },
+  {
+    "name": "Copper Rose",
+    "hex": "996666",
+    "slug": "copperRose"
+  },
+  {
+    "name": "Amethyst",
+    "hex": "9966CC",
+    "slug": "amethyst"
+  },
+  {
+    "name": "Mountbatten Pink",
+    "hex": "997A8D",
+    "slug": "mountbattenPink"
+  },
+  {
+    "name": "Blue Bell",
+    "hex": "9999CC",
+    "slug": "blueBell"
+  },
+  {
+    "name": "Prairie Sand",
+    "hex": "9A3820",
+    "slug": "prairieSand"
+  },
+  {
+    "name": "Toast",
+    "hex": "9A6E61",
+    "slug": "toast"
+  },
+  {
+    "name": "Gurkha",
+    "hex": "9A9577",
+    "slug": "gurkha"
+  },
+  {
+    "name": "Olivine",
+    "hex": "9AB973",
+    "slug": "olivine"
+  },
+  {
+    "name": "Shadow Green",
+    "hex": "9AC2B8",
+    "slug": "shadowGreen"
+  },
+  {
+    "name": "Oregon",
+    "hex": "9B4703",
+    "slug": "oregon"
+  },
+  {
+    "name": "Lemon Grass",
+    "hex": "9B9E8F",
+    "slug": "lemonGrass"
+  },
+  {
+    "name": "Stiletto",
+    "hex": "9C3336",
+    "slug": "stiletto"
+  },
+  {
+    "name": "Hawaiian Tan",
+    "hex": "9D5616",
+    "slug": "hawaiianTan"
+  },
+  {
+    "name": "Gull Gray",
+    "hex": "9DACB7",
+    "slug": "gullGray"
+  },
+  {
+    "name": "Pistachio",
+    "hex": "9DC209",
+    "slug": "pistachio"
+  },
+  {
+    "name": "Granny Smith Apple",
+    "hex": "9DE093",
+    "slug": "grannySmithApple"
+  },
+  {
+    "name": "Anakiwa",
+    "hex": "9DE5FF",
+    "slug": "anakiwa"
+  },
+  {
+    "name": "Chelsea Gem",
+    "hex": "9E5302",
+    "slug": "chelseaGem"
+  },
+  {
+    "name": "Sepia Skin",
+    "hex": "9E5B40",
+    "slug": "sepiaSkin"
+  },
+  {
+    "name": "Sage",
+    "hex": "9EA587",
+    "slug": "sage"
+  },
+  {
+    "name": "Citron",
+    "hex": "9EA91F",
+    "slug": "citron"
+  },
+  {
+    "name": "Rock Blue",
+    "hex": "9EB1CD",
+    "slug": "rockBlue"
+  },
+  {
+    "name": "Morning Glory",
+    "hex": "9EDEE0",
+    "slug": "morningGlory"
+  },
+  {
+    "name": "Cognac",
+    "hex": "9F381D",
+    "slug": "cognac"
+  },
+  {
+    "name": "Reef Gold",
+    "hex": "9F821C",
+    "slug": "reefGold"
+  },
+  {
+    "name": "Star Dust",
+    "hex": "9F9F9C",
+    "slug": "starDust"
+  },
+  {
+    "name": "Santas Gray",
+    "hex": "9FA0B1",
+    "slug": "santasGray"
+  },
+  {
+    "name": "Sinbad",
+    "hex": "9FD7D3",
+    "slug": "sinbad"
+  },
+  {
+    "name": "Feijoa",
+    "hex": "9FDD8C",
+    "slug": "feijoa"
+  },
+  {
+    "name": "Tabasco",
+    "hex": "A02712",
+    "slug": "tabasco"
+  },
+  {
+    "name": "Buttered Rum",
+    "hex": "A1750D",
+    "slug": "butteredRum"
+  },
+  {
+    "name": "Hit Gray",
+    "hex": "A1ADB5",
+    "slug": "hitGray"
+  },
+  {
+    "name": "Citrus",
+    "hex": "A1C50A",
+    "slug": "citrus"
+  },
+  {
+    "name": "Aqua Island",
+    "hex": "A1DAD7",
+    "slug": "aquaIsland"
+  },
+  {
+    "name": "Water Leaf",
+    "hex": "A1E9DE",
+    "slug": "waterLeaf"
+  },
+  {
+    "name": "Flirt",
+    "hex": "A2006D",
+    "slug": "flirt"
+  },
+  {
+    "name": "Rouge",
+    "hex": "A23B6C",
+    "slug": "rouge"
+  },
+  {
+    "name": "Cape Palliser",
+    "hex": "A26645",
+    "slug": "capePalliser"
+  },
+  {
+    "name": "Gray Chateau",
+    "hex": "A2AAB3",
+    "slug": "grayChateau"
+  },
+  {
+    "name": "Edward",
+    "hex": "A2AEAB",
+    "slug": "edward"
+  },
+  {
+    "name": "Pharlap",
+    "hex": "A3807B",
+    "slug": "pharlap"
+  },
+  {
+    "name": "Amethyst Smoke",
+    "hex": "A397B4",
+    "slug": "amethystSmoke"
+  },
+  {
+    "name": "Blizzard Blue",
+    "hex": "A3E3ED",
+    "slug": "blizzardBlue"
+  },
+  {
+    "name": "Delta",
+    "hex": "A4A49D",
+    "slug": "delta"
+  },
+  {
+    "name": "Wistful",
+    "hex": "A4A6D3",
+    "slug": "wistful"
+  },
+  {
+    "name": "Green Smoke",
+    "hex": "A4AF6E",
+    "slug": "greenSmoke"
+  },
+  {
+    "name": "Jazzberry Jam",
+    "hex": "A50B5E",
+    "slug": "jazzberryJam"
+  },
+  {
+    "name": "Zorba",
+    "hex": "A59B91",
+    "slug": "zorba"
+  },
+  {
+    "name": "Bahia",
+    "hex": "A5CB0C",
+    "slug": "bahia"
+  },
+  {
+    "name": "Roof Terracotta",
+    "hex": "A62F20",
+    "slug": "roofTerracotta"
+  },
+  {
+    "name": "Paarl",
+    "hex": "A65529",
+    "slug": "paarl"
+  },
+  {
+    "name": "Barley Corn",
+    "hex": "A68B5B",
+    "slug": "barleyCorn"
+  },
+  {
+    "name": "Donkey Brown",
+    "hex": "A69279",
+    "slug": "donkeyBrown"
+  },
+  {
+    "name": "Dawn",
+    "hex": "A6A29A",
+    "slug": "dawn"
+  },
+  {
+    "name": "Mexican Red",
+    "hex": "A72525",
+    "slug": "mexicanRed"
+  },
+  {
+    "name": "Luxor Gold",
+    "hex": "A7882C",
+    "slug": "luxorGold"
+  },
+  {
+    "name": "Rich Gold",
+    "hex": "A85307",
+    "slug": "richGold"
+  },
+  {
+    "name": "Reno Sand",
+    "hex": "A86515",
+    "slug": "renoSand"
+  },
+  {
+    "name": "Coral Tree",
+    "hex": "A86B6B",
+    "slug": "coralTree"
+  },
+  {
+    "name": "Dusty Gray",
+    "hex": "A8989B",
+    "slug": "dustyGray"
+  },
+  {
+    "name": "Dull Lavender",
+    "hex": "A899E6",
+    "slug": "dullLavender"
+  },
+  {
+    "name": "Tallow",
+    "hex": "A8A589",
+    "slug": "tallow"
+  },
+  {
+    "name": "Bud",
+    "hex": "A8AE9C",
+    "slug": "bud"
+  },
+  {
+    "name": "Locust",
+    "hex": "A8AF8E",
+    "slug": "locust"
+  },
+  {
+    "name": "Norway",
+    "hex": "A8BD9F",
+    "slug": "norway"
+  },
+  {
+    "name": "Chinook",
+    "hex": "A8E3BD",
+    "slug": "chinook"
+  },
+  {
+    "name": "Gray Olive",
+    "hex": "A9A491",
+    "slug": "grayOlive"
+  },
+  {
+    "name": "Aluminium",
+    "hex": "A9ACB6",
+    "slug": "aluminium"
+  },
+  {
+    "name": "Cadet Blue",
+    "hex": "A9B2C3",
+    "slug": "cadetBlue"
+  },
+  {
+    "name": "Schist",
+    "hex": "A9B497",
+    "slug": "schist"
+  },
+  {
+    "name": "Tower Gray",
+    "hex": "A9BDBF",
+    "slug": "towerGray"
+  },
+  {
+    "name": "Perano",
+    "hex": "A9BEF2",
+    "slug": "perano"
+  },
+  {
+    "name": "Opal",
+    "hex": "A9C6C2",
+    "slug": "opal"
+  },
+  {
+    "name": "Night Shadz",
+    "hex": "AA375A",
+    "slug": "nightShadz"
+  },
+  {
+    "name": "Fire",
+    "hex": "AA4203",
+    "slug": "fire"
+  },
+  {
+    "name": "Muesli",
+    "hex": "AA8B5B",
+    "slug": "muesli"
+  },
+  {
+    "name": "Sandal",
+    "hex": "AA8D6F",
+    "slug": "sandal"
+  },
+  {
+    "name": "Shady Lady",
+    "hex": "AAA5A9",
+    "slug": "shadyLady"
+  },
+  {
+    "name": "Logan",
+    "hex": "AAA9CD",
+    "slug": "logan"
+  },
+  {
+    "name": "Spun Pearl",
+    "hex": "AAABB7",
+    "slug": "spunPearl"
+  },
+  {
+    "name": "Regent St Blue",
+    "hex": "AAD6E6",
+    "slug": "regentStBlue"
+  },
+  {
+    "name": "Magic Mint",
+    "hex": "AAF0D1",
+    "slug": "magicMint"
+  },
+  {
+    "name": "Lipstick",
+    "hex": "AB0563",
+    "slug": "lipstick"
+  },
+  {
+    "name": "Royal Heath",
+    "hex": "AB3472",
+    "slug": "royalHeath"
+  },
+  {
+    "name": "Sandrift",
+    "hex": "AB917A",
+    "slug": "sandrift"
+  },
+  {
+    "name": "Cold Purple",
+    "hex": "ABA0D9",
+    "slug": "coldPurple"
+  },
+  {
+    "name": "Bronco",
+    "hex": "ABA196",
+    "slug": "bronco"
+  },
+  {
+    "name": "Limed Oak",
+    "hex": "AC8A56",
+    "slug": "limedOak"
+  },
+  {
+    "name": "East Side",
+    "hex": "AC91CE",
+    "slug": "eastSide"
+  },
+  {
+    "name": "Lemon Ginger",
+    "hex": "AC9E22",
+    "slug": "lemonGinger"
+  },
+  {
+    "name": "Napa",
+    "hex": "ACA494",
+    "slug": "napa"
+  },
+  {
+    "name": "Hillary",
+    "hex": "ACA586",
+    "slug": "hillary"
+  },
+  {
+    "name": "Cloudy",
+    "hex": "ACA59F",
+    "slug": "cloudy"
+  },
+  {
+    "name": "Silver Chalice",
+    "hex": "ACACAC",
+    "slug": "silverChalice"
+  },
+  {
+    "name": "Swamp Green",
+    "hex": "ACB78E",
+    "slug": "swampGreen"
+  },
+  {
+    "name": "Spring Rain",
+    "hex": "ACCBB1",
+    "slug": "springRain"
+  },
+  {
+    "name": "Conifer",
+    "hex": "ACDD4D",
+    "slug": "conifer"
+  },
+  {
+    "name": "Celadon",
+    "hex": "ACE1AF",
+    "slug": "celadon"
+  },
+  {
+    "name": "Mandalay",
+    "hex": "AD781B",
+    "slug": "mandalay"
+  },
+  {
+    "name": "Casper",
+    "hex": "ADBED1",
+    "slug": "casper"
+  },
+  {
+    "name": "Moss Green",
+    "hex": "ADDFAD",
+    "slug": "mossGreen"
+  },
+  {
+    "name": "Padua",
+    "hex": "ADE6C4",
+    "slug": "padua"
+  },
+  {
+    "name": "Green Yellow",
+    "hex": "ADFF2F",
+    "slug": "greenYellow"
+  },
+  {
+    "name": "Hippie Pink",
+    "hex": "AE4560",
+    "slug": "hippiePink"
+  },
+  {
+    "name": "Desert",
+    "hex": "AE6020",
+    "slug": "desert"
+  },
+  {
+    "name": "Bouquet",
+    "hex": "AE809E",
+    "slug": "bouquet"
+  },
+  {
+    "name": "Medium Carmine",
+    "hex": "AF4035",
+    "slug": "mediumCarmine"
+  },
+  {
+    "name": "Apple Blossom",
+    "hex": "AF4D43",
+    "slug": "appleBlossom"
+  },
+  {
+    "name": "Brown Rust",
+    "hex": "AF593E",
+    "slug": "brownRust"
+  },
+  {
+    "name": "Driftwood",
+    "hex": "AF8751",
+    "slug": "driftwood"
+  },
+  {
+    "name": "Alpine",
+    "hex": "AF8F2C",
+    "slug": "alpine"
+  },
+  {
+    "name": "Lucky",
+    "hex": "AF9F1C",
+    "slug": "lucky"
+  },
+  {
+    "name": "Martini",
+    "hex": "AFA09E",
+    "slug": "martini"
+  },
+  {
+    "name": "Bombay",
+    "hex": "AFB1B8",
+    "slug": "bombay"
+  },
+  {
+    "name": "Pigeon Post",
+    "hex": "AFBDD9",
+    "slug": "pigeonPost"
+  },
+  {
+    "name": "Cadillac",
+    "hex": "B04C6A",
+    "slug": "cadillac"
+  },
+  {
+    "name": "Matrix",
+    "hex": "B05D54",
+    "slug": "matrix"
+  },
+  {
+    "name": "Tapestry",
+    "hex": "B05E81",
+    "slug": "tapestry"
+  },
+  {
+    "name": "Mai Tai",
+    "hex": "B06608",
+    "slug": "maiTai"
+  },
+  {
+    "name": "Del Rio",
+    "hex": "B09A95",
+    "slug": "delRio"
+  },
+  {
+    "name": "Powder Blue",
+    "hex": "B0E0E6",
+    "slug": "powderBlue"
+  },
+  {
+    "name": "Inch Worm",
+    "hex": "B0E313",
+    "slug": "inchWorm"
+  },
+  {
+    "name": "Bright Red",
+    "hex": "B10000",
+    "slug": "brightRed"
+  },
+  {
+    "name": "Vesuvius",
+    "hex": "B14A0B",
+    "slug": "vesuvius"
+  },
+  {
+    "name": "Pumpkin Skin",
+    "hex": "B1610B",
+    "slug": "pumpkinSkin"
+  },
+  {
+    "name": "Santa Fe",
+    "hex": "B16D52",
+    "slug": "santaFe"
+  },
+  {
+    "name": "Teak",
+    "hex": "B19461",
+    "slug": "teak"
+  },
+  {
+    "name": "Fringy Flower",
+    "hex": "B1E2C1",
+    "slug": "fringyFlower"
+  },
+  {
+    "name": "Ice Cold",
+    "hex": "B1F4E7",
+    "slug": "iceCold"
+  },
+  {
+    "name": "Shiraz",
+    "hex": "B20931",
+    "slug": "shiraz"
+  },
+  {
+    "name": "Biloba Flower",
+    "hex": "B2A1EA",
+    "slug": "bilobaFlower"
+  },
+  {
+    "name": "Tall Poppy",
+    "hex": "B32D29",
+    "slug": "tallPoppy"
+  },
+  {
+    "name": "Fiery Orange",
+    "hex": "B35213",
+    "slug": "fieryOrange"
+  },
+  {
+    "name": "Hot Toddy",
+    "hex": "B38007",
+    "slug": "hotToddy"
+  },
+  {
+    "name": "Taupe Gray",
+    "hex": "B3AF95",
+    "slug": "taupeGray"
+  },
+  {
+    "name": "La Rioja",
+    "hex": "B3C110",
+    "slug": "laRioja"
+  },
+  {
+    "name": "Well Read",
+    "hex": "B43332",
+    "slug": "wellRead"
+  },
+  {
+    "name": "Blush",
+    "hex": "B44668",
+    "slug": "blush"
+  },
+  {
+    "name": "Jungle Mist",
+    "hex": "B4CFD3",
+    "slug": "jungleMist"
+  },
+  {
+    "name": "Turkish Rose",
+    "hex": "B57281",
+    "slug": "turkishRose"
+  },
+  {
+    "name": "Lavender",
+    "hex": "B57EDC",
+    "slug": "lavender"
+  },
+  {
+    "name": "Mongoose",
+    "hex": "B5A27F",
+    "slug": "mongoose"
+  },
+  {
+    "name": "Olive Green",
+    "hex": "B5B35C",
+    "slug": "oliveGreen"
+  },
+  {
+    "name": "Jet Stream",
+    "hex": "B5D2CE",
+    "slug": "jetStream"
+  },
+  {
+    "name": "Cruise",
+    "hex": "B5ECDF",
+    "slug": "cruise"
+  },
+  {
+    "name": "Hibiscus",
+    "hex": "B6316C",
+    "slug": "hibiscus"
+  },
+  {
+    "name": "Thatch",
+    "hex": "B69D98",
+    "slug": "thatch"
+  },
+  {
+    "name": "Heathered Gray",
+    "hex": "B6B095",
+    "slug": "heatheredGray"
+  },
+  {
+    "name": "Eagle",
+    "hex": "B6BAA4",
+    "slug": "eagle"
+  },
+  {
+    "name": "Spindle",
+    "hex": "B6D1EA",
+    "slug": "spindle"
+  },
+  {
+    "name": "Gum Leaf",
+    "hex": "B6D3BF",
+    "slug": "gumLeaf"
+  },
+  {
+    "name": "Rust",
+    "hex": "B7410E",
+    "slug": "rust"
+  },
+  {
+    "name": "Muddy Waters",
+    "hex": "B78E5C",
+    "slug": "muddyWaters"
+  },
+  {
+    "name": "Sahara",
+    "hex": "B7A214",
+    "slug": "sahara"
+  },
+  {
+    "name": "Husk",
+    "hex": "B7A458",
+    "slug": "husk"
+  },
+  {
+    "name": "Nobel",
+    "hex": "B7B1B1",
+    "slug": "nobel"
+  },
+  {
+    "name": "Heather",
+    "hex": "B7C3D0",
+    "slug": "heather"
+  },
+  {
+    "name": "Madang",
+    "hex": "B7F0BE",
+    "slug": "madang"
+  },
+  {
+    "name": "Milano Red",
+    "hex": "B81104",
+    "slug": "milanoRed"
+  },
+  {
+    "name": "Copper",
+    "hex": "B87333",
+    "slug": "copper"
+  },
+  {
+    "name": "Gimblet",
+    "hex": "B8B56A",
+    "slug": "gimblet"
+  },
+  {
+    "name": "Green Spring",
+    "hex": "B8C1B1",
+    "slug": "greenSpring"
+  },
+  {
+    "name": "Celery",
+    "hex": "B8C25D",
+    "slug": "celery"
+  },
+  {
+    "name": "Sail",
+    "hex": "B8E0F9",
+    "slug": "sail"
+  },
+  {
+    "name": "Chestnut",
+    "hex": "B94E48",
+    "slug": "chestnut"
+  },
+  {
+    "name": "Crail",
+    "hex": "B95140",
+    "slug": "crail"
+  },
+  {
+    "name": "Marigold",
+    "hex": "B98D28",
+    "slug": "marigold"
+  },
+  {
+    "name": "Wild Willow",
+    "hex": "B9C46A",
+    "slug": "wildWillow"
+  },
+  {
+    "name": "Rainee",
+    "hex": "B9C8AC",
+    "slug": "rainee"
+  },
+  {
+    "name": "Guardsman Red",
+    "hex": "BA0101",
+    "slug": "guardsmanRed"
+  },
+  {
+    "name": "Rock Spray",
+    "hex": "BA450C",
+    "slug": "rockSpray"
+  },
+  {
+    "name": "Bourbon",
+    "hex": "BA6F1E",
+    "slug": "bourbon"
+  },
+  {
+    "name": "Pirate Gold",
+    "hex": "BA7F03",
+    "slug": "pirateGold"
+  },
+  {
+    "name": "Nomad",
+    "hex": "BAB1A2",
+    "slug": "nomad"
+  },
+  {
+    "name": "Submarine",
+    "hex": "BAC7C9",
+    "slug": "submarine"
+  },
+  {
+    "name": "Charlotte",
+    "hex": "BAEEF9",
+    "slug": "charlotte"
+  },
+  {
+    "name": "Medium Red Violet",
+    "hex": "BB3385",
+    "slug": "mediumRedViolet"
+  },
+  {
+    "name": "Brandy Rose",
+    "hex": "BB8983",
+    "slug": "brandyRose"
+  },
+  {
+    "name": "Rio Grande",
+    "hex": "BBD009",
+    "slug": "rioGrande"
+  },
+  {
+    "name": "Surf",
+    "hex": "BBD7C1",
+    "slug": "surf"
+  },
+  {
+    "name": "Powder Ash",
+    "hex": "BCC9C2",
+    "slug": "powderAsh"
+  },
+  {
+    "name": "Tuscany",
+    "hex": "BD5E2E",
+    "slug": "tuscany"
+  },
+  {
+    "name": "Quicksand",
+    "hex": "BD978E",
+    "slug": "quicksand"
+  },
+  {
+    "name": "Silk",
+    "hex": "BDB1A8",
+    "slug": "silk"
+  },
+  {
+    "name": "Malta",
+    "hex": "BDB2A1",
+    "slug": "malta"
+  },
+  {
+    "name": "Chatelle",
+    "hex": "BDB3C7",
+    "slug": "chatelle"
+  },
+  {
+    "name": "Lavender Gray",
+    "hex": "BDBBD7",
+    "slug": "lavenderGray"
+  },
+  {
+    "name": "French Gray",
+    "hex": "BDBDC6",
+    "slug": "frenchGray"
+  },
+  {
+    "name": "Clay Ash",
+    "hex": "BDC8B3",
+    "slug": "clayAsh"
+  },
+  {
+    "name": "Loblolly",
+    "hex": "BDC9CE",
+    "slug": "loblolly"
+  },
+  {
+    "name": "French Pass",
+    "hex": "BDEDFD",
+    "slug": "frenchPass"
+  },
+  {
+    "name": "London Hue",
+    "hex": "BEA6C3",
+    "slug": "londonHue"
+  },
+  {
+    "name": "Pink Swan",
+    "hex": "BEB5B7",
+    "slug": "pinkSwan"
+  },
+  {
+    "name": "Fuego",
+    "hex": "BEDE0D",
+    "slug": "fuego"
+  },
+  {
+    "name": "Rose of Sharon",
+    "hex": "BF5500",
+    "slug": "roseOfSharon"
+  },
+  {
+    "name": "Tide",
+    "hex": "BFB8B0",
+    "slug": "tide"
+  },
+  {
+    "name": "Blue Haze",
+    "hex": "BFBED8",
+    "slug": "blueHaze"
+  },
+  {
+    "name": "Silver Sand",
+    "hex": "BFC1C2",
+    "slug": "silverSand"
+  },
+  {
+    "name": "Key Lime Pie",
+    "hex": "BFC921",
+    "slug": "keyLimePie"
+  },
+  {
+    "name": "Ziggurat",
+    "hex": "BFDBE2",
+    "slug": "ziggurat"
+  },
+  {
+    "name": "Lime",
+    "hex": "BFFF00",
+    "slug": "lime"
+  },
+  {
+    "name": "Thunderbird",
+    "hex": "C02B18",
+    "slug": "thunderbird"
+  },
+  {
+    "name": "Mojo",
+    "hex": "C04737",
+    "slug": "mojo"
+  },
+  {
+    "name": "Old Rose",
+    "hex": "C08081",
+    "slug": "oldRose"
+  },
+  {
+    "name": "Silver",
+    "hex": "C0C0C0",
+    "slug": "silver"
+  },
+  {
+    "name": "Pale Leaf",
+    "hex": "C0D3B9",
+    "slug": "paleLeaf"
+  },
+  {
+    "name": "Pixie Green",
+    "hex": "C0D8B6",
+    "slug": "pixieGreen"
+  },
+  {
+    "name": "Tia Maria",
+    "hex": "C1440E",
+    "slug": "tiaMaria"
+  },
+  {
+    "name": "Fuchsia Pink",
+    "hex": "C154C1",
+    "slug": "fuchsiaPink"
+  },
+  {
+    "name": "Buddha Gold",
+    "hex": "C1A004",
+    "slug": "buddhaGold"
+  },
+  {
+    "name": "Bison Hide",
+    "hex": "C1B7A4",
+    "slug": "bisonHide"
+  },
+  {
+    "name": "Tea",
+    "hex": "C1BAB0",
+    "slug": "tea"
+  },
+  {
+    "name": "Gray Suit",
+    "hex": "C1BECD",
+    "slug": "graySuit"
+  },
+  {
+    "name": "Sprout",
+    "hex": "C1D7B0",
+    "slug": "sprout"
+  },
+  {
+    "name": "Sulu",
+    "hex": "C1F07C",
+    "slug": "sulu"
+  },
+  {
+    "name": "Indochine",
+    "hex": "C26B03",
+    "slug": "indochine"
+  },
+  {
+    "name": "Twine",
+    "hex": "C2955D",
+    "slug": "twine"
+  },
+  {
+    "name": "Cotton Seed",
+    "hex": "C2BDB6",
+    "slug": "cottonSeed"
+  },
+  {
+    "name": "Pumice",
+    "hex": "C2CAC4",
+    "slug": "pumice"
+  },
+  {
+    "name": "Jagged Ice",
+    "hex": "C2E8E5",
+    "slug": "jaggedIce"
+  },
+  {
+    "name": "Maroon Flush",
+    "hex": "C32148",
+    "slug": "maroonFlush"
+  },
+  {
+    "name": "Indian Khaki",
+    "hex": "C3B091",
+    "slug": "indianKhaki"
+  },
+  {
+    "name": "Pale Slate",
+    "hex": "C3BFC1",
+    "slug": "paleSlate"
+  },
+  {
+    "name": "Gray Nickel",
+    "hex": "C3C3BD",
+    "slug": "grayNickel"
+  },
+  {
+    "name": "Periwinkle Gray",
+    "hex": "C3CDE6",
+    "slug": "periwinkleGray"
+  },
+  {
+    "name": "Tiara",
+    "hex": "C3D1D1",
+    "slug": "tiara"
+  },
+  {
+    "name": "Tropical Blue",
+    "hex": "C3DDF9",
+    "slug": "tropicalBlue"
+  },
+  {
+    "name": "Cardinal",
+    "hex": "C41E3A",
+    "slug": "cardinal"
+  },
+  {
+    "name": "Fuzzy Wuzzy Brown",
+    "hex": "C45655",
+    "slug": "fuzzyWuzzyBrown"
+  },
+  {
+    "name": "Orange Roughy",
+    "hex": "C45719",
+    "slug": "orangeRoughy"
+  },
+  {
+    "name": "Mist Gray",
+    "hex": "C4C4BC",
+    "slug": "mistGray"
+  },
+  {
+    "name": "Coriander",
+    "hex": "C4D0B0",
+    "slug": "coriander"
+  },
+  {
+    "name": "Mint Tulip",
+    "hex": "C4F4EB",
+    "slug": "mintTulip"
+  },
+  {
+    "name": "Mulberry",
+    "hex": "C54B8C",
+    "slug": "mulberry"
+  },
+  {
+    "name": "Nugget",
+    "hex": "C59922",
+    "slug": "nugget"
+  },
+  {
+    "name": "Tussock",
+    "hex": "C5994B",
+    "slug": "tussock"
+  },
+  {
+    "name": "Sea Mist",
+    "hex": "C5DBCA",
+    "slug": "seaMist"
+  },
+  {
+    "name": "Yellow Green",
+    "hex": "C5E17A",
+    "slug": "yellowGreen"
+  },
+  {
+    "name": "Brick Red",
+    "hex": "C62D42",
+    "slug": "brickRed"
+  },
+  {
+    "name": "Contessa",
+    "hex": "C6726B",
+    "slug": "contessa"
+  },
+  {
+    "name": "Oriental Pink",
+    "hex": "C69191",
+    "slug": "orientalPink"
+  },
+  {
+    "name": "Roti",
+    "hex": "C6A84B",
+    "slug": "roti"
+  },
+  {
+    "name": "Ash",
+    "hex": "C6C3B5",
+    "slug": "ash"
+  },
+  {
+    "name": "Kangaroo",
+    "hex": "C6C8BD",
+    "slug": "kangaroo"
+  },
+  {
+    "name": "Las Palmas",
+    "hex": "C6E610",
+    "slug": "lasPalmas"
+  },
+  {
+    "name": "Monza",
+    "hex": "C7031E",
+    "slug": "monza"
+  },
+  {
+    "name": "Red Violet",
+    "hex": "C71585",
+    "slug": "redViolet"
+  },
+  {
+    "name": "Coral Reef",
+    "hex": "C7BCA2",
+    "slug": "coralReef"
+  },
+  {
+    "name": "Melrose",
+    "hex": "C7C1FF",
+    "slug": "melrose"
+  },
+  {
+    "name": "Cloud",
+    "hex": "C7C4BF",
+    "slug": "cloud"
+  },
+  {
+    "name": "Ghost",
+    "hex": "C7C9D5",
+    "slug": "ghost"
+  },
+  {
+    "name": "Pine Glade",
+    "hex": "C7CD90",
+    "slug": "pineGlade"
+  },
+  {
+    "name": "Botticelli",
+    "hex": "C7DDE5",
+    "slug": "botticelli"
+  },
+  {
+    "name": "Antique Brass",
+    "hex": "C88A65",
+    "slug": "antiqueBrass"
+  },
+  {
+    "name": "Lilac",
+    "hex": "C8A2C8",
+    "slug": "lilac"
+  },
+  {
+    "name": "Hokey Pokey",
+    "hex": "C8A528",
+    "slug": "hokeyPokey"
+  },
+  {
+    "name": "Lily",
+    "hex": "C8AABF",
+    "slug": "lily"
+  },
+  {
+    "name": "Laser",
+    "hex": "C8B568",
+    "slug": "laser"
+  },
+  {
+    "name": "Edgewater",
+    "hex": "C8E3D7",
+    "slug": "edgewater"
+  },
+  {
+    "name": "Piper",
+    "hex": "C96323",
+    "slug": "piper"
+  },
+  {
+    "name": "Pizza",
+    "hex": "C99415",
+    "slug": "pizza"
+  },
+  {
+    "name": "Light Wisteria",
+    "hex": "C9A0DC",
+    "slug": "lightWisteria"
+  },
+  {
+    "name": "Rodeo Dust",
+    "hex": "C9B29B",
+    "slug": "rodeoDust"
+  },
+  {
+    "name": "Sundance",
+    "hex": "C9B35B",
+    "slug": "sundance"
+  },
+  {
+    "name": "Earls Green",
+    "hex": "C9B93B",
+    "slug": "earlsGreen"
+  },
+  {
+    "name": "Silver Rust",
+    "hex": "C9C0BB",
+    "slug": "silverRust"
+  },
+  {
+    "name": "Conch",
+    "hex": "C9D9D2",
+    "slug": "conch"
+  },
+  {
+    "name": "Reef",
+    "hex": "C9FFA2",
+    "slug": "reef"
+  },
+  {
+    "name": "Aero Blue",
+    "hex": "C9FFE5",
+    "slug": "aeroBlue"
+  },
+  {
+    "name": "Flush Mahogany",
+    "hex": "CA3435",
+    "slug": "flushMahogany"
+  },
+  {
+    "name": "Turmeric",
+    "hex": "CABB48",
+    "slug": "turmeric"
+  },
+  {
+    "name": "Paris White",
+    "hex": "CADCD4",
+    "slug": "parisWhite"
+  },
+  {
+    "name": "Bitter Lemon",
+    "hex": "CAE00D",
+    "slug": "bitterLemon"
+  },
+  {
+    "name": "Skeptic",
+    "hex": "CAE6DA",
+    "slug": "skeptic"
+  },
+  {
+    "name": "Viola",
+    "hex": "CB8FA9",
+    "slug": "viola"
+  },
+  {
+    "name": "Foggy Gray",
+    "hex": "CBCAB6",
+    "slug": "foggyGray"
+  },
+  {
+    "name": "Green Mist",
+    "hex": "CBD3B0",
+    "slug": "greenMist"
+  },
+  {
+    "name": "Nebula",
+    "hex": "CBDBD6",
+    "slug": "nebula"
+  },
+  {
+    "name": "Persian Red",
+    "hex": "CC3333",
+    "slug": "persianRed"
+  },
+  {
+    "name": "Burnt Orange",
+    "hex": "CC5500",
+    "slug": "burntOrange"
+  },
+  {
+    "name": "Ochre",
+    "hex": "CC7722",
+    "slug": "ochre"
+  },
+  {
+    "name": "Puce",
+    "hex": "CC8899",
+    "slug": "puce"
+  },
+  {
+    "name": "Thistle Green",
+    "hex": "CCCAA8",
+    "slug": "thistleGreen"
+  },
+  {
+    "name": "Periwinkle",
+    "hex": "CCCCFF",
+    "slug": "periwinkle"
+  },
+  {
+    "name": "Electric Lime",
+    "hex": "CCFF00",
+    "slug": "electricLime"
+  },
+  {
+    "name": "Tenn",
+    "hex": "CD5700",
+    "slug": "tenn"
+  },
+  {
+    "name": "Chestnut Rose",
+    "hex": "CD5C5C",
+    "slug": "chestnutRose"
+  },
+  {
+    "name": "Brandy Punch",
+    "hex": "CD8429",
+    "slug": "brandyPunch"
+  },
+  {
+    "name": "Onahau",
+    "hex": "CDF4FF",
+    "slug": "onahau"
+  },
+  {
+    "name": "Sorrell Brown",
+    "hex": "CEB98F",
+    "slug": "sorrellBrown"
+  },
+  {
+    "name": "Cold Turkey",
+    "hex": "CEBABA",
+    "slug": "coldTurkey"
+  },
+  {
+    "name": "Yuma",
+    "hex": "CEC291",
+    "slug": "yuma"
+  },
+  {
+    "name": "Chino",
+    "hex": "CEC7A7",
+    "slug": "chino"
+  },
+  {
+    "name": "Eunry",
+    "hex": "CFA39D",
+    "slug": "eunry"
+  },
+  {
+    "name": "Old Gold",
+    "hex": "CFB53B",
+    "slug": "oldGold"
+  },
+  {
+    "name": "Tasman",
+    "hex": "CFDCCF",
+    "slug": "tasman"
+  },
+  {
+    "name": "Surf Crest",
+    "hex": "CFE5D2",
+    "slug": "surfCrest"
+  },
+  {
+    "name": "Humming Bird",
+    "hex": "CFF9F3",
+    "slug": "hummingBird"
+  },
+  {
+    "name": "Scandal",
+    "hex": "CFFAF4",
+    "slug": "scandal"
+  },
+  {
+    "name": "Red Stage",
+    "hex": "D05F04",
+    "slug": "redStage"
+  },
+  {
+    "name": "Hopbush",
+    "hex": "D06DA1",
+    "slug": "hopbush"
+  },
+  {
+    "name": "Meteor",
+    "hex": "D07D12",
+    "slug": "meteor"
+  },
+  {
+    "name": "Perfume",
+    "hex": "D0BEF8",
+    "slug": "perfume"
+  },
+  {
+    "name": "Prelude",
+    "hex": "D0C0E5",
+    "slug": "prelude"
+  },
+  {
+    "name": "Tea Green",
+    "hex": "D0F0C0",
+    "slug": "teaGreen"
+  },
+  {
+    "name": "Geebung",
+    "hex": "D18F1B",
+    "slug": "geebung"
+  },
+  {
+    "name": "Vanilla",
+    "hex": "D1BEA8",
+    "slug": "vanilla"
+  },
+  {
+    "name": "Soft Amber",
+    "hex": "D1C6B4",
+    "slug": "softAmber"
+  },
+  {
+    "name": "Celeste",
+    "hex": "D1D2CA",
+    "slug": "celeste"
+  },
+  {
+    "name": "Mischka",
+    "hex": "D1D2DD",
+    "slug": "mischka"
+  },
+  {
+    "name": "Pear",
+    "hex": "D1E231",
+    "slug": "pear"
+  },
+  {
+    "name": "Hot Cinnamon",
+    "hex": "D2691E",
+    "slug": "hotCinnamon"
+  },
+  {
+    "name": "Raw Sienna",
+    "hex": "D27D46",
+    "slug": "rawSienna"
+  },
+  {
+    "name": "Careys Pink",
+    "hex": "D29EAA",
+    "slug": "careysPink"
+  },
+  {
+    "name": "Tan",
+    "hex": "D2B48C",
+    "slug": "tan"
+  },
+  {
+    "name": "Deco",
+    "hex": "D2DA97",
+    "slug": "deco"
+  },
+  {
+    "name": "Blue Romance",
+    "hex": "D2F6DE",
+    "slug": "blueRomance"
+  },
+  {
+    "name": "Gossip",
+    "hex": "D2F8B0",
+    "slug": "gossip"
+  },
+  {
+    "name": "Sisal",
+    "hex": "D3CBBA",
+    "slug": "sisal"
+  },
+  {
+    "name": "Swirl",
+    "hex": "D3CDC5",
+    "slug": "swirl"
+  },
+  {
+    "name": "Charm",
+    "hex": "D47494",
+    "slug": "charm"
+  },
+  {
+    "name": "Clam Shell",
+    "hex": "D4B6AF",
+    "slug": "clamShell"
+  },
+  {
+    "name": "Straw",
+    "hex": "D4BF8D",
+    "slug": "straw"
+  },
+  {
+    "name": "Akaroa",
+    "hex": "D4C4A8",
+    "slug": "akaroa"
+  },
+  {
+    "name": "Bird Flower",
+    "hex": "D4CD16",
+    "slug": "birdFlower"
+  },
+  {
+    "name": "Iron",
+    "hex": "D4D7D9",
+    "slug": "iron"
+  },
+  {
+    "name": "Geyser",
+    "hex": "D4DFE2",
+    "slug": "geyser"
+  },
+  {
+    "name": "Hawkes Blue",
+    "hex": "D4E2FC",
+    "slug": "hawkesBlue"
+  },
+  {
+    "name": "Grenadier",
+    "hex": "D54600",
+    "slug": "grenadier"
+  },
+  {
+    "name": "Can Can",
+    "hex": "D591A4",
+    "slug": "canCan"
+  },
+  {
+    "name": "Whiskey",
+    "hex": "D59A6F",
+    "slug": "whiskey"
+  },
+  {
+    "name": "Winter Hazel",
+    "hex": "D5D195",
+    "slug": "winterHazel"
+  },
+  {
+    "name": "Granny Apple",
+    "hex": "D5F6E3",
+    "slug": "grannyApple"
+  },
+  {
+    "name": "My Pink",
+    "hex": "D69188",
+    "slug": "myPink"
+  },
+  {
+    "name": "Tacha",
+    "hex": "D6C562",
+    "slug": "tacha"
+  },
+  {
+    "name": "Moon Raker",
+    "hex": "D6CEF6",
+    "slug": "moonRaker"
+  },
+  {
+    "name": "Quill Gray",
+    "hex": "D6D6D1",
+    "slug": "quillGray"
+  },
+  {
+    "name": "Snowy Mint",
+    "hex": "D6FFDB",
+    "slug": "snowyMint"
+  },
+  {
+    "name": "New York Pink",
+    "hex": "D7837F",
+    "slug": "newYorkPink"
+  },
+  {
+    "name": "Pavlova",
+    "hex": "D7C498",
+    "slug": "pavlova"
+  },
+  {
+    "name": "Fog",
+    "hex": "D7D0FF",
+    "slug": "fog"
+  },
+  {
+    "name": "Valencia",
+    "hex": "D84437",
+    "slug": "valencia"
+  },
+  {
+    "name": "Japonica",
+    "hex": "D87C63",
+    "slug": "japonica"
+  },
+  {
+    "name": "Thistle",
+    "hex": "D8BFD8",
+    "slug": "thistle"
+  },
+  {
+    "name": "Maverick",
+    "hex": "D8C2D5",
+    "slug": "maverick"
+  },
+  {
+    "name": "Foam",
+    "hex": "D8FCFA",
+    "slug": "foam"
+  },
+  {
+    "name": "Cabaret",
+    "hex": "D94972",
+    "slug": "cabaret"
+  },
+  {
+    "name": "Burning Sand",
+    "hex": "D99376",
+    "slug": "burningSand"
+  },
+  {
+    "name": "Cameo",
+    "hex": "D9B99B",
+    "slug": "cameo"
+  },
+  {
+    "name": "Timberwolf",
+    "hex": "D9D6CF",
+    "slug": "timberwolf"
+  },
+  {
+    "name": "Tana",
+    "hex": "D9DCC1",
+    "slug": "tana"
+  },
+  {
+    "name": "Link Water",
+    "hex": "D9E4F5",
+    "slug": "linkWater"
+  },
+  {
+    "name": "Mabel",
+    "hex": "D9F7FF",
+    "slug": "mabel"
+  },
+  {
+    "name": "Cerise",
+    "hex": "DA3287",
+    "slug": "cerise"
+  },
+  {
+    "name": "Flame Pea",
+    "hex": "DA5B38",
+    "slug": "flamePea"
+  },
+  {
+    "name": "Bamboo",
+    "hex": "DA6304",
+    "slug": "bamboo"
+  },
+  {
+    "name": "Red Damask",
+    "hex": "DA6A41",
+    "slug": "redDamask"
+  },
+  {
+    "name": "Orchid",
+    "hex": "DA70D6",
+    "slug": "orchid"
+  },
+  {
+    "name": "Copperfield",
+    "hex": "DA8A67",
+    "slug": "copperfield"
+  },
+  {
+    "name": "Golden Grass",
+    "hex": "DAA520",
+    "slug": "goldenGrass"
+  },
+  {
+    "name": "Zanah",
+    "hex": "DAECD6",
+    "slug": "zanah"
+  },
+  {
+    "name": "Iceberg",
+    "hex": "DAF4F0",
+    "slug": "iceberg"
+  },
+  {
+    "name": "Oyster Bay",
+    "hex": "DAFAFF",
+    "slug": "oysterBay"
+  },
+  {
+    "name": "Cranberry",
+    "hex": "DB5079",
+    "slug": "cranberry"
+  },
+  {
+    "name": "Petite Orchid",
+    "hex": "DB9690",
+    "slug": "petiteOrchid"
+  },
+  {
+    "name": "Di Serria",
+    "hex": "DB995E",
+    "slug": "diSerria"
+  },
+  {
+    "name": "Alto",
+    "hex": "DBDBDB",
+    "slug": "alto"
+  },
+  {
+    "name": "Frosted Mint",
+    "hex": "DBFFF8",
+    "slug": "frostedMint"
+  },
+  {
+    "name": "Crimson",
+    "hex": "DC143C",
+    "slug": "crimson"
+  },
+  {
+    "name": "Punch",
+    "hex": "DC4333",
+    "slug": "punch"
+  },
+  {
+    "name": "Galliano",
+    "hex": "DCB20C",
+    "slug": "galliano"
+  },
+  {
+    "name": "Blossom",
+    "hex": "DCB4BC",
+    "slug": "blossom"
+  },
+  {
+    "name": "Wattle",
+    "hex": "DCD747",
+    "slug": "wattle"
+  },
+  {
+    "name": "Westar",
+    "hex": "DCD9D2",
+    "slug": "westar"
+  },
+  {
+    "name": "Moon Mist",
+    "hex": "DCDDCC",
+    "slug": "moonMist"
+  },
+  {
+    "name": "Caper",
+    "hex": "DCEDB4",
+    "slug": "caper"
+  },
+  {
+    "name": "Swans Down",
+    "hex": "DCF0EA",
+    "slug": "swansDown"
+  },
+  {
+    "name": "Swiss Coffee",
+    "hex": "DDD6D5",
+    "slug": "swissCoffee"
+  },
+  {
+    "name": "White Ice",
+    "hex": "DDF9F1",
+    "slug": "whiteIce"
+  },
+  {
+    "name": "Cerise Red",
+    "hex": "DE3163",
+    "slug": "ceriseRed"
+  },
+  {
+    "name": "Roman",
+    "hex": "DE6360",
+    "slug": "roman"
+  },
+  {
+    "name": "Tumbleweed",
+    "hex": "DEA681",
+    "slug": "tumbleweed"
+  },
+  {
+    "name": "Gold Tips",
+    "hex": "DEBA13",
+    "slug": "goldTips"
+  },
+  {
+    "name": "Brandy",
+    "hex": "DEC196",
+    "slug": "brandy"
+  },
+  {
+    "name": "Wafer",
+    "hex": "DECBC6",
+    "slug": "wafer"
+  },
+  {
+    "name": "Sapling",
+    "hex": "DED4A4",
+    "slug": "sapling"
+  },
+  {
+    "name": "Barberry",
+    "hex": "DED717",
+    "slug": "barberry"
+  },
+  {
+    "name": "Beryl Green",
+    "hex": "DEE5C0",
+    "slug": "berylGreen"
+  },
+  {
+    "name": "Pattens Blue",
+    "hex": "DEF5FF",
+    "slug": "pattensBlue"
+  },
+  {
+    "name": "Heliotrope",
+    "hex": "DF73FF",
+    "slug": "heliotrope"
+  },
+  {
+    "name": "Apache",
+    "hex": "DFBE6F",
+    "slug": "apache"
+  },
+  {
+    "name": "Chenin",
+    "hex": "DFCD6F",
+    "slug": "chenin"
+  },
+  {
+    "name": "Lola",
+    "hex": "DFCFDB",
+    "slug": "lola"
+  },
+  {
+    "name": "Willow Brook",
+    "hex": "DFECDA",
+    "slug": "willowBrook"
+  },
+  {
+    "name": "Chartreuse Yellow",
+    "hex": "DFFF00",
+    "slug": "chartreuseYellow"
+  },
+  {
+    "name": "Mauve",
+    "hex": "E0B0FF",
+    "slug": "mauve"
+  },
+  {
+    "name": "Anzac",
+    "hex": "E0B646",
+    "slug": "anzac"
+  },
+  {
+    "name": "Harvest Gold",
+    "hex": "E0B974",
+    "slug": "harvestGold"
+  },
+  {
+    "name": "Calico",
+    "hex": "E0C095",
+    "slug": "calico"
+  },
+  {
+    "name": "Baby Blue",
+    "hex": "E0FFFF",
+    "slug": "babyBlue"
+  },
+  {
+    "name": "Sunglo",
+    "hex": "E16865",
+    "slug": "sunglo"
+  },
+  {
+    "name": "Equator",
+    "hex": "E1BC64",
+    "slug": "equator"
+  },
+  {
+    "name": "Pink Flare",
+    "hex": "E1C0C8",
+    "slug": "pinkFlare"
+  },
+  {
+    "name": "Periglacial Blue",
+    "hex": "E1E6D6",
+    "slug": "periglacialBlue"
+  },
+  {
+    "name": "Kidnapper",
+    "hex": "E1EAD4",
+    "slug": "kidnapper"
+  },
+  {
+    "name": "Tara",
+    "hex": "E1F6E8",
+    "slug": "tara"
+  },
+  {
+    "name": "Mandy",
+    "hex": "E25465",
+    "slug": "mandy"
+  },
+  {
+    "name": "Terracotta",
+    "hex": "E2725B",
+    "slug": "terracotta"
+  },
+  {
+    "name": "Golden Bell",
+    "hex": "E28913",
+    "slug": "goldenBell"
+  },
+  {
+    "name": "Shocking",
+    "hex": "E292C0",
+    "slug": "shocking"
+  },
+  {
+    "name": "Dixie",
+    "hex": "E29418",
+    "slug": "dixie"
+  },
+  {
+    "name": "Light Orchid",
+    "hex": "E29CD2",
+    "slug": "lightOrchid"
+  },
+  {
+    "name": "Snuff",
+    "hex": "E2D8ED",
+    "slug": "snuff"
+  },
+  {
+    "name": "Mystic",
+    "hex": "E2EBED",
+    "slug": "mystic"
+  },
+  {
+    "name": "Apple Green",
+    "hex": "E2F3EC",
+    "slug": "appleGreen"
+  },
+  {
+    "name": "Razzmatazz",
+    "hex": "E30B5C",
+    "slug": "razzmatazz"
+  },
+  {
+    "name": "Alizarin Crimson",
+    "hex": "E32636",
+    "slug": "alizarinCrimson"
+  },
+  {
+    "name": "Cinnabar",
+    "hex": "E34234",
+    "slug": "cinnabar"
+  },
+  {
+    "name": "Cavern Pink",
+    "hex": "E3BEBE",
+    "slug": "cavernPink"
+  },
+  {
+    "name": "Peppermint",
+    "hex": "E3F5E1",
+    "slug": "peppermint"
+  },
+  {
+    "name": "Mindaro",
+    "hex": "E3F988",
+    "slug": "mindaro"
+  },
+  {
+    "name": "Deep Blush",
+    "hex": "E47698",
+    "slug": "deepBlush"
+  },
+  {
+    "name": "Gamboge",
+    "hex": "E49B0F",
+    "slug": "gamboge"
+  },
+  {
+    "name": "Melanie",
+    "hex": "E4C2D5",
+    "slug": "melanie"
+  },
+  {
+    "name": "Twilight",
+    "hex": "E4CFDE",
+    "slug": "twilight"
+  },
+  {
+    "name": "Bone",
+    "hex": "E4D1C0",
+    "slug": "bone"
+  },
+  {
+    "name": "Sunflower",
+    "hex": "E4D422",
+    "slug": "sunflower"
+  },
+  {
+    "name": "Grain Brown",
+    "hex": "E4D5B7",
+    "slug": "grainBrown"
+  },
+  {
+    "name": "Zombie",
+    "hex": "E4D69B",
+    "slug": "zombie"
+  },
+  {
+    "name": "Frostee",
+    "hex": "E4F6E7",
+    "slug": "frostee"
+  },
+  {
+    "name": "Snow Flurry",
+    "hex": "E4FFD1",
+    "slug": "snowFlurry"
+  },
+  {
+    "name": "Amaranth",
+    "hex": "E52B50",
+    "slug": "amaranth"
+  },
+  {
+    "name": "Zest",
+    "hex": "E5841B",
+    "slug": "zest"
+  },
+  {
+    "name": "Dust Storm",
+    "hex": "E5CCC9",
+    "slug": "dustStorm"
+  },
+  {
+    "name": "Stark White",
+    "hex": "E5D7BD",
+    "slug": "starkWhite"
+  },
+  {
+    "name": "Hampton",
+    "hex": "E5D8AF",
+    "slug": "hampton"
+  },
+  {
+    "name": "Bon Jour",
+    "hex": "E5E0E1",
+    "slug": "bonJour"
+  },
+  {
+    "name": "Mercury",
+    "hex": "E5E5E5",
+    "slug": "mercury"
+  },
+  {
+    "name": "Polar",
+    "hex": "E5F9F6",
+    "slug": "polar"
+  },
+  {
+    "name": "Trinidad",
+    "hex": "E64E03",
+    "slug": "trinidad"
+  },
+  {
+    "name": "Gold Sand",
+    "hex": "E6BE8A",
+    "slug": "goldSand"
+  },
+  {
+    "name": "Cashmere",
+    "hex": "E6BEA5",
+    "slug": "cashmere"
+  },
+  {
+    "name": "Double Spanish White",
+    "hex": "E6D7B9",
+    "slug": "doubleSpanishWhite"
+  },
+  {
+    "name": "Satin Linen",
+    "hex": "E6E4D4",
+    "slug": "satinLinen"
+  },
+  {
+    "name": "Harp",
+    "hex": "E6F2EA",
+    "slug": "harp"
+  },
+  {
+    "name": "Off Green",
+    "hex": "E6F8F3",
+    "slug": "offGreen"
+  },
+  {
+    "name": "Hint of Green",
+    "hex": "E6FFE9",
+    "slug": "hintOfGreen"
+  },
+  {
+    "name": "Tranquil",
+    "hex": "E6FFFF",
+    "slug": "tranquil"
+  },
+  {
+    "name": "Mango Tango",
+    "hex": "E77200",
+    "slug": "mangoTango"
+  },
+  {
+    "name": "Christine",
+    "hex": "E7730A",
+    "slug": "christine"
+  },
+  {
+    "name": "Tonys Pink",
+    "hex": "E79F8C",
+    "slug": "tonysPink"
+  },
+  {
+    "name": "Kobi",
+    "hex": "E79FC4",
+    "slug": "kobi"
+  },
+  {
+    "name": "Rose Fog",
+    "hex": "E7BCB4",
+    "slug": "roseFog"
+  },
+  {
+    "name": "Corn",
+    "hex": "E7BF05",
+    "slug": "corn"
+  },
+  {
+    "name": "Putty",
+    "hex": "E7CD8C",
+    "slug": "putty"
+  },
+  {
+    "name": "Gray Nurse",
+    "hex": "E7ECE6",
+    "slug": "grayNurse"
+  },
+  {
+    "name": "Lily White",
+    "hex": "E7F8FF",
+    "slug": "lilyWhite"
+  },
+  {
+    "name": "Bubbles",
+    "hex": "E7FEFF",
+    "slug": "bubbles"
+  },
+  {
+    "name": "Fire Bush",
+    "hex": "E89928",
+    "slug": "fireBush"
+  },
+  {
+    "name": "Shilo",
+    "hex": "E8B9B3",
+    "slug": "shilo"
+  },
+  {
+    "name": "Pearl Bush",
+    "hex": "E8E0D5",
+    "slug": "pearlBush"
+  },
+  {
+    "name": "Green White",
+    "hex": "E8EBE0",
+    "slug": "greenWhite"
+  },
+  {
+    "name": "Chrome White",
+    "hex": "E8F1D4",
+    "slug": "chromeWhite"
+  },
+  {
+    "name": "Gin",
+    "hex": "E8F2EB",
+    "slug": "gin"
+  },
+  {
+    "name": "Aqua Squeeze",
+    "hex": "E8F5F2",
+    "slug": "aquaSqueeze"
+  },
+  {
+    "name": "Clementine",
+    "hex": "E96E00",
+    "slug": "clementine"
+  },
+  {
+    "name": "Burnt Sienna",
+    "hex": "E97451",
+    "slug": "burntSienna"
+  },
+  {
+    "name": "Tahiti Gold",
+    "hex": "E97C07",
+    "slug": "tahitiGold"
+  },
+  {
+    "name": "Oyster Pink",
+    "hex": "E9CECD",
+    "slug": "oysterPink"
+  },
+  {
+    "name": "Confetti",
+    "hex": "E9D75A",
+    "slug": "confetti"
+  },
+  {
+    "name": "Ebb",
+    "hex": "E9E3E3",
+    "slug": "ebb"
+  },
+  {
+    "name": "Ottoman",
+    "hex": "E9F8ED",
+    "slug": "ottoman"
+  },
+  {
+    "name": "Clear Day",
+    "hex": "E9FFFD",
+    "slug": "clearDay"
+  },
+  {
+    "name": "Carissma",
+    "hex": "EA88A8",
+    "slug": "carissma"
+  },
+  {
+    "name": "Porsche",
+    "hex": "EAAE69",
+    "slug": "porsche"
+  },
+  {
+    "name": "Tulip Tree",
+    "hex": "EAB33B",
+    "slug": "tulipTree"
+  },
+  {
+    "name": "Rob Roy",
+    "hex": "EAC674",
+    "slug": "robRoy"
+  },
+  {
+    "name": "Raffia",
+    "hex": "EADAB8",
+    "slug": "raffia"
+  },
+  {
+    "name": "White Rock",
+    "hex": "EAE8D4",
+    "slug": "whiteRock"
+  },
+  {
+    "name": "Panache",
+    "hex": "EAF6EE",
+    "slug": "panache"
+  },
+  {
+    "name": "Solitude",
+    "hex": "EAF6FF",
+    "slug": "solitude"
+  },
+  {
+    "name": "Aqua Spring",
+    "hex": "EAF9F5",
+    "slug": "aquaSpring"
+  },
+  {
+    "name": "Dew",
+    "hex": "EAFFFE",
+    "slug": "dew"
+  },
+  {
+    "name": "Apricot",
+    "hex": "EB9373",
+    "slug": "apricot"
+  },
+  {
+    "name": "Zinnwaldite",
+    "hex": "EBC2AF",
+    "slug": "zinnwaldite"
+  },
+  {
+    "name": "Fuel Yellow",
+    "hex": "ECA927",
+    "slug": "fuelYellow"
+  },
+  {
+    "name": "Ronchi",
+    "hex": "ECC54E",
+    "slug": "ronchi"
+  },
+  {
+    "name": "French Lilac",
+    "hex": "ECC7EE",
+    "slug": "frenchLilac"
+  },
+  {
+    "name": "Just Right",
+    "hex": "ECCDB9",
+    "slug": "justRight"
+  },
+  {
+    "name": "Wild Rice",
+    "hex": "ECE090",
+    "slug": "wildRice"
+  },
+  {
+    "name": "Fall Green",
+    "hex": "ECEBBD",
+    "slug": "fallGreen"
+  },
+  {
+    "name": "Aths Special",
+    "hex": "ECEBCE",
+    "slug": "athsSpecial"
+  },
+  {
+    "name": "Starship",
+    "hex": "ECF245",
+    "slug": "starship"
+  },
+  {
+    "name": "Red Ribbon",
+    "hex": "ED0A3F",
+    "slug": "redRibbon"
+  },
+  {
+    "name": "Tango",
+    "hex": "ED7A1C",
+    "slug": "tango"
+  },
+  {
+    "name": "Carrot Orange",
+    "hex": "ED9121",
+    "slug": "carrotOrange"
+  },
+  {
+    "name": "Sea Pink",
+    "hex": "ED989E",
+    "slug": "seaPink"
+  },
+  {
+    "name": "Tacao",
+    "hex": "EDB381",
+    "slug": "tacao"
+  },
+  {
+    "name": "Desert Sand",
+    "hex": "EDC9AF",
+    "slug": "desertSand"
+  },
+  {
+    "name": "Pancho",
+    "hex": "EDCDAB",
+    "slug": "pancho"
+  },
+  {
+    "name": "Chamois",
+    "hex": "EDDCB1",
+    "slug": "chamois"
+  },
+  {
+    "name": "Primrose",
+    "hex": "EDEA99",
+    "slug": "primrose"
+  },
+  {
+    "name": "Frost",
+    "hex": "EDF5DD",
+    "slug": "frost"
+  },
+  {
+    "name": "Aqua Haze",
+    "hex": "EDF5F5",
+    "slug": "aquaHaze"
+  },
+  {
+    "name": "Zumthor",
+    "hex": "EDF6FF",
+    "slug": "zumthor"
+  },
+  {
+    "name": "Narvik",
+    "hex": "EDF9F1",
+    "slug": "narvik"
+  },
+  {
+    "name": "Honeysuckle",
+    "hex": "EDFC84",
+    "slug": "honeysuckle"
+  },
+  {
+    "name": "Lavender Magenta",
+    "hex": "EE82EE",
+    "slug": "lavenderMagenta"
+  },
+  {
+    "name": "Beauty Bush",
+    "hex": "EEC1BE",
+    "slug": "beautyBush"
+  },
+  {
+    "name": "Chalky",
+    "hex": "EED794",
+    "slug": "chalky"
+  },
+  {
+    "name": "Almond",
+    "hex": "EED9C4",
+    "slug": "almond"
+  },
+  {
+    "name": "Flax",
+    "hex": "EEDC82",
+    "slug": "flax"
+  },
+  {
+    "name": "Bizarre",
+    "hex": "EEDEDA",
+    "slug": "bizarre"
+  },
+  {
+    "name": "Double Colonial White",
+    "hex": "EEE3AD",
+    "slug": "doubleColonialWhite"
+  },
+  {
+    "name": "Cararra",
+    "hex": "EEEEE8",
+    "slug": "cararra"
+  },
+  {
+    "name": "Manz",
+    "hex": "EEEF78",
+    "slug": "manz"
+  },
+  {
+    "name": "Tahuna Sands",
+    "hex": "EEF0C8",
+    "slug": "tahunaSands"
+  },
+  {
+    "name": "Athens Gray",
+    "hex": "EEF0F3",
+    "slug": "athensGray"
+  },
+  {
+    "name": "Tusk",
+    "hex": "EEF3C3",
+    "slug": "tusk"
+  },
+  {
+    "name": "Loafer",
+    "hex": "EEF4DE",
+    "slug": "loafer"
+  },
+  {
+    "name": "Catskill White",
+    "hex": "EEF6F7",
+    "slug": "catskillWhite"
+  },
+  {
+    "name": "Twilight Blue",
+    "hex": "EEFDFF",
+    "slug": "twilightBlue"
+  },
+  {
+    "name": "Jonquil",
+    "hex": "EEFF9A",
+    "slug": "jonquil"
+  },
+  {
+    "name": "Rice Flower",
+    "hex": "EEFFE2",
+    "slug": "riceFlower"
+  },
+  {
+    "name": "Jaffa",
+    "hex": "EF863F",
+    "slug": "jaffa"
+  },
+  {
+    "name": "Gallery",
+    "hex": "EFEFEF",
+    "slug": "gallery"
+  },
+  {
+    "name": "Porcelain",
+    "hex": "EFF2F3",
+    "slug": "porcelain"
+  },
+  {
+    "name": "Mauvelous",
+    "hex": "F091A9",
+    "slug": "mauvelous"
+  },
+  {
+    "name": "Golden Dream",
+    "hex": "F0D52D",
+    "slug": "goldenDream"
+  },
+  {
+    "name": "Golden Sand",
+    "hex": "F0DB7D",
+    "slug": "goldenSand"
+  },
+  {
+    "name": "Buff",
+    "hex": "F0DC82",
+    "slug": "buff"
+  },
+  {
+    "name": "Prim",
+    "hex": "F0E2EC",
+    "slug": "prim"
+  },
+  {
+    "name": "Khaki",
+    "hex": "F0E68C",
+    "slug": "khaki"
+  },
+  {
+    "name": "Selago",
+    "hex": "F0EEFD",
+    "slug": "selago"
+  },
+  {
+    "name": "Titan White",
+    "hex": "F0EEFF",
+    "slug": "titanWhite"
+  },
+  {
+    "name": "Alice Blue",
+    "hex": "F0F8FF",
+    "slug": "aliceBlue"
+  },
+  {
+    "name": "Feta",
+    "hex": "F0FCEA",
+    "slug": "feta"
+  },
+  {
+    "name": "Gold Drop",
+    "hex": "F18200",
+    "slug": "goldDrop"
+  },
+  {
+    "name": "Wewak",
+    "hex": "F19BAB",
+    "slug": "wewak"
+  },
+  {
+    "name": "Sahara Sand",
+    "hex": "F1E788",
+    "slug": "saharaSand"
+  },
+  {
+    "name": "Parchment",
+    "hex": "F1E9D2",
+    "slug": "parchment"
+  },
+  {
+    "name": "Blue Chalk",
+    "hex": "F1E9FF",
+    "slug": "blueChalk"
+  },
+  {
+    "name": "Mint Julep",
+    "hex": "F1EEC1",
+    "slug": "mintJulep"
+  },
+  {
+    "name": "Seashell",
+    "hex": "F1F1F1",
+    "slug": "seashell"
+  },
+  {
+    "name": "Saltpan",
+    "hex": "F1F7F2",
+    "slug": "saltpan"
+  },
+  {
+    "name": "Tidal",
+    "hex": "F1FFAD",
+    "slug": "tidal"
+  },
+  {
+    "name": "Chiffon",
+    "hex": "F1FFC8",
+    "slug": "chiffon"
+  },
+  {
+    "name": "Flamingo",
+    "hex": "F2552A",
+    "slug": "flamingo"
+  },
+  {
+    "name": "Tangerine",
+    "hex": "F28500",
+    "slug": "tangerine"
+  },
+  {
+    "name": "Mandys Pink",
+    "hex": "F2C3B2",
+    "slug": "mandysPink"
+  },
+  {
+    "name": "Concrete",
+    "hex": "F2F2F2",
+    "slug": "concrete"
+  },
+  {
+    "name": "Black Squeeze",
+    "hex": "F2FAFA",
+    "slug": "blackSqueeze"
+  },
+  {
+    "name": "Pomegranate",
+    "hex": "F34723",
+    "slug": "pomegranate"
+  },
+  {
+    "name": "Buttercup",
+    "hex": "F3AD16",
+    "slug": "buttercup"
+  },
+  {
+    "name": "New Orleans",
+    "hex": "F3D69D",
+    "slug": "newOrleans"
+  },
+  {
+    "name": "Vanilla Ice",
+    "hex": "F3D9DF",
+    "slug": "vanillaIce"
+  },
+  {
+    "name": "Sidecar",
+    "hex": "F3E7BB",
+    "slug": "sidecar"
+  },
+  {
+    "name": "Dawn Pink",
+    "hex": "F3E9E5",
+    "slug": "dawnPink"
+  },
+  {
+    "name": "Wheatfield",
+    "hex": "F3EDCF",
+    "slug": "wheatfield"
+  },
+  {
+    "name": "Canary",
+    "hex": "F3FB62",
+    "slug": "canary"
+  },
+  {
+    "name": "Orinoco",
+    "hex": "F3FBD4",
+    "slug": "orinoco"
+  },
+  {
+    "name": "Carla",
+    "hex": "F3FFD8",
+    "slug": "carla"
+  },
+  {
+    "name": "Hollywood Cerise",
+    "hex": "F400A1",
+    "slug": "hollywoodCerise"
+  },
+  {
+    "name": "Sandy brown",
+    "hex": "F4A460",
+    "slug": "sandyBrown"
+  },
+  {
+    "name": "Saffron",
+    "hex": "F4C430",
+    "slug": "saffron"
+  },
+  {
+    "name": "Ripe Lemon",
+    "hex": "F4D81C",
+    "slug": "ripeLemon"
+  },
+  {
+    "name": "Janna",
+    "hex": "F4EBD3",
+    "slug": "janna"
+  },
+  {
+    "name": "Pampas",
+    "hex": "F4F2EE",
+    "slug": "pampas"
+  },
+  {
+    "name": "Wild Sand",
+    "hex": "F4F4F4",
+    "slug": "wildSand"
+  },
+  {
+    "name": "Zircon",
+    "hex": "F4F8FF",
+    "slug": "zircon"
+  },
+  {
+    "name": "Froly",
+    "hex": "F57584",
+    "slug": "froly"
+  },
+  {
+    "name": "Cream Can",
+    "hex": "F5C85C",
+    "slug": "creamCan"
+  },
+  {
+    "name": "Manhattan",
+    "hex": "F5C999",
+    "slug": "manhattan"
+  },
+  {
+    "name": "Maize",
+    "hex": "F5D5A0",
+    "slug": "maize"
+  },
+  {
+    "name": "Wheat",
+    "hex": "F5DEB3",
+    "slug": "wheat"
+  },
+  {
+    "name": "Sandwisp",
+    "hex": "F5E7A2",
+    "slug": "sandwisp"
+  },
+  {
+    "name": "Pot Pourri",
+    "hex": "F5E7E2",
+    "slug": "potPourri"
+  },
+  {
+    "name": "Albescent White",
+    "hex": "F5E9D3",
+    "slug": "albescentWhite"
+  },
+  {
+    "name": "Soft Peach",
+    "hex": "F5EDEF",
+    "slug": "softPeach"
+  },
+  {
+    "name": "Ecru White",
+    "hex": "F5F3E5",
+    "slug": "ecruWhite"
+  },
+  {
+    "name": "Beige",
+    "hex": "F5F5DC",
+    "slug": "beige"
+  },
+  {
+    "name": "Golden Fizz",
+    "hex": "F5FB3D",
+    "slug": "goldenFizz"
+  },
+  {
+    "name": "Australian Mint",
+    "hex": "F5FFBE",
+    "slug": "australianMint"
+  },
+  {
+    "name": "French Rose",
+    "hex": "F64A8A",
+    "slug": "frenchRose"
+  },
+  {
+    "name": "Brilliant Rose",
+    "hex": "F653A6",
+    "slug": "brilliantRose"
+  },
+  {
+    "name": "Illusion",
+    "hex": "F6A4C9",
+    "slug": "illusion"
+  },
+  {
+    "name": "Merino",
+    "hex": "F6F0E6",
+    "slug": "merino"
+  },
+  {
+    "name": "Black Haze",
+    "hex": "F6F7F7",
+    "slug": "blackHaze"
+  },
+  {
+    "name": "Spring Sun",
+    "hex": "F6FFDC",
+    "slug": "springSun"
+  },
+  {
+    "name": "Violet Red",
+    "hex": "F7468A",
+    "slug": "violetRed"
+  },
+  {
+    "name": "Chilean Fire",
+    "hex": "F77703",
+    "slug": "chileanFire"
+  },
+  {
+    "name": "Persian Pink",
+    "hex": "F77FBE",
+    "slug": "persianPink"
+  },
+  {
+    "name": "Rajah",
+    "hex": "F7B668",
+    "slug": "rajah"
+  },
+  {
+    "name": "Azalea",
+    "hex": "F7C8DA",
+    "slug": "azalea"
+  },
+  {
+    "name": "We Peep",
+    "hex": "F7DBE6",
+    "slug": "wePeep"
+  },
+  {
+    "name": "Quarter Spanish White",
+    "hex": "F7F2E1",
+    "slug": "quarterSpanishWhite"
+  },
+  {
+    "name": "Whisper",
+    "hex": "F7F5FA",
+    "slug": "whisper"
+  },
+  {
+    "name": "Snow Drift",
+    "hex": "F7FAF7",
+    "slug": "snowDrift"
+  },
+  {
+    "name": "Casablanca",
+    "hex": "F8B853",
+    "slug": "casablanca"
+  },
+  {
+    "name": "Chantilly",
+    "hex": "F8C3DF",
+    "slug": "chantilly"
+  },
+  {
+    "name": "Cherub",
+    "hex": "F8D9E9",
+    "slug": "cherub"
+  },
+  {
+    "name": "Marzipan",
+    "hex": "F8DB9D",
+    "slug": "marzipan"
+  },
+  {
+    "name": "Energy Yellow",
+    "hex": "F8DD5C",
+    "slug": "energyYellow"
+  },
+  {
+    "name": "Givry",
+    "hex": "F8E4BF",
+    "slug": "givry"
+  },
+  {
+    "name": "White Linen",
+    "hex": "F8F0E8",
+    "slug": "whiteLinen"
+  },
+  {
+    "name": "Magnolia",
+    "hex": "F8F4FF",
+    "slug": "magnolia"
+  },
+  {
+    "name": "Spring Wood",
+    "hex": "F8F6F1",
+    "slug": "springWood"
+  },
+  {
+    "name": "Coconut Cream",
+    "hex": "F8F7DC",
+    "slug": "coconutCream"
+  },
+  {
+    "name": "White Lilac",
+    "hex": "F8F7FC",
+    "slug": "whiteLilac"
+  },
+  {
+    "name": "Desert Storm",
+    "hex": "F8F8F7",
+    "slug": "desertStorm"
+  },
+  {
+    "name": "Texas",
+    "hex": "F8F99C",
+    "slug": "texas"
+  },
+  {
+    "name": "Corn Field",
+    "hex": "F8FACD",
+    "slug": "cornField"
+  },
+  {
+    "name": "Mimosa",
+    "hex": "F8FDD3",
+    "slug": "mimosa"
+  },
+  {
+    "name": "Carnation",
+    "hex": "F95A61",
+    "slug": "carnation"
+  },
+  {
+    "name": "Saffron Mango",
+    "hex": "F9BF58",
+    "slug": "saffronMango"
+  },
+  {
+    "name": "Carousel Pink",
+    "hex": "F9E0ED",
+    "slug": "carouselPink"
+  },
+  {
+    "name": "Dairy Cream",
+    "hex": "F9E4BC",
+    "slug": "dairyCream"
+  },
+  {
+    "name": "Portica",
+    "hex": "F9E663",
+    "slug": "portica"
+  },
+  {
+    "name": "Amour",
+    "hex": "F9EAF3",
+    "slug": "amour"
+  },
+  {
+    "name": "Rum Swizzle",
+    "hex": "F9F8E4",
+    "slug": "rumSwizzle"
+  },
+  {
+    "name": "Dolly",
+    "hex": "F9FF8B",
+    "slug": "dolly"
+  },
+  {
+    "name": "Sugar Cane",
+    "hex": "F9FFF6",
+    "slug": "sugarCane"
+  },
+  {
+    "name": "Ecstasy",
+    "hex": "FA7814",
+    "slug": "ecstasy"
+  },
+  {
+    "name": "Tan Hide",
+    "hex": "FA9D5A",
+    "slug": "tanHide"
+  },
+  {
+    "name": "Corvette",
+    "hex": "FAD3A2",
+    "slug": "corvette"
+  },
+  {
+    "name": "Peach Yellow",
+    "hex": "FADFAD",
+    "slug": "peachYellow"
+  },
+  {
+    "name": "Turbo",
+    "hex": "FAE600",
+    "slug": "turbo"
+  },
+  {
+    "name": "Astra",
+    "hex": "FAEAB9",
+    "slug": "astra"
+  },
+  {
+    "name": "Champagne",
+    "hex": "FAECCC",
+    "slug": "champagne"
+  },
+  {
+    "name": "Linen",
+    "hex": "FAF0E6",
+    "slug": "linen"
+  },
+  {
+    "name": "Fantasy",
+    "hex": "FAF3F0",
+    "slug": "fantasy"
+  },
+  {
+    "name": "Citrine White",
+    "hex": "FAF7D6",
+    "slug": "citrineWhite"
+  },
+  {
+    "name": "Alabaster",
+    "hex": "FAFAFA",
+    "slug": "alabaster"
+  },
+  {
+    "name": "Hint of Yellow",
+    "hex": "FAFDE4",
+    "slug": "hintOfYellow"
+  },
+  {
+    "name": "Milan",
+    "hex": "FAFFA4",
+    "slug": "milan"
+  },
+  {
+    "name": "Brink Pink",
+    "hex": "FB607F",
+    "slug": "brinkPink"
+  },
+  {
+    "name": "Geraldine",
+    "hex": "FB8989",
+    "slug": "geraldine"
+  },
+  {
+    "name": "Lavender Rose",
+    "hex": "FBA0E3",
+    "slug": "lavenderRose"
+  },
+  {
+    "name": "Sea Buckthorn",
+    "hex": "FBA129",
+    "slug": "seaBuckthorn"
+  },
+  {
+    "name": "Sun",
+    "hex": "FBAC13",
+    "slug": "sun"
+  },
+  {
+    "name": "Lavender Pink",
+    "hex": "FBAED2",
+    "slug": "lavenderPink"
+  },
+  {
+    "name": "Rose Bud",
+    "hex": "FBB2A3",
+    "slug": "roseBud"
+  },
+  {
+    "name": "Cupid",
+    "hex": "FBBEDA",
+    "slug": "cupid"
+  },
+  {
+    "name": "Classic Rose",
+    "hex": "FBCCE7",
+    "slug": "classicRose"
+  },
+  {
+    "name": "Apricot Peach",
+    "hex": "FBCEB1",
+    "slug": "apricotPeach"
+  },
+  {
+    "name": "Banana Mania",
+    "hex": "FBE7B2",
+    "slug": "bananaMania"
+  },
+  {
+    "name": "Marigold Yellow",
+    "hex": "FBE870",
+    "slug": "marigoldYellow"
+  },
+  {
+    "name": "Festival",
+    "hex": "FBE96C",
+    "slug": "festival"
+  },
+  {
+    "name": "Sweet Corn",
+    "hex": "FBEA8C",
+    "slug": "sweetCorn"
+  },
+  {
+    "name": "Candy Corn",
+    "hex": "FBEC5D",
+    "slug": "candyCorn"
+  },
+  {
+    "name": "Hint of Red",
+    "hex": "FBF9F9",
+    "slug": "hintOfRed"
+  },
+  {
+    "name": "Shalimar",
+    "hex": "FBFFBA",
+    "slug": "shalimar"
+  },
+  {
+    "name": "Shocking Pink",
+    "hex": "FC0FC0",
+    "slug": "shockingPink"
+  },
+  {
+    "name": "Tickle Me Pink",
+    "hex": "FC80A5",
+    "slug": "tickleMePink"
+  },
+  {
+    "name": "Tree Poppy",
+    "hex": "FC9C1D",
+    "slug": "treePoppy"
+  },
+  {
+    "name": "Lightning Yellow",
+    "hex": "FCC01E",
+    "slug": "lightningYellow"
+  },
+  {
+    "name": "Goldenrod",
+    "hex": "FCD667",
+    "slug": "goldenrod"
+  },
+  {
+    "name": "Candlelight",
+    "hex": "FCD917",
+    "slug": "candlelight"
+  },
+  {
+    "name": "Cherokee",
+    "hex": "FCDA98",
+    "slug": "cherokee"
+  },
+  {
+    "name": "Double Pearl Lusta",
+    "hex": "FCF4D0",
+    "slug": "doublePearlLusta"
+  },
+  {
+    "name": "Pearl Lusta",
+    "hex": "FCF4DC",
+    "slug": "pearlLusta"
+  },
+  {
+    "name": "Vista White",
+    "hex": "FCF8F7",
+    "slug": "vistaWhite"
+  },
+  {
+    "name": "Bianca",
+    "hex": "FCFBF3",
+    "slug": "bianca"
+  },
+  {
+    "name": "Moon Glow",
+    "hex": "FCFEDA",
+    "slug": "moonGlow"
+  },
+  {
+    "name": "China Ivory",
+    "hex": "FCFFE7",
+    "slug": "chinaIvory"
+  },
+  {
+    "name": "Ceramic",
+    "hex": "FCFFF9",
+    "slug": "ceramic"
+  },
+  {
+    "name": "Torch Red",
+    "hex": "FD0E35",
+    "slug": "torchRed"
+  },
+  {
+    "name": "Wild Watermelon",
+    "hex": "FD5B78",
+    "slug": "wildWatermelon"
+  },
+  {
+    "name": "Crusta",
+    "hex": "FD7B33",
+    "slug": "crusta"
+  },
+  {
+    "name": "Sorbus",
+    "hex": "FD7C07",
+    "slug": "sorbus"
+  },
+  {
+    "name": "Sweet Pink",
+    "hex": "FD9FA2",
+    "slug": "sweetPink"
+  },
+  {
+    "name": "Light Apricot",
+    "hex": "FDD5B1",
+    "slug": "lightApricot"
+  },
+  {
+    "name": "Pig Pink",
+    "hex": "FDD7E4",
+    "slug": "pigPink"
+  },
+  {
+    "name": "Cinderella",
+    "hex": "FDE1DC",
+    "slug": "cinderella"
+  },
+  {
+    "name": "Golden Glow",
+    "hex": "FDE295",
+    "slug": "goldenGlow"
+  },
+  {
+    "name": "Lemon",
+    "hex": "FDE910",
+    "slug": "lemon"
+  },
+  {
+    "name": "Old Lace",
+    "hex": "FDF5E6",
+    "slug": "oldLace"
+  },
+  {
+    "name": "Half Colonial White",
+    "hex": "FDF6D3",
+    "slug": "halfColonialWhite"
+  },
+  {
+    "name": "Drover",
+    "hex": "FDF7AD",
+    "slug": "drover"
+  },
+  {
+    "name": "Pale Prim",
+    "hex": "FDFEB8",
+    "slug": "palePrim"
+  },
+  {
+    "name": "Cumulus",
+    "hex": "FDFFD5",
+    "slug": "cumulus"
+  },
+  {
+    "name": "Persian Rose",
+    "hex": "FE28A2",
+    "slug": "persianRose"
+  },
+  {
+    "name": "Sunset Orange",
+    "hex": "FE4C40",
+    "slug": "sunsetOrange"
+  },
+  {
+    "name": "Bittersweet",
+    "hex": "FE6F5E",
+    "slug": "bittersweet"
+  },
+  {
+    "name": "California",
+    "hex": "FE9D04",
+    "slug": "california"
+  },
+  {
+    "name": "Yellow Sea",
+    "hex": "FEA904",
+    "slug": "yellowSea"
+  },
+  {
+    "name": "Melon",
+    "hex": "FEBAAD",
+    "slug": "melon"
+  },
+  {
+    "name": "Bright Sun",
+    "hex": "FED33C",
+    "slug": "brightSun"
+  },
+  {
+    "name": "Dandelion",
+    "hex": "FED85D",
+    "slug": "dandelion"
+  },
+  {
+    "name": "Salomie",
+    "hex": "FEDB8D",
+    "slug": "salomie"
+  },
+  {
+    "name": "Cape Honey",
+    "hex": "FEE5AC",
+    "slug": "capeHoney"
+  },
+  {
+    "name": "Remy",
+    "hex": "FEEBF3",
+    "slug": "remy"
+  },
+  {
+    "name": "Oasis",
+    "hex": "FEEFCE",
+    "slug": "oasis"
+  },
+  {
+    "name": "Bridesmaid",
+    "hex": "FEF0EC",
+    "slug": "bridesmaid"
+  },
+  {
+    "name": "Beeswax",
+    "hex": "FEF2C7",
+    "slug": "beeswax"
+  },
+  {
+    "name": "Bleach White",
+    "hex": "FEF3D8",
+    "slug": "bleachWhite"
+  },
+  {
+    "name": "Pipi",
+    "hex": "FEF4CC",
+    "slug": "pipi"
+  },
+  {
+    "name": "Half Spanish White",
+    "hex": "FEF4DB",
+    "slug": "halfSpanishWhite"
+  },
+  {
+    "name": "Wisp Pink",
+    "hex": "FEF4F8",
+    "slug": "wispPink"
+  },
+  {
+    "name": "Provincial Pink",
+    "hex": "FEF5F1",
+    "slug": "provincialPink"
+  },
+  {
+    "name": "Half Dutch White",
+    "hex": "FEF7DE",
+    "slug": "halfDutchWhite"
+  },
+  {
+    "name": "Solitaire",
+    "hex": "FEF8E2",
+    "slug": "solitaire"
+  },
+  {
+    "name": "White Pointer",
+    "hex": "FEF8FF",
+    "slug": "whitePointer"
+  },
+  {
+    "name": "Off Yellow",
+    "hex": "FEF9E3",
+    "slug": "offYellow"
+  },
+  {
+    "name": "Orange White",
+    "hex": "FEFCED",
+    "slug": "orangeWhite"
+  },
+  {
+    "name": "Red",
+    "hex": "FF0000",
+    "slug": "red"
+  },
+  {
+    "name": "Rose",
+    "hex": "FF007F",
+    "slug": "rose"
+  },
+  {
+    "name": "Purple Pizzazz",
+    "hex": "FF00CC",
+    "slug": "purplePizzazz"
+  },
+  {
+    "name": "Magenta / Fuchsia",
+    "hex": "FF00FF",
+    "slug": "magentaFuchsia"
+  },
+  {
+    "name": "Scarlet",
+    "hex": "FF2400",
+    "slug": "scarlet"
+  },
+  {
+    "name": "Wild Strawberry",
+    "hex": "FF3399",
+    "slug": "wildStrawberry"
+  },
+  {
+    "name": "Razzle Dazzle Rose",
+    "hex": "FF33CC",
+    "slug": "razzleDazzleRose"
+  },
+  {
+    "name": "Radical Red",
+    "hex": "FF355E",
+    "slug": "radicalRed"
+  },
+  {
+    "name": "Red Orange",
+    "hex": "FF3F34",
+    "slug": "redOrange"
+  },
+  {
+    "name": "Coral Red",
+    "hex": "FF4040",
+    "slug": "coralRed"
+  },
+  {
+    "name": "Vermilion",
+    "hex": "FF4D00",
+    "slug": "vermilion"
+  },
+  {
+    "name": "International Orange",
+    "hex": "FF4F00",
+    "slug": "internationalOrange"
+  },
+  {
+    "name": "Outrageous Orange",
+    "hex": "FF6037",
+    "slug": "outrageousOrange"
+  },
+  {
+    "name": "Blaze Orange",
+    "hex": "FF6600",
+    "slug": "blazeOrange"
+  },
+  {
+    "name": "Pink Flamingo",
+    "hex": "FF66FF",
+    "slug": "pinkFlamingo"
+  },
+  {
+    "name": "Orange",
+    "hex": "FF681F",
+    "slug": "orange"
+  },
+  {
+    "name": "Hot Pink",
+    "hex": "FF69B4",
+    "slug": "hotPink"
+  },
+  {
+    "name": "Persimmon",
+    "hex": "FF6B53",
+    "slug": "persimmon"
+  },
+  {
+    "name": "Blush Pink",
+    "hex": "FF6FFF",
+    "slug": "blushPink"
+  },
+  {
+    "name": "Burning Orange",
+    "hex": "FF7034",
+    "slug": "burningOrange"
+  },
+  {
+    "name": "Pumpkin",
+    "hex": "FF7518",
+    "slug": "pumpkin"
+  },
+  {
+    "name": "Flamenco",
+    "hex": "FF7D07",
+    "slug": "flamenco"
+  },
+  {
+    "name": "Flush Orange",
+    "hex": "FF7F00",
+    "slug": "flushOrange"
+  },
+  {
+    "name": "Coral",
+    "hex": "FF7F50",
+    "slug": "coral"
+  },
+  {
+    "name": "Salmon",
+    "hex": "FF8C69",
+    "slug": "salmon"
+  },
+  {
+    "name": "Pizazz",
+    "hex": "FF9000",
+    "slug": "pizazz"
+  },
+  {
+    "name": "West Side",
+    "hex": "FF910F",
+    "slug": "westSide"
+  },
+  {
+    "name": "Pink Salmon",
+    "hex": "FF91A4",
+    "slug": "pinkSalmon"
+  },
+  {
+    "name": "Neon Carrot",
+    "hex": "FF9933",
+    "slug": "neonCarrot"
+  },
+  {
+    "name": "Atomic Tangerine",
+    "hex": "FF9966",
+    "slug": "atomicTangerine"
+  },
+  {
+    "name": "Vivid Tangerine",
+    "hex": "FF9980",
+    "slug": "vividTangerine"
+  },
+  {
+    "name": "Sunshade",
+    "hex": "FF9E2C",
+    "slug": "sunshade"
+  },
+  {
+    "name": "Orange Peel",
+    "hex": "FFA000",
+    "slug": "orangePeel"
+  },
+  {
+    "name": "Mona Lisa",
+    "hex": "FFA194",
+    "slug": "monaLisa"
+  },
+  {
+    "name": "Web Orange",
+    "hex": "FFA500",
+    "slug": "webOrange"
+  },
+  {
+    "name": "Carnation Pink",
+    "hex": "FFA6C9",
+    "slug": "carnationPink"
+  },
+  {
+    "name": "Hit Pink",
+    "hex": "FFAB81",
+    "slug": "hitPink"
+  },
+  {
+    "name": "Yellow Orange",
+    "hex": "FFAE42",
+    "slug": "yellowOrange"
+  },
+  {
+    "name": "Cornflower Lilac",
+    "hex": "FFB0AC",
+    "slug": "cornflowerLilac"
+  },
+  {
+    "name": "Sundown",
+    "hex": "FFB1B3",
+    "slug": "sundown"
+  },
+  {
+    "name": "My Sin",
+    "hex": "FFB31F",
+    "slug": "mySin"
+  },
+  {
+    "name": "Texas Rose",
+    "hex": "FFB555",
+    "slug": "texasRose"
+  },
+  {
+    "name": "Cotton Candy",
+    "hex": "FFB7D5",
+    "slug": "cottonCandy"
+  },
+  {
+    "name": "Macaroni and Cheese",
+    "hex": "FFB97B",
+    "slug": "macaroniAndCheese"
+  },
+  {
+    "name": "Selective Yellow",
+    "hex": "FFBA00",
+    "slug": "selectiveYellow"
+  },
+  {
+    "name": "Koromiko",
+    "hex": "FFBD5F",
+    "slug": "koromiko"
+  },
+  {
+    "name": "Amber",
+    "hex": "FFBF00",
+    "slug": "amber"
+  },
+  {
+    "name": "Wax Flower",
+    "hex": "FFC0A8",
+    "slug": "waxFlower"
+  },
+  {
+    "name": "Pink",
+    "hex": "FFC0CB",
+    "slug": "pink"
+  },
+  {
+    "name": "Your Pink",
+    "hex": "FFC3C0",
+    "slug": "yourPink"
+  },
+  {
+    "name": "Supernova",
+    "hex": "FFC901",
+    "slug": "supernova"
+  },
+  {
+    "name": "Flesh",
+    "hex": "FFCBA4",
+    "slug": "flesh"
+  },
+  {
+    "name": "Sunglow",
+    "hex": "FFCC33",
+    "slug": "sunglow"
+  },
+  {
+    "name": "Golden Tainoi",
+    "hex": "FFCC5C",
+    "slug": "goldenTainoi"
+  },
+  {
+    "name": "Peach Orange",
+    "hex": "FFCC99",
+    "slug": "peachOrange"
+  },
+  {
+    "name": "Chardonnay",
+    "hex": "FFCD8C",
+    "slug": "chardonnay"
+  },
+  {
+    "name": "Pastel Pink",
+    "hex": "FFD1DC",
+    "slug": "pastelPink"
+  },
+  {
+    "name": "Romantic",
+    "hex": "FFD2B7",
+    "slug": "romantic"
+  },
+  {
+    "name": "Grandis",
+    "hex": "FFD38C",
+    "slug": "grandis"
+  },
+  {
+    "name": "Gold",
+    "hex": "FFD700",
+    "slug": "gold"
+  },
+  {
+    "name": "School bus Yellow",
+    "hex": "FFD800",
+    "slug": "schoolBusYellow"
+  },
+  {
+    "name": "Cosmos",
+    "hex": "FFD8D9",
+    "slug": "cosmos"
+  },
+  {
+    "name": "Mustard",
+    "hex": "FFDB58",
+    "slug": "mustard"
+  },
+  {
+    "name": "Peach Schnapps",
+    "hex": "FFDCD6",
+    "slug": "peachSchnapps"
+  },
+  {
+    "name": "Caramel",
+    "hex": "FFDDAF",
+    "slug": "caramel"
+  },
+  {
+    "name": "Tuft Bush",
+    "hex": "FFDDCD",
+    "slug": "tuftBush"
+  },
+  {
+    "name": "Watusi",
+    "hex": "FFDDCF",
+    "slug": "watusi"
+  },
+  {
+    "name": "Pink Lace",
+    "hex": "FFDDF4",
+    "slug": "pinkLace"
+  },
+  {
+    "name": "Navajo White",
+    "hex": "FFDEAD",
+    "slug": "navajoWhite"
+  },
+  {
+    "name": "Frangipani",
+    "hex": "FFDEB3",
+    "slug": "frangipani"
+  },
+  {
+    "name": "Pippin",
+    "hex": "FFE1DF",
+    "slug": "pippin"
+  },
+  {
+    "name": "Pale Rose",
+    "hex": "FFE1F2",
+    "slug": "paleRose"
+  },
+  {
+    "name": "Negroni",
+    "hex": "FFE2C5",
+    "slug": "negroni"
+  },
+  {
+    "name": "Cream Brulee",
+    "hex": "FFE5A0",
+    "slug": "creamBrulee"
+  },
+  {
+    "name": "Peach",
+    "hex": "FFE5B4",
+    "slug": "peach"
+  },
+  {
+    "name": "Tequila",
+    "hex": "FFE6C7",
+    "slug": "tequila"
+  },
+  {
+    "name": "Kournikova",
+    "hex": "FFE772",
+    "slug": "kournikova"
+  },
+  {
+    "name": "Sandy Beach",
+    "hex": "FFEAC8",
+    "slug": "sandyBeach"
+  },
+  {
+    "name": "Karry",
+    "hex": "FFEAD4",
+    "slug": "karry"
+  },
+  {
+    "name": "Broom",
+    "hex": "FFEC13",
+    "slug": "broom"
+  },
+  {
+    "name": "Colonial White",
+    "hex": "FFEDBC",
+    "slug": "colonialWhite"
+  },
+  {
+    "name": "Derby",
+    "hex": "FFEED8",
+    "slug": "derby"
+  },
+  {
+    "name": "Vis Vis",
+    "hex": "FFEFA1",
+    "slug": "visVis"
+  },
+  {
+    "name": "Egg White",
+    "hex": "FFEFC1",
+    "slug": "eggWhite"
+  },
+  {
+    "name": "Papaya Whip",
+    "hex": "FFEFD5",
+    "slug": "papayaWhip"
+  },
+  {
+    "name": "Fair Pink",
+    "hex": "FFEFEC",
+    "slug": "fairPink"
+  },
+  {
+    "name": "Peach Cream",
+    "hex": "FFF0DB",
+    "slug": "peachCream"
+  },
+  {
+    "name": "Lavender blush",
+    "hex": "FFF0F5",
+    "slug": "lavenderBlush"
+  },
+  {
+    "name": "Gorse",
+    "hex": "FFF14F",
+    "slug": "gorse"
+  },
+  {
+    "name": "Buttermilk",
+    "hex": "FFF1B5",
+    "slug": "buttermilk"
+  },
+  {
+    "name": "Pink Lady",
+    "hex": "FFF1D8",
+    "slug": "pinkLady"
+  },
+  {
+    "name": "Forget Me Not",
+    "hex": "FFF1EE",
+    "slug": "forgetMeNot"
+  },
+  {
+    "name": "Tutu",
+    "hex": "FFF1F9",
+    "slug": "tutu"
+  },
+  {
+    "name": "Picasso",
+    "hex": "FFF39D",
+    "slug": "picasso"
+  },
+  {
+    "name": "Chardon",
+    "hex": "FFF3F1",
+    "slug": "chardon"
+  },
+  {
+    "name": "Paris Daisy",
+    "hex": "FFF46E",
+    "slug": "parisDaisy"
+  },
+  {
+    "name": "Barley White",
+    "hex": "FFF4CE",
+    "slug": "barleyWhite"
+  },
+  {
+    "name": "Egg Sour",
+    "hex": "FFF4DD",
+    "slug": "eggSour"
+  },
+  {
+    "name": "Sazerac",
+    "hex": "FFF4E0",
+    "slug": "sazerac"
+  },
+  {
+    "name": "Serenade",
+    "hex": "FFF4E8",
+    "slug": "serenade"
+  },
+  {
+    "name": "Chablis",
+    "hex": "FFF4F3",
+    "slug": "chablis"
+  },
+  {
+    "name": "Seashell Peach",
+    "hex": "FFF5EE",
+    "slug": "seashellPeach"
+  },
+  {
+    "name": "Sauvignon",
+    "hex": "FFF5F3",
+    "slug": "sauvignon"
+  },
+  {
+    "name": "Milk Punch",
+    "hex": "FFF6D4",
+    "slug": "milkPunch"
+  },
+  {
+    "name": "Varden",
+    "hex": "FFF6DF",
+    "slug": "varden"
+  },
+  {
+    "name": "Rose White",
+    "hex": "FFF6F5",
+    "slug": "roseWhite"
+  },
+  {
+    "name": "Baja White",
+    "hex": "FFF8D1",
+    "slug": "bajaWhite"
+  },
+  {
+    "name": "Gin Fizz",
+    "hex": "FFF9E2",
+    "slug": "ginFizz"
+  },
+  {
+    "name": "Early Dawn",
+    "hex": "FFF9E6",
+    "slug": "earlyDawn"
+  },
+  {
+    "name": "Lemon Chiffon",
+    "hex": "FFFACD",
+    "slug": "lemonChiffon"
+  },
+  {
+    "name": "Bridal Heath",
+    "hex": "FFFAF4",
+    "slug": "bridalHeath"
+  },
+  {
+    "name": "Scotch Mist",
+    "hex": "FFFBDC",
+    "slug": "scotchMist"
+  },
+  {
+    "name": "Soapstone",
+    "hex": "FFFBF9",
+    "slug": "soapstone"
+  },
+  {
+    "name": "Witch Haze",
+    "hex": "FFFC99",
+    "slug": "witchHaze"
+  },
+  {
+    "name": "Buttery White",
+    "hex": "FFFCEA",
+    "slug": "butteryWhite"
+  },
+  {
+    "name": "Island Spice",
+    "hex": "FFFCEE",
+    "slug": "islandSpice"
+  },
+  {
+    "name": "Cream",
+    "hex": "FFFDD0",
+    "slug": "cream"
+  },
+  {
+    "name": "Chilean Heath",
+    "hex": "FFFDE6",
+    "slug": "chileanHeath"
+  },
+  {
+    "name": "Travertine",
+    "hex": "FFFDE8",
+    "slug": "travertine"
+  },
+  {
+    "name": "Orchid White",
+    "hex": "FFFDF3",
+    "slug": "orchidWhite"
+  },
+  {
+    "name": "Quarter Pearl Lusta",
+    "hex": "FFFDF4",
+    "slug": "quarterPearlLusta"
+  },
+  {
+    "name": "Half and Half",
+    "hex": "FFFEE1",
+    "slug": "halfAndHalf"
+  },
+  {
+    "name": "Apricot White",
+    "hex": "FFFEEC",
+    "slug": "apricotWhite"
+  },
+  {
+    "name": "Rice Cake",
+    "hex": "FFFEF0",
+    "slug": "riceCake"
+  },
+  {
+    "name": "Black White",
+    "hex": "FFFEF6",
+    "slug": "blackWhite"
+  },
+  {
+    "name": "Romance",
+    "hex": "FFFEFD",
+    "slug": "romance"
+  },
+  {
+    "name": "Yellow",
+    "hex": "FFFF00",
+    "slug": "yellow"
+  },
+  {
+    "name": "Laser Lemon",
+    "hex": "FFFF66",
+    "slug": "laserLemon"
+  },
+  {
+    "name": "Pale Canary",
+    "hex": "FFFF99",
+    "slug": "paleCanary"
+  },
+  {
+    "name": "Portafino",
+    "hex": "FFFFB4",
+    "slug": "portafino"
+  },
+  {
+    "name": "Ivory",
+    "hex": "FFFFF0",
+    "slug": "ivory"
+  },
+  {
+    "name": "White",
+    "hex": "FFFFFF",
+    "slug": "white"
+  }
+]

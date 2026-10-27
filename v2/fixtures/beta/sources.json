@@ -1,0 +1,122 @@
+{
+  "repository": "Tezbar (provided beta snapshot)",
+  "commit": "fd300e276356587726566026f072563eb9c34cb1",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "fixture": "ExtensionRuntimeView.tsx",
+      "source": "src/renderer/ExtensionRuntimeView.tsx",
+      "sha256": "cfe15d50c89b0e57666604fea06327c3bd564ee2644404676a233149a025395d"
+    },
+    {
+      "fixture": "LICENSE",
+      "source": "LICENSE",
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+    },
+    {
+      "fixture": "NATIVE_V2_FORMAT.md",
+      "source": "docs/NATIVE_V2_FORMAT.md",
+      "sha256": "8bf9315ad047326dd6737587ca5491fc35faf5e3f92a2d9c63f596be0c8f7b7a"
+    },
+    {
+      "fixture": "action-runtime-overlay.tsx",
+      "source": "src/renderer/src/raycast-api/action-runtime-overlay.tsx",
+      "sha256": "3eb4a59db0de59460ea8a2c7f4a1f6ec5b514a512f49352bf373db64ed58d604"
+    },
+    {
+      "fixture": "action-runtime-registry.tsx",
+      "source": "src/renderer/src/raycast-api/action-runtime-registry.tsx",
+      "sha256": "ffbad6f70410c6d2dcf4af217abe4ab297d69c0cae2c993263c008a423175e16"
+    },
+    {
+      "fixture": "action-runtime.tsx",
+      "source": "src/renderer/src/raycast-api/action-runtime.tsx",
+      "sha256": "6e7a41e3d1a7ee2028103683f08fb8ed20e4b2e5751e182afe9f8e189522a28b"
+    },
+    {
+      "fixture": "common.rs",
+      "source": "src-tauri/src/native_core/common.rs",
+      "sha256": "280a0a2f0dd04a8570b320aafc0c3ece0f5de8ddb21c363645567d6a35d84da7"
+    },
+    {
+      "fixture": "extension-v2.schema.json",
+      "source": "schemas/extension-v2.schema.json",
+      "sha256": "6d5afda1b652605982104bdf16d1547547b98dfd707a7b2969316406c49f32af"
+    },
+    {
+      "fixture": "extensionRuntime.ts",
+      "source": "src/shared/extensionRuntime.ts",
+      "sha256": "837b804856baa6b16ebda080920af456268fefcffa7a1c3e2964b95d697ee387"
+    },
+    {
+      "fixture": "form-runtime.test.ts",
+      "source": "src/renderer/src/raycast-api/form-runtime.test.ts",
+      "sha256": "3c449509be65d1ffc8949a11835fadeb6300b7d647898309b5abc5b2e94af112"
+    },
+    {
+      "fixture": "form-runtime.tsx",
+      "source": "src/renderer/src/raycast-api/form-runtime.tsx",
+      "sha256": "8568d0ac5be03eea97d0def38067dbbbdce5ae97c36a51024857ef20dce299a6"
+    },
+    {
+      "fixture": "grid-content.ts",
+      "source": "src/renderer/src/raycast-api/grid-content.ts",
+      "sha256": "71cf7151e1986389b550cf5a069383af79b88de2726176859496ac40fd8d9d41"
+    },
+    {
+      "fixture": "grid-runtime.test.ts",
+      "source": "src/renderer/src/raycast-api/grid-runtime.test.ts",
+      "sha256": "633fcbbd5048f46d69388016481dfd54f800a8ff404810a556eb7ccfa3b626a0"
+    },
+    {
+      "fixture": "grid-runtime.tsx",
+      "source": "src/renderer/src/raycast-api/grid-runtime.tsx",
+      "sha256": "9c19dffaf9596814315f61d8a66eaa3b914a138d8f10c860e01efd245d3e2e5b"
+    },
+    {
+      "fixture": "index.tsx",
+      "source": "src/renderer/src/raycast-api/index.tsx",
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64"
+    },
+    {
+      "fixture": "list-runtime.tsx",
+      "source": "src/renderer/src/raycast-api/list-runtime.tsx",
+      "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f"
+    },
+    {
+      "fixture": "native-v2-visuals.test.ts",
+      "source": "src/renderer/src/raycast-api/native-v2-visuals.test.ts",
+      "sha256": "afa00333ff5293015fc1d6c87dc429ef9fdb6322a89887c6ad7b6b5b49fcb182"
+    },
+    {
+      "fixture": "native.rs",
+      "source": "src-tauri/src/native_core/extensions/native.rs",
+      "sha256": "3192be6beccc110cd6daa22db412e0f90685957ec51b3c71103b78e239978691"
+    },
+    {
+      "fixture": "platform.rs",
+      "source": "src-tauri/src/native_core/platform.rs",
+      "sha256": "75fa7ce4204edbbdb0f4a5410895b32239939b707256c484dc3c4f9de390b5a1"
+    },
+    {
+      "fixture": "v2_catalog.json",
+      "source": "src-tauri/src/native_core/extensions/v2_catalog.json",
+      "sha256": "6cba59a7a6ec10dbe985c8fa4f4be82e4b2495b3718fd9a9a8dd7b3169e977e7"
+    },
+    {
+      "fixture": "v2_runtime.rs",
+      "source": "src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "sha256": "df96675ba916a3d70b8e0e5da76f7a9422d238cc3fbe3a5a6178fef21662a6a0"
+    },
+    {
+      "fixture": "v2_sdk.rs",
+      "source": "src-tauri/src/native_core/extensions/v2_sdk.rs",
+      "sha256": "4f987346f863db9a7bd6aa1d5a99e149925dc69a44d629727ccc80a567cd27c2"
+    },
+    {
+      "fixture": "v2_timers.rs",
+      "source": "src-tauri/src/native_core/extensions/v2_timers.rs",
+      "sha256": "be54fa165023603e81d90d53a27d25ba697548d7edf88504d820b0d2fa2ee61a"
+    }
+  ]
+}

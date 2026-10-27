@@ -1,0 +1,23 @@
+[package]
+name = "tezbar-color-shades"
+version = "0.1.0"
+edition = "2021"
+autotests = false
+rust-version = "1.85"
+license = "MIT AND Apache-2.0 AND BSD-3-Clause AND CC-BY-2.5"
+description = "Compiled Native V2 Color Shades engine and Tezbar adapter"
+repository = "https://github.com/almatkai/color-shades"
+include = ["/src/**", "/tests/**", "/fixtures/**", "/vendor/**", "/assets/**", "/tools/*.cjs", "/tools/package.json", "/tools/package-lock.json", "/Cargo.toml", "/Cargo.lock", "/README.md", "/extension.json", "/LICENSE*", "/NOTICE*", "/.gitignore"]
+
+[dependencies]
+serde = { version = "=1.0.219", features = ["derive"] }
+serde_json = "=1.0.140"
+chrono = { version = "=0.4.40", default-features = false, features = ["clock", "std", "serde"] }
+tokio = { version = "=1.44.1", features = ["rt-multi-thread", "macros", "sync"] }
+
+[dev-dependencies]
+tempfile = "=3.19.1"
+log = "=0.4.27"
+
+[lints.clippy]
+all = "warn"
