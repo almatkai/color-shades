@@ -20,7 +20,7 @@ Both original commands are ported:
 | Command | Behavior |
 | --- | --- |
 | `generate-color-shades` | Required `color` argument; generates and saves 11 shades, exact NTC names, Copy Shade, Use as Base Color, variable and JSON exports. Back returns to an editable color form. |
-| `view-color-shades` | Saved palettes, newest first; View Palette regenerates and saves, Delete Entry, Delete All Entries, and Back navigation. |
+| `view-color-shades` | Saved palettes, newest first; View Palette (native: regenerates and saves; JS import: exact saved snapshot), Delete Entry, Delete All Entries, and Back navigation. |
 
 There are no extension or command preferences in the original package. Only the
 narrow `clipboard.write` host capability is requested. Action IDs are bound to
@@ -32,9 +32,30 @@ The process stores palettes under `<dataDir>/color-shades/storage.json`. On firs
 initialize, a host-granted `nativeStore` path may import the compiled-in Native V2
 store at `native-extensions-v2/color-shades/storage.json`. Entries are validated
 by exact recomputation, existing process entries win collisions, and the original
-file is never changed. Invalid stores fail explicitly. Raycast/V1 LocalStorage
-palettes are **not imported**: their format lacks the saved hue ordering needed
-for exact recomputation. The existing V1 store remains untouched.
+file is never changed. Deployed JS history is also imported from narrow, individual
+`.tezbar-local-storage.json` and older `localStorage.json` grants under both
+`color-shades` and `raycast.color-shades` directory names. Precedence is existing
+private records, Native V2 import, then managed `extensions/packages` (ID before
+slug), `extension-registry/packages` (ID before slug), and old `extensions`
+(slug before ID). At each location the current filename precedes the older one.
+Only explicitly granted existing files are read; no profile directories are scanned.
+
+JS stores use an outer key-to-JSON-string map. Imports validate the matching NTC
+name, RFC3339 creation date, all 11 shade keys, and hex colors; they retain each
+name/date/color string exactly. Snapshot entries add `javascript_snapshot: 1`
+without changing the existing native record format or its corruption checks.
+View Palette and exports use the saved JS snapshot; Use as Base Color explicitly
+generates a new native palette. Native records retain their regenerate/resave
+behavior. Existing private records win every collision. Each successfully read
+source has a private marker, committed atomically with all pending imports; an
+error leaves the store and markers unchanged for retry. Reopening cannot resurrect
+a deleted imported palette. Source bytes are never modified. Invalid input fails
+explicitly, and missing/ungranted sources remain eligible for a later import.
+
+The process maps successful `unchanged` action/search replies to `no-view`, which
+the current renderer handles without replacing the mounted palette or issued IDs.
+Refresh and load-more keep their original `unchanged` replies. Copy success and
+failure feedback appears in the renderer's visible action status.
 
 ### Build, package and verify
 
@@ -56,8 +77,8 @@ python3 scripts/smoke-package.py dist/color-shades-aarch64-apple-darwin.zip \
 ```
 
 `scripts/third-party.py` regenerates the Rust dependency license inventory and
-copies each dependency's original license/notice files from the locked Cargo
-sources. `--check` verifies the checked-in copies. Packaging executes
+includes the normal/build closure for both targets. It copies each dependency's
+original license/notice files from the locked Cargo sources. `--check` verifies the checked-in copies. Packaging executes
 `--protocol-info`, verifies the immutable SDK pin and command inventory, and emits
 a root-layout ZIP containing `extension.json`, `bin/tezbar-color-shades`,
 `resources/`, `licenses/`, `LICENSE`, and `NOTICE`. Its manifest has the exact
@@ -95,6 +116,20 @@ Mac binary and preserved v2 behavior. The inspected host renderer clamps the
 requested 11 grid columns to eight, displays localized calendar dates, ignores
 swatch/date tooltips and does not execute custom action shortcut descriptors;
 all actions remain available through its action panel. No command implementation
-is missing, but these renderer differences and absent V1 palette migration remain
-explicit parity limits. See [NOTICE](NOTICE) and [licenses](licenses/) for source,
-data and dependency attribution.
+is missing; the renderer differences remain explicit parity limits. See
+[NOTICE](NOTICE) and [licenses](licenses/) for source, data and dependency attribution.
+
+Run the current host renderer consumer regression (requires its existing React,
+JSDOM and esbuild development dependencies; host sources are bundled read-only):
+
+```sh
+node scripts/renderer-regression.cjs --host /absolute/path/to/Tezbar \
+  --binary dist/extracted-macos/bin/tezbar-color-shades \
+  --report dist/color-shades-renderer-r1.json
+```
+
+It mounts the actual unmodified ExtensionRuntimeView, Grid/List and action menu,
+feeds them real executable replies, presses row-copy Enter and both export menu
+actions, checks visible success/failure and local filtering, and records source
+hashes. Only `host.clipboard.write` is acknowledged with the actual `{ok:true}`
+shape from `launcher/clipboard.rs`; no GUI or real clipboard is invoked.

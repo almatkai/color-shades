@@ -151,7 +151,7 @@ async fn all_copy_routes_payload_rejection_retry_and_stale_generation() {
         panic!()
     };
     assert_eq!(
-        c.palette.colors[&500],
+        c.palette().colors[&500],
         v["root"]["children"][0]["props"]["subtitle"]
     );
     let old = id(&next, "Copy Shade");
@@ -180,9 +180,9 @@ async fn every_use_as_base_action_recomputes_and_saves() {
         let Screen::Palette(c) = current.screen else {
             panic!()
         };
-        assert_eq!(c.palette.colors[&500], row["props"]["subtitle"]);
+        assert_eq!(c.palette().colors[&500], row["props"]["subtitle"]);
         assert_eq!(
-            entries(&sdk::read_store(&ctx, SLUG).await.unwrap()).unwrap()[&c.palette.name],
+            entries(&sdk::read_store(&ctx, SLUG).await.unwrap()).unwrap()[&c.palette().name],
             *c
         );
     }
@@ -365,7 +365,7 @@ async fn concurrent_sessions_do_not_lose_entries_or_unknown_keys() {
             let Screen::Palette(c) = session(&s, GEN).unwrap().screen else {
                 panic!()
             };
-            c.palette.name
+            c.palette().name.clone()
         }));
     }
     let mut expected = std::collections::BTreeSet::new();
@@ -409,7 +409,10 @@ async fn history_effect_failures_retry_and_identical_overwrites_are_stale() {
     // Same base/colors/name/date/hue order, differing only in native revision.
     sdk::update_store(&ctx, SLUG, |store| {
         let mut data = entries(store)?;
-        data.values_mut().next().unwrap().revision += 1;
+        let Entry::Native(c) = data.values_mut().next().unwrap() else {
+            panic!("expected generated native record");
+        };
+        c.revision += 1;
         store[KEY] = serde_json::to_value(data).unwrap();
         Ok(())
     })

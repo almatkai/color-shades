@@ -59,7 +59,19 @@
     "clipboard.write"
   ],
   "migrationPaths": {
-    "nativeStore": "native-extensions-v2/color-shades/storage.json"
+    "nativeStore": "native-extensions-v2/color-shades/storage.json",
+    "jsManagedIdCurrent": "extensions/packages/raycast.color-shades/.tezbar-local-storage.json",
+    "jsManagedIdOlder": "extensions/packages/raycast.color-shades/localStorage.json",
+    "jsManagedSlugCurrent": "extensions/packages/color-shades/.tezbar-local-storage.json",
+    "jsManagedSlugOlder": "extensions/packages/color-shades/localStorage.json",
+    "jsRegistryIdCurrent": "extension-registry/packages/raycast.color-shades/.tezbar-local-storage.json",
+    "jsRegistryIdOlder": "extension-registry/packages/raycast.color-shades/localStorage.json",
+    "jsRegistrySlugCurrent": "extension-registry/packages/color-shades/.tezbar-local-storage.json",
+    "jsRegistrySlugOlder": "extension-registry/packages/color-shades/localStorage.json",
+    "jsExtensionsSlugCurrent": "extensions/color-shades/.tezbar-local-storage.json",
+    "jsExtensionsSlugOlder": "extensions/color-shades/localStorage.json",
+    "jsExtensionsIdCurrent": "extensions/raycast.color-shades/.tezbar-local-storage.json",
+    "jsExtensionsIdOlder": "extensions/raycast.color-shades/localStorage.json"
   },
   "verification": [
     {

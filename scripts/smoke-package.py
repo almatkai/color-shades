@@ -139,7 +139,7 @@ def smoke(path, keep=None):
                 if copy:
                     before = len(recorded)
                     result = request('session.call', {'sessionId': session, 'operation': 'extension:invoke-action', 'payload': {'actionId': copy['id']}})
-                    assert result['mode'] in ('unchanged', 'view', 'no-view'), result
+                    assert result['mode'] in ('view', 'no-view'), 'Renderer-incompatible copy result: ' + str(result)
                     assert len(recorded) == before + 1, 'Copy action issued no recorded host request'
                     entry['copy'] = {'action': copy['title'], 'method': recorded[-1][0], 'text': recorded[-1][1].get('text')}
                 request('session.dispose', {'sessionId': session})

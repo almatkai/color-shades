@@ -1,4 +1,4 @@
-//! Compile unchanged as a sibling of Tezbar's real v2_sdk; see README integration.
+//! Shared adapter for Native V2 and the process SDK shim; see README integration.
 use super::v2_sdk as sdk;
 use crate::native_core::common::{CoreContext, CoreResult};
 use chrono::{SecondsFormat, Utc};
@@ -42,7 +42,70 @@ impl Committed {
         Ok(p)
     }
 }
-type Entries = BTreeMap<String, Committed>;
+// Native records retain their original serialized format and recomputation
+// checks. JS history has no generator state: store its exact validated snapshot.
+#[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+struct Snapshot {
+    javascript_snapshot: u8,
+    palette: Palette,
+}
+#[derive(Clone, Debug, PartialEq, Serialize)]
+#[serde(untagged)]
+enum Entry {
+    Native(Committed),
+    Javascript(Snapshot),
+}
+// Deserialize through JSON Value: serde's untagged content deserializer does
+// not restore numeric JSON object keys for Palette's BTreeMap<u16, String>.
+impl<'de> Deserialize<'de> for Entry {
+    fn deserialize<D: serde::Deserializer<'de>>(deserializer: D) -> Result<Self, D::Error> {
+        let value = Value::deserialize(deserializer)?;
+        if value.get("javascript_snapshot").is_some() {
+            serde_json::from_value(value).map(Self::Javascript)
+        } else {
+            serde_json::from_value(value).map(Self::Native)
+        }
+        .map_err(serde::de::Error::custom)
+    }
+}
+impl Entry {
+    fn palette(&self) -> &Palette {
+        match self {
+            Self::Native(c) => &c.palette,
+            Self::Javascript(s) => &s.palette,
+        }
+    }
+    fn recompute(&self) -> Result<Palette, String> {
+        match self {
+            Self::Native(c) => c.recompute(),
+            Self::Javascript(s) => {
+                if s.javascript_snapshot != 1 {
+                    return Err("Unsupported JavaScript palette snapshot".into());
+                }
+                validate_snapshot(&s.palette)?;
+                Ok(s.palette.clone())
+            }
+        }
+    }
+}
+fn validate_snapshot(p: &Palette) -> Result<(), String> {
+    if chrono::DateTime::parse_from_rfc3339(&p.creation_date).is_err()
+        || p.colors.len() != LEVELS.len()
+        || LEVELS.iter().any(|level| !p.colors.contains_key(level))
+        || p.colors.values().any(|hex| {
+            !matches!(hex.len(), 7 | 9)
+                || !hex.starts_with('#')
+                || !hex.as_bytes()[1..].iter().all(u8::is_ascii_hexdigit)
+        })
+    {
+        return Err("Invalid JavaScript palette date or shades".into());
+    }
+    // Original names are NTC names, used by both exact export formats.
+    p.slug()?;
+    Ok(())
+}
+type Entries = BTreeMap<String, Entry>;
 fn entries(store: &Value) -> Result<Entries, String> {
     let result: Entries = match store.get(KEY) {
         None => BTreeMap::new(),
@@ -75,11 +138,48 @@ pub fn import_palettes(store: &mut Value, legacy: &Value) -> Result<usize, Strin
     store[KEY] = serde_json::to_value(current).map_err(|e| e.to_string())?;
     Ok(imported)
 }
+/// Import the deployed LocalStorage key -> JSON-string Palette layout. Validate
+/// the entire source before merging; no arbitrary hue order is reconstructed.
+pub fn import_js_palettes(store: &mut Value, legacy: &Value) -> Result<usize, String> {
+    let object = legacy
+        .as_object()
+        .ok_or("JavaScript migration store must be an object")?;
+    let mut incoming = BTreeMap::new();
+    for (name, encoded) in object {
+        let p: Palette = serde_json::from_str(
+            encoded
+                .as_str()
+                .ok_or("JavaScript palette must be a JSON string")?,
+        )
+        .map_err(|e| format!("Invalid JavaScript palette: {e}"))?;
+        validate_snapshot(&p)?;
+        if name != &p.name {
+            return Err("JavaScript palette key does not match its name".into());
+        }
+        incoming.insert(
+            name.clone(),
+            Entry::Javascript(Snapshot {
+                javascript_snapshot: 1,
+                palette: p,
+            }),
+        );
+    }
+    let mut current = entries(store)?;
+    let mut count = 0;
+    for (name, entry) in incoming {
+        if let std::collections::btree_map::Entry::Vacant(slot) = current.entry(name) {
+            slot.insert(entry);
+            count += 1;
+        }
+    }
+    store[KEY] = serde_json::to_value(current).map_err(|e| e.to_string())?;
+    Ok(count)
+}
 #[derive(Clone, Serialize, Deserialize)]
 enum Screen {
     Draft,
     History(Entries),
-    Palette(Box<Committed>),
+    Palette(Box<Entry>),
 }
 #[derive(Clone, Serialize, Deserialize)]
 struct Session {
@@ -214,9 +314,9 @@ fn render(s: &Session) -> CoreResult {
             // Source comparator reverses ties; stable native ordering by name is
             // deliberate for equal millisecond timestamps (documented).
             ordered.sort_by(|(_, (_, a)), (_, (_, b))| {
-                b.palette.creation_date.cmp(&a.palette.creation_date)
+                b.palette().creation_date.cmp(&a.palette().creation_date)
             });
-            let children:Vec<_>=ordered.into_iter().map(|(i,(name,c))|json!({"type":"List.Item","props":{"id":name,"title":name,"icon":{"source":"CircleFilled","tintColor":c.palette.colors[&500],"tooltip":c.palette.colors[&500]},"accessories":[{"date":c.palette.creation_date,"tooltip":"Created at"}],"actionIds":ids[i*3..i*3+3]}})).collect();
+            let children:Vec<_>=ordered.into_iter().map(|(i,(name,c))|json!({"type":"List.Item","props":{"id":name,"title":name,"icon":{"source":"CircleFilled","tintColor":c.palette().colors[&500],"tooltip":c.palette().colors[&500]},"accessories":[{"date":c.palette().creation_date,"tooltip":"Created at"}],"actionIds":ids[i*3..i*3+3]}})).collect();
             (
                 "View Color Shades".into(),
                 json!({"type":"List","children":children}),
@@ -254,19 +354,19 @@ fn commit_state(state: &mut Value, s: &Session) -> CoreResult {
 async fn generate(
     ctx: &CoreContext,
     base: String,
-    expected: Option<(String, Committed)>,
-) -> Result<Committed, String> {
+    expected: Option<(String, Entry)>,
+) -> Result<Entry, String> {
     let mut lane = GENERATOR.lock().await;
     let before = lane.get_or_insert_with(Generator::default).clone();
     let mut next = before.clone();
     let date = Utc::now().to_rfc3339_opts(SecondsFormat::Millis, true);
     let palette = next.generate(&base, &date)?;
-    let c = Committed {
+    let c = Entry::Native(Committed {
         revision: EPOCH.fetch_add(1, Ordering::Relaxed),
         base,
         before,
         palette,
-    };
+    });
     let saved = c.clone();
     sdk::update_store(ctx, SLUG, move |store| {
         let mut data = entries(store)?;
@@ -275,7 +375,7 @@ async fn generate(
                 return Err("Stale history action; reopen history".into());
             }
         }
-        data.insert(saved.palette.name.clone(), saved);
+        data.insert(saved.palette().name.clone(), saved);
         store[KEY] = serde_json::to_value(data).map_err(|e| e.to_string())?;
         Ok(())
     })
@@ -413,8 +513,18 @@ pub async fn handle(
                         return Err("History required".into());
                     };
                     let old = data.get(&name).ok_or("Missing palette")?.clone();
-                    let base = old.recompute()?.colors[&500].clone();
-                    let c = generate(ctx, base, Some((name, old))).await?;
+                    let c = if matches!(old, Entry::Javascript(_)) {
+                        // Viewing must retain all stored colors/date/name. Native
+                        // entries keep the original regenerate-and-resave behavior.
+                        let current = entries(&sdk::read_store(ctx, SLUG).await?)?;
+                        if current.get(&name) != Some(&old) {
+                            return Err("Stale history action; reopen history".into());
+                        }
+                        old
+                    } else {
+                        let base = old.recompute()?.colors[&500].clone();
+                        generate(ctx, base, Some((name, old))).await?
+                    };
                     s.back.push(s.screen.clone());
                     s.screen = Screen::Palette(Box::new(c));
                 }

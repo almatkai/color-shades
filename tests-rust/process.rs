@@ -285,7 +285,7 @@ fn generate_copy_base_back_and_history_flow_over_real_pipes() {
         .as_str()
         .unwrap()
         .to_owned();
-    assert_eq!(host.act("gen", &copy_500).unwrap()["mode"], "unchanged");
+    assert_eq!(host.act("gen", &copy_500).unwrap()["mode"], "no-view");
     assert_eq!(
         host.calls.last().unwrap(),
         &("host.clipboard.write".to_owned(), json!({"text":"#82123d"}))
@@ -477,7 +477,7 @@ fn cancelled_copy_drops_reverse_request_and_keeps_action_retryable() {
     host.send(json!({"type":"response","id":reverse["id"],"result":{"ok":true}}));
     assert!(saw_cancel, "SDK cancels the dropped reverse request");
     // The same action ID still works after cancellation (state not advanced).
-    assert_eq!(host.act("s", &copy).unwrap()["mode"], "unchanged");
+    assert_eq!(host.act("s", &copy).unwrap()["mode"], "no-view");
     assert_eq!(
         host.calls.last().unwrap().1["text"],
         view["root"]["children"][2]["props"]["subtitle"]
@@ -508,4 +508,130 @@ fn corrupt_migration_store_fails_initialize_without_overwrite() {
     } = host;
     drop(stdin);
     assert!(wait(&mut child).success());
+}
+
+#[test]
+fn renderer_callback_modes_keep_refresh_and_action_ids() {
+    let dir = tempfile::tempdir().unwrap();
+    let (mut host, _) = Host::spawn(dir.path());
+    host.initialize(dir.path(), json!(["clipboard.write"]), json!({}))
+        .unwrap();
+    for (session, command, args) in [
+        ("grid", GEN, json!({"color":"#82123d"})),
+        ("list", HIST, json!({})),
+    ] {
+        let view = host.open(session, command, args).unwrap();
+        for (operation, mode) in [
+            ("extension:search-text-changed", "no-view"),
+            ("extension:refresh-session", "unchanged"),
+            ("extension:load-more", "unchanged"),
+        ] {
+            let result = host.request("session.call", json!({"sessionId":session,"operation":operation,"payload":{"searchText":"500"}})).unwrap();
+            assert_eq!(result["mode"], mode, "{operation}");
+        }
+        let id = action(
+            &view,
+            if command == GEN {
+                "Copy Shade"
+            } else {
+                "View Palette"
+            },
+            0,
+        );
+        assert!(
+            host.act(session, &id).is_ok(),
+            "search must preserve issued IDs"
+        );
+    }
+    host.shutdown();
+}
+
+// Real JS store: key -> JSON string; deliberately differs from default hue order.
+fn js_palette() -> Value {
+    let mut p = serde_json::to_value(
+        Generator::default()
+            .generate("#82123d", "2024-02-03T04:05:06.007Z")
+            .unwrap(),
+    )
+    .unwrap();
+    p["colors"]["50"] = json!("#aBcDeF");
+    p["colors"]["950"] = json!("#123456");
+    p
+}
+
+#[test]
+fn js_history_view_exports_deletion_and_restart_preserve_snapshot() {
+    let dir = tempfile::tempdir().unwrap();
+    let d = dir.path();
+    let p = js_palette();
+    let name = p["name"].as_str().unwrap();
+    let path = d.join(".tezbar-local-storage.json");
+    let bytes = serde_json::to_vec(&json!({name:serde_json::to_string(&p).unwrap()})).unwrap();
+    std::fs::write(&path, &bytes).unwrap();
+    let (mut host, _) = Host::spawn(d);
+    host.initialize(
+        d,
+        json!(["clipboard.write"]),
+        json!({"jsExtensionsSlugCurrent":path}),
+    )
+    .unwrap();
+    let history = host.open("hist", HIST, json!({})).unwrap();
+    assert_eq!(
+        history["root"]["children"].as_array().unwrap().len(),
+        1,
+        "existing JS palette is visible"
+    );
+    assert_eq!(history["root"]["children"][0]["props"]["title"], name);
+    assert_eq!(
+        history["root"]["children"][0]["props"]["accessories"][0]["date"],
+        p["creationDate"]
+    );
+    let before = store(d);
+    let palette = host
+        .act("hist", &action(&history, "View Palette", 0))
+        .unwrap();
+    for row in palette["root"]["children"].as_array().unwrap() {
+        assert_eq!(
+            row["props"]["subtitle"],
+            p["colors"][row["props"]["id"].as_str().unwrap()]
+        );
+    }
+    assert_eq!(
+        store(d),
+        before,
+        "viewing an imported snapshot must not rewrite it"
+    );
+    let expected: tezbar_color_shades::Palette = serde_json::from_value(p.clone()).unwrap();
+    for (title, text) in [
+        (
+            "Copy All Colors as Variables",
+            expected.variables().unwrap(),
+        ),
+        ("Copy All Colors as JSON", expected.json().unwrap()),
+    ] {
+        assert_eq!(
+            host.act("hist", &action(&palette, title, 0)).unwrap()["mode"],
+            "no-view"
+        );
+        assert_eq!(host.calls.last().unwrap().1["text"], text);
+    }
+    let back = palette["root"]["props"]["backActionId"].as_str().unwrap();
+    let history = host.act("hist", back).unwrap();
+    let empty = host
+        .act("hist", &action(&history, "Delete Entry", 0))
+        .unwrap();
+    assert_eq!(empty["root"]["children"], json!([]));
+    host.shutdown();
+    // Existing grants/markers never resurrect an entry the user deleted.
+    let (mut host, _) = Host::spawn(d);
+    host.initialize(
+        d,
+        json!(["clipboard.write"]),
+        json!({"jsExtensionsSlugCurrent":path}),
+    )
+    .unwrap();
+    let history = host.open("again", HIST, json!({})).unwrap();
+    assert_eq!(history["root"]["children"], json!([]));
+    assert_eq!(std::fs::read(path).unwrap(), bytes);
+    host.shutdown();
 }

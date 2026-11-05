@@ -19,7 +19,9 @@ Bundled data and ported algorithms (compiled into bin/tezbar-color-shades):
 Runtime Rust crates: tezbar-extension-sdk 0.1.1 at immutable git revision
 aaec571673ab64a85a136cf6bd054ef660c4d93c, Apache-2.0
 (licenses/tezbar-extension-sdk-Apache-2.0.txt; Copyright 2026 Almat). Other crates
-and their SPDX expressions are listed in licenses/rust-dependencies.txt. Original
+and their SPDX expressions are listed in licenses/rust-dependencies.txt. The
+both-target normal/build closure and portable document links are indexed in
+licenses/THIRD_PARTY.md; the SDK LICENSE and NOTICE are both included. Original
 crate license and notice texts, including Unicode-3.0 for unicode-ident, are
 preserved under licenses/rust/<crate>-<version>/.
 

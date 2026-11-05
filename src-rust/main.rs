@@ -1,6 +1,6 @@
 //! Standalone Tezbar process executable (schema 3, protocol 1) for Color Shades.
-//! The reviewed Native V2 adapter source is compiled unchanged in behavior beside
-//! a narrow shim that maps its host calls onto typed SDK requests.
+//! The mature Native V2 engine/adapter is compiled beside a narrow typed SDK
+//! shim. Only callback compatibility and exact JS snapshots extend the adapter.
 mod migration;
 
 /// Mirrors the module layout the v2 adapter was written against.
@@ -46,9 +46,22 @@ impl Extension for Adapter {
         payload: &'a Value,
         state: &'a mut Value,
     ) -> BoxFuture<'a, CoreResult> {
-        Box::pin(color_shades::handle(
-            ctx, command, operation, payload, state,
-        ))
+        Box::pin(async move {
+            let mut result = color_shades::handle(ctx, command, operation, payload, state).await?;
+            // Current renderer callbacks consume no-view without replacing the
+            // mounted view. They do not handle unchanged (refresh/load-more do).
+            // Keep every other field, error, state and issued action ID intact.
+            if result["ok"] == true
+                && result["mode"] == "unchanged"
+                && matches!(
+                    operation,
+                    "extension:invoke-action" | "extension:search-text-changed"
+                )
+            {
+                result["mode"] = json!("no-view");
+            }
+            Ok(result)
+        })
     }
 }
 
