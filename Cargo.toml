@@ -1,0 +1,38 @@
+[package]
+name = "tezbar-color-shades-process"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT AND Apache-2.0 AND BSD-3-Clause AND CC-BY-2.5 AND Unicode-3.0"
+description = "Standalone Rust Color Shades process extension for Tezbar (schema 3, protocol 1)"
+repository = "https://github.com/almatkai/color-shades"
+publish = false
+autobins = false
+autotests = false
+autoexamples = false
+autobenches = false
+build = "build.rs"
+
+[[bin]]
+name = "tezbar-color-shades"
+path = "src-rust/main.rs"
+
+[[test]]
+name = "process"
+path = "tests-rust/process.rs"
+
+[dependencies]
+# Reuses the reviewed Native V2 engine (generator, NTC naming, exports) unchanged.
+tezbar-color-shades = { path = "v2" }
+tezbar-extension-sdk = { git = "https://github.com/almatkai/tezbar-extension-sdk-rust.git", rev = "aaec571673ab64a85a136cf6bd054ef660c4d93c" }
+serde = { version = "=1.0.219", features = ["derive"] }
+serde_json = "=1.0.140"
+chrono = { version = "=0.4.40", default-features = false, features = ["clock", "std", "serde"] }
+tokio = { version = "=1.44.1", features = ["rt-multi-thread", "macros", "sync", "time", "fs"] }
+
+[dev-dependencies]
+tempfile = "=3.19.1"
+uuid = { version = "=1.23.3", features = ["v4"] }
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ["cfg(tezbar_process_host)"] }

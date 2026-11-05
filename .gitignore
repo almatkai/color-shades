@@ -7,3 +7,10 @@ Thumbs.db
 
 .tezbar*
 
+
+# Rust process package
+/target/
+/target-process/
+/.cargo-target/
+/dist/
+__pycache__/
