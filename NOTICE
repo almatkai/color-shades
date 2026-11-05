@@ -1,0 +1,29 @@
+Color Shades — standalone native Rust extension for Tezbar
+
+Original extension: Color Shades by qeude, Raycast extensions commit
+6734d85992290066fd31a7f5bee3cca3d3545a1a, extensions/color-shades, MIT
+(licenses/raycast-extensions-MIT.txt). The original TypeScript source, command
+names, arguments and icon are preserved in this repository. Own V1/V2/process
+adaptation copyright 2026 almatkai, MIT (LICENSE, licenses/color-shades-port-MIT.txt).
+
+Bundled data and ported algorithms (compiled into bin/tezbar-color-shades):
+- Name that Color dataset by Chirag Mehta, CC-BY-2.5
+  (licenses/name-that-color-CC-BY-2.5.txt; source http://chir.ag/projects/ntc/).
+  All 1,566 names, values and order are unchanged; camelCase export slugs were
+  generated with change-case-all 1.0.15 (and camel-case, pascal-case, no-case; MIT).
+- color-namer 1.4.0 by Zeke Sikelianos, MIT (licenses/color-namer-MIT.md).
+- chroma-js 1.4.1 by Gregor Aisch, BSD-3-Clause (licenses/chroma-js-BSD-3-Clause.txt):
+  Lab distance constants and operation order are ported.
+- color-convert 2.0.1 by Heather Arthur, MIT (licenses/color-convert-MIT.txt).
+
+Runtime Rust crates: tezbar-extension-sdk 0.1.1 at immutable git revision
+aaec571673ab64a85a136cf6bd054ef660c4d93c, Apache-2.0
+(licenses/tezbar-extension-sdk-Apache-2.0.txt; Copyright 2026 Almat). Other crates
+and their SPDX expressions are listed in licenses/rust-dependencies.txt. Original
+crate license and notice texts, including Unicode-3.0 for unicode-ident, are
+preserved under licenses/rust/<crate>-<version>/.
+
+No JavaScript, npm package, network lookup or Raycast API is used at runtime.
+Combined SPDX expression:
+MIT AND Apache-2.0 AND BSD-3-Clause AND CC-BY-2.5 AND Unicode-3.0.
+No trademark rights are claimed.

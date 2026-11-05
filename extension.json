@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 3,
+  "id": "com.tezbar.native.color-shades",
+  "slug": "color-shades",
+  "name": "Color Shades",
+  "version": "1.0.0",
+  "description": "Generate color shades from a base color and manage your generated color shades palettes. Original extension by qeude (MIT); standalone native Rust port for Tezbar.",
+  "author": "almatkai",
+  "icon": "resources/assets/command-icon.png",
+  "runtime": "rust",
+  "execution": "process",
+  "protocolVersion": 1,
+  "repository": "https://github.com/almatkai/color-shades",
+  "replaces": [
+    "raycast.color-shades"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "preferences": [],
+  "commands": [
+    {
+      "name": "generate-color-shades",
+      "title": "Generate Color Shades",
+      "description": "Generate color shades palette for the given base color.",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "color",
+          "placeholder": "#82123d",
+          "type": "text",
+          "required": true
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "view-color-shades",
+      "title": "View Color Shades",
+      "description": "View your generated color shades palettes.",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    }
+  ],
+  "capabilities": [
+    "clipboard.write"
+  ],
+  "migrationPaths": {
+    "nativeStore": "native-extensions-v2/color-shades/storage.json"
+  },
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Extracted arm64 binary passed offline protocol/session smoke with a recording fake host; no Tezbar desktop install, live renderer or real clipboard QA."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "No Windows artifact built or executed yet."
+    }
+  ],
+  "artifacts": {},
+  "files": {}
+}

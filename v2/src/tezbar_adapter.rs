@@ -56,6 +56,25 @@ fn entries(store: &Value) -> Result<Entries, String> {
     }
     Ok(result)
 }
+/// Explicit one-time import of a store written by the compiled-in Native V2
+/// adapter. Every legacy entry must pass the same recomputation checks as live
+/// reads; existing entries win on name collision. Returns the imported count.
+pub fn import_palettes(store: &mut Value, legacy: &Value) -> Result<usize, String> {
+    if !legacy.is_object() {
+        return Err("Native migration store must be an object".into());
+    }
+    let legacy = entries(legacy)?;
+    let mut current = entries(store)?;
+    let mut imported = 0;
+    for (name, palette) in legacy {
+        if let std::collections::btree_map::Entry::Vacant(slot) = current.entry(name) {
+            slot.insert(palette);
+            imported += 1;
+        }
+    }
+    store[KEY] = serde_json::to_value(current).map_err(|e| e.to_string())?;
+    Ok(imported)
+}
 #[derive(Clone, Serialize, Deserialize)]
 enum Screen {
     Draft,
@@ -445,6 +464,8 @@ pub async fn handle(
     }
 }
 
-#[cfg(test)]
+// The standalone process crate (root Cargo.toml) compiles this file beside an
+// SDK shim; its tests exercise the real executable instead of beta fixtures.
+#[cfg(all(test, not(tezbar_process_host)))]
 #[path = "../tests/adapter.rs"]
 mod tests;

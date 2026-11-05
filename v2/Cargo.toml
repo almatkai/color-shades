@@ -19,5 +19,8 @@ tokio = { version = "=1.44.1", features = ["rt-multi-thread", "macros", "sync"] 
 tempfile = "=3.19.1"
 log = "=0.4.27"
 
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ["cfg(tezbar_process_host)"] }
+
 [lints.clippy]
 all = "warn"

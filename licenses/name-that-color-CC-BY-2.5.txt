@@ -1,0 +1,9 @@
+Name that Color dataset by Chirag Mehta (http://chir.ag/projects/ntc/).
+Copyright Chirag Mehta. Creative Commons Attribution 2.5 Generic (CC-BY-2.5).
+License and full legal terms: https://creativecommons.org/licenses/by/2.5/legalcode
+
+The original attribution and license declaration are retained byte-for-byte in
+vendor/ntc-upstream.js. vendor/color-namer/lib/colors/ntc.js contains the full
+1566-entry dataset distributed by color-namer 1.4.0. vendor/ntc.json adds export
+slugs generated with change-case-all 1.0.15; the names, hex values and order are
+unchanged. This port retains the original author's credit and license link.
