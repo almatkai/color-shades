@@ -6,6 +6,16 @@ Generate color shades from a base color and manage your generated color shades p
 
 ## Installable native Rust extension for Tezbar
 
+[Native Rust 1.0.0 release](https://github.com/almatkai/color-shades/releases/tag/v1.0.0): [macOS Apple Silicon ZIP](https://github.com/almatkai/color-shades/releases/download/v1.0.0/color-shades-aarch64-apple-darwin.zip), [Windows x64 ZIP](https://github.com/almatkai/color-shades/releases/download/v1.0.0/color-shades-x86_64-pc-windows-msvc.zip), and [trusted install reference](https://github.com/almatkai/color-shades/releases/download/v1.0.0/extension-release.json).
+
+Download the trusted JSON and your platform ZIP, then import them with:
+
+```sh
+tezbar --extensions-v3-import extension-release.json color-shades-<target>.zip
+```
+
+Both native builds, extracted-package checks and Tezbar CLI imports into isolated profiles passed. [Validation and hashes](https://github.com/almatkai/color-shades/releases/download/v1.0.0/validation.json) record the tested source. Real desktop clipboard, focus and rendering QA remains pending. Store discovery requires a Tezbar catalog update.
+
 The root Cargo project builds the standalone **Color Shades 1.0.0** executable,
 `com.tezbar.native.color-shades` (schema 3, process execution, protocol 1), replacing
 `raycast.color-shades`. It reuses the mature [v2 engine and adapter](v2/README.md)
@@ -90,16 +100,16 @@ a recording fake host, without changing the actual desktop clipboard.
 
 For Windows x64, build with `--target x86_64-pc-windows-msvc` on Windows and pass
 `target-process/x86_64-pc-windows-msvc/release/tezbar-color-shades.exe` to the same
-packaging/smoke scripts. Windows is
-declared as a supported target, but its artifact and execution verification are
-pending central coordination; no Windows coverage is claimed here.
+packaging/smoke scripts. Both native platform builds and extracted-package
+protocol checks passed for the published release; desktop UI and OS effects
+remain unverified.
 
 ### Installation and verification limits
 
-This version is an unpublished review candidate. No push, tag, release or trusted
-host catalog update has been performed. After independent review, the publisher
-must provide the ZIP and a matching trusted release manifest with real target
-artifact URL, archive SHA256, executable path and executable SHA256. The ZIP's
+Both platform ZIPs and the matching trusted release reference are published
+above after independent review. Store discovery still needs a host catalog
+update. The trusted reference pins the real target URL, archive SHA256,
+executable path and executable SHA256. The ZIP's
 `artifacts: {}` deliberately avoids embedding its own hash. The root source
 manifest alone is not an installable release reference.
 
@@ -110,9 +120,10 @@ tezbar --extensions-v3-import /absolute/trusted-release-manifest.json \
   /absolute/color-shades-aarch64-apple-darwin.zip
 ```
 
-Close and reopen Tezbar after import. Desktop installation, live rendering and
-actual clipboard integration have not been exercised. Offline tests cover the
-Mac binary and preserved v2 behavior. The inspected host renderer clamps the
+Close and reopen Tezbar after import. CLI installation in isolated profiles
+passed on macOS and Windows. Live rendering and actual clipboard integration
+have not been exercised. Offline tests cover both platform binaries and
+preserved v2 behavior. The inspected host renderer clamps the
 requested 11 grid columns to eight, displays localized calendar dates, ignores
 swatch/date tooltips and does not execute custom action shortcut descriptors;
 all actions remain available through its action panel. No command implementation
